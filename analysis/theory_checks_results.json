@@ -1,0 +1,222 @@
+{
+  "purpose": "Independent checks supporting the analytical propositions; no filtration-solver imports or runs.",
+  "uniform_steady_states": {
+    "eps": [
+      0.5,
+      0.3
+    ],
+    "B1": [
+      0.001,
+      0.0002
+    ],
+    "B2": [
+      0.004,
+      0.001
+    ],
+    "capacity": [
+      0.02,
+      0.004
+    ],
+    "inlet": [
+      0.002,
+      0.0005
+    ],
+    "r": [
+      0.002,
+      0.0005
+    ],
+    "lower_switch_limits": [
+      0.0007999999999999999,
+      0.00025
+    ],
+    "upper_switch_limits": [
+      0.004,
+      0.001
+    ],
+    "maximum_source_residual": 0.0,
+    "rows": [
+      {
+        "branches": "LL",
+        "B": [
+          0.002,
+          0.0005
+        ],
+        "D": 0.004714285714285714,
+        "phi": 0.9952857142857143,
+        "mobile_saturations": [
+          0.001990571428571429,
+          0.0004976428571428572
+        ],
+        "carrier": 0.9927975,
+        "reserve": 0.9905936530612245,
+        "k_relative": 0.8078372024943679,
+        "mu_relative": 1.00625,
+        "u_at_unit_head": 0.8028195801186264,
+        "pressure_at_unit_flow": 1.24560987893723,
+        "source_residual": [
+          0.0,
+          0.0
+        ],
+        "local_source_relaxation_eigenvalues": [
+          -2.857142857142857,
+          -2.857142857142857
+        ]
+      },
+      {
+        "branches": "LH",
+        "B": [
+          0.002,
+          0.001414213562373095
+        ],
+        "D": 0.006020305089104422,
+        "phi": 0.9939796949108956,
+        "mobile_saturations": [
+          0.0019879593898217912,
+          0.0004969898474554478
+        ],
+        "carrier": 0.9914947456736183,
+        "reserve": 0.9892937906348871,
+        "k_relative": 0.7848219210092465,
+        "mu_relative": 1.00625,
+        "u_at_unit_head": 0.7799472506924189,
+        "pressure_at_unit_flow": 1.2821379896040708,
+        "source_residual": [
+          0.0,
+          0.0
+        ],
+        "local_source_relaxation_eigenvalues": [
+          -2.857142857142857,
+          -5.714285714285714
+        ]
+      },
+      {
+        "branches": "HL",
+        "B": [
+          0.006324555320336759,
+          0.0005
+        ],
+        "D": 0.013363396354959232,
+        "phi": 0.9866366036450408,
+        "mobile_saturations": [
+          0.0019732732072900816,
+          0.0004933183018225204
+        ],
+        "carrier": 0.9841700121359283,
+        "reserve": 0.9819853167992856,
+        "k_relative": 0.6917449066113441,
+        "mu_relative": 1.00625,
+        "u_at_unit_head": 0.6874483543963668,
+        "pressure_at_unit_flow": 1.4546547294859378,
+        "source_residual": [
+          0.0,
+          0.0
+        ],
+        "local_source_relaxation_eigenvalues": [
+          -5.714285714285714,
+          -2.857142857142857
+        ]
+      },
+      {
+        "branches": "HH",
+        "B": [
+          0.006324555320336759,
+          0.001414213562373095
+        ],
+        "D": 0.01466941572977794,
+        "phi": 0.985330584270222,
+        "mobile_saturations": [
+          0.001970661168540444,
+          0.000492665292135111
+        ],
+        "carrier": 0.9828672578095464,
+        "reserve": 0.9806854543729482,
+        "k_relative": 0.6788794358740977,
+        "mu_relative": 1.00625,
+        "u_at_unit_head": 0.6746627934152524,
+        "pressure_at_unit_flow": 1.4822219481495904,
+        "source_residual": [
+          0.0,
+          0.0
+        ],
+        "local_source_relaxation_eigenvalues": [
+          -5.714285714285714,
+          -5.714285714285714
+        ]
+      }
+    ],
+    "note": "Exact homogeneous steady-state formulas. Local source eigenvalues are not coupled PDE stability eigenvalues."
+  },
+  "exact_reserve_algebra": {
+    "arithmetic": "exact rational",
+    "cells": 3,
+    "maximum_transport_CFL": 0.5,
+    "transport_reserve_identity_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "source_reserve_identity_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "reconstructed_carrier_identity_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "minimum_checked_nonnegative_quantity": 0.0003333333333333333,
+    "note": "Checks algebraic positivity bookkeeping with hand-chosen admissible conservative exchanges, not an event-source solver."
+  },
+  "terminal_and_clock": {
+    "terminal": {
+      "D": 0.045714285714285714,
+      "phi": 0.9542857142857143,
+      "k_relative": 0.48594175113452703,
+      "mu_relative": 1.15,
+      "flow_at_pressure10": 4.225580444648061,
+      "pressure_at_flow10": 23.665387823028126,
+      "label": "Common uniform terminal field for any two arresting closures with these capacities and feed."
+    },
+    "synthetic_positive_resistance_clock": [
+      {
+        "N": 0.0,
+        "resistance": 1.0,
+        "tau_head": 0.0,
+        "tau_flow": 0.0,
+        "pore_volume_derivative_identity": 1.0,
+        "hydraulic_reciprocity_residual": 0.0
+      },
+      {
+        "N": 0.2,
+        "resistance": 1.148,
+        "tau_head": 0.007508666666666667,
+        "tau_flow": 0.006999999999999999,
+        "pore_volume_derivative_identity": 1.0,
+        "hydraulic_reciprocity_residual": -1.4210854715202004e-14
+      },
+      {
+        "N": 1.0,
+        "resistance": 1.9,
+        "tau_head": 0.04958333333333333,
+        "tau_flow": 0.034999999999999996,
+        "pore_volume_derivative_identity": 1.0,
+        "hydraulic_reciprocity_residual": 0.0
+      },
+      {
+        "N": 3.0,
+        "resistance": 4.9,
+        "tau_head": 0.27824999999999994,
+        "tau_flow": 0.10499999999999998,
+        "pore_volume_derivative_identity": 1.0,
+        "hydraulic_reciprocity_residual": 0.0
+      }
+    ],
+    "note": "The resistance polynomial is an independent clock identity check, not a simulated filtration history."
+  },
+  "limitations": [
+    "No proof of global PDE existence or uniqueness.",
+    "Local source stability is distinct from full coupled PDE stability.",
+    "No first-ever novelty claim is established by these checks."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "relative_halfwidth": 0.6,
+  "n": 160,
+  "case": "LL",
+  "suffix": "",
+  "parameters": {
+    "m0": 0.35,
+    "eps": [
+      0.5,
+      0.3
+    ],
+    "alpha_s": [
+      1.0,
+      1.0
+    ],
+    "alpha_d": [
+      0.0,
+      0.0
+    ],
+    "beta_s": [
+      1.0,
+      1.0
+    ],
+    "beta_d": [
+      0.0,
+      0.0
+    ],
+    "charging": [
+      0.5,
+      0.5
+    ],
+    "B1": [
+      0.001,
+      0.0002
+    ],
+    "B2": [
+      0.004,
+      0.001
+    ],
+    "cap": [
+      0.02,
+      0.004
+    ],
+    "mode": "pressure",
+    "forcing": 10.0,
+    "kinetics": "multistage",
+    "smoothing_fraction": 0.6,
+    "source_rtol": 1e-09,
+    "source_atol": 1e-14
+  },
+  "preconditioning_feed": [
+    0.002,
+    0.0005
+  ],
+  "final_mean_retained": [
+    0.006322899160643769,
+    0.0013680170617853434
+  ],
+  "final_retained_range": [
+    [
+      0.006322899160640202,
+      0.0063228991606439355
+    ],
+    [
+      0.0013680170616165773,
+      0.0013680170618462883
+    ]
+  ],
+  "maximum_distance_to_any_stable_local_root": [
+    1.916869440954372e-15,
+    2.312442771990053e-13
+  ],
+  "selected_stable_root_indices_by_species": [
+    [
+      0
+    ],
+    [
+      0
+    ]
+  ],
+  "maximum_absolute_final_net_source": [
+    3.565724104870327e-15,
+    2.5166609247950777e-13
+  ],
+  "maximum_final_concentration_error": [
+    3.642919299551295e-17,
+    1.064111906229348e-14
+  ],
+  "final_flow": 6.753226890500559,
+  "final_occupancy_range": [
+    0.014600108409311554,
+    0.014600108409638107
+  ],
+  "maximum_species_balance_error": [
+    2.969846590872294e-14,
+    1.3100631690576847e-14
+  ],
+  "minimum_saturation": 0.0,
+  "minimum_carrier_saturation": 0.982936391861386,
+  "minimum_derived_z": 0.9807544349585788,
+  "minimum_mobile_fraction": 0.9853998915903619,
+  "maximum_source_donor_ratio": 0.009254834912760837,
+  "source_diagnostics": {
+    "calls": 40949,
+    "smooth_values": 11955569,
+    "accepted_substeps": 11955569,
+    "rejected_substeps": 0,
+    "maximum_substeps_per_value": 1,
+    "maximum_accepted_estimated_error": 3.717264591378872e-18,
+    "minimum_internal_deposit": 0.0004000003809531366
+  },
+  "holding_events": 0,
+  "capacity_events": 0,
+  "steps": 40949,
+  "wall_seconds": 13.17939968599967
+}

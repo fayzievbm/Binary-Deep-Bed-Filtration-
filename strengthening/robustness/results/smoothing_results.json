@@ -1,0 +1,7882 @@
+{
+  "scope": "Kinetic sensitivity variant only; all 2017 balances and hydraulic relations unchanged.",
+  "widths": [
+    0.0,
+    0.01,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.6
+  ],
+  "grids": [
+    80,
+    160
+  ],
+  "parameters_at_sharp_limit": {
+    "m0": 0.35,
+    "eps": [
+      0.5,
+      0.3
+    ],
+    "alpha_s": [
+      1.0,
+      1.0
+    ],
+    "alpha_d": [
+      0.0,
+      0.0
+    ],
+    "beta_s": [
+      1.0,
+      1.0
+    ],
+    "beta_d": [
+      0.0,
+      0.0
+    ],
+    "charging": [
+      0.5,
+      0.5
+    ],
+    "B1": [
+      0.001,
+      0.0002
+    ],
+    "B2": [
+      0.004,
+      0.001
+    ],
+    "cap": [
+      0.02,
+      0.004
+    ],
+    "mode": "pressure",
+    "forcing": 10.0,
+    "kinetics": "multistage",
+    "smoothing_fraction": 0,
+    "source_rtol": 1e-09,
+    "source_atol": 1e-14
+  },
+  "source_method": "Analytic exterior branches; adaptive SSP-RK3 step doubling in blend, h*L<=0.5; frozen posttransport source coefficients as in sharp reference.",
+  "local_roots": {
+    "0.0": [
+      [
+        {
+          "B": 0.002,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.004,
+          "derivative": null,
+          "classification": "repelling_interface",
+          "branch": "sharp_interface"
+        },
+        {
+          "B": 0.006324555320336759,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ],
+      [
+        {
+          "B": 0.0005,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.001,
+          "derivative": null,
+          "classification": "repelling_interface",
+          "branch": "sharp_interface"
+        },
+        {
+          "B": 0.001414213562373095,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ]
+    ],
+    "0.01": [
+      [
+        {
+          "B": 0.002,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.003985935107306757,
+          "derivative": 130.4118311957783,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.006324555320336759,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ],
+      [
+        {
+          "B": 0.0005,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.0009977034534853887,
+          "derivative": 105.22904972078295,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.001414213562373095,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ]
+    ],
+    "0.05": [
+      [
+        {
+          "B": 0.002,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.003926014814397259,
+          "derivative": 24.89422086777971,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.006324555320336759,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ],
+      [
+        {
+          "B": 0.0005,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.0009877462099700995,
+          "derivative": 19.842704545251056,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.001414213562373095,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ]
+    ],
+    "0.1": [
+      [
+        {
+          "B": 0.002,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.003841881608490292,
+          "derivative": 11.713805269683641,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.006324555320336759,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ],
+      [
+        {
+          "B": 0.0005,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.0009732815347215772,
+          "derivative": 9.186630307115463,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.001414213562373095,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ]
+    ],
+    "0.2": [
+      [
+        {
+          "B": 0.002,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.003635047691157193,
+          "derivative": 5.134818591665563,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.006324555320336759,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ],
+      [
+        {
+          "B": 0.0005,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.0009352390502252179,
+          "derivative": 3.892717643409199,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.001414213562373095,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ]
+    ],
+    "0.4": [
+      [
+        {
+          "B": 0.002,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.002974534995275113,
+          "derivative": 1.7769307811933257,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.006324555320336759,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ],
+      [
+        {
+          "B": 0.0005,
+          "derivative": -1.0,
+          "classification": "stable",
+          "branch": "transition"
+        },
+        {
+          "B": 0.0007904919518822459,
+          "derivative": 1.3041648703107063,
+          "classification": "unstable",
+          "branch": "blend"
+        },
+        {
+          "B": 0.001414213562373095,
+          "derivative": -2.0,
+          "classification": "stable",
+          "branch": "aging"
+        }
+      ]
+    ],
+    "0.6": [
+      [
+        {
+          "B": 0.006322899160642019,
+          "derivative": -1.9142898739751364,
+          "classification": "stable",
+          "branch": "blend"
+        }
+      ],
+      [
+        {
+          "B": 0.0013680170618478216,
+          "derivative": -1.21422239844883,
+          "classification": "stable",
+          "branch": "blend"
+        }
+      ]
+    ]
+  },
+  "local_saddle_nodes": [
+    {
+      "species": 1,
+      "B": 0.002100614019952838,
+      "relative_halfwidth": 0.5218587661786109,
+      "dimensionless_residual": [
+        1.1102230246251565e-16,
+        8.881784197001252e-16
+      ],
+      "interpretation": "Local prescribed-final-concentration saddle node; not a coupled PDE bifurcation theorem."
+    },
+    {
+      "species": 2,
+      "B": 0.0005369151313765152,
+      "relative_halfwidth": 0.5299812289605519,
+      "dimensionless_residual": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Local prescribed-final-concentration saddle node; not a coupled PDE bifurcation theorem."
+    }
+  ],
+  "plateau_separation": [
+    {
+      "relative_halfwidth": 0.0,
+      "n": 80,
+      "retained_spread_across_histories": [
+        0.004324555320341763,
+        0.0009142135623748113
+      ],
+      "flow_spread_across_histories": 1.2815678670357675
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 160,
+      "retained_spread_across_histories": [
+        0.004324555320342077,
+        0.0009142135623749121
+      ],
+      "flow_spread_across_histories": 1.2815678670358421
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 80,
+      "retained_spread_across_histories": [
+        0.004324555320341763,
+        0.0009142135623748116
+      ],
+      "flow_spread_across_histories": 1.2815678670357675
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 160,
+      "retained_spread_across_histories": [
+        0.004324555320342079,
+        0.0009142135623749124
+      ],
+      "flow_spread_across_histories": 1.2815678670358421
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 80,
+      "retained_spread_across_histories": [
+        0.004324555320341764,
+        0.0009142135623748125
+      ],
+      "flow_spread_across_histories": 1.2815678670357675
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 160,
+      "retained_spread_across_histories": [
+        0.00432455532034208,
+        0.0009142135623749132
+      ],
+      "flow_spread_across_histories": 1.2815678670358421
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 80,
+      "retained_spread_across_histories": [
+        0.004324555320341764,
+        0.0009142135623748135
+      ],
+      "flow_spread_across_histories": 1.2815678670357675
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 160,
+      "retained_spread_across_histories": [
+        0.00432455532034208,
+        0.0009142135623749142
+      ],
+      "flow_spread_across_histories": 1.2815678670358421
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 80,
+      "retained_spread_across_histories": [
+        0.004324555320341765,
+        0.000914213562374815
+      ],
+      "flow_spread_across_histories": 1.2815678670357675
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 160,
+      "retained_spread_across_histories": [
+        0.004324555320342079,
+        0.0009142135623749158
+      ],
+      "flow_spread_across_histories": 1.2815678670358421
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 80,
+      "retained_spread_across_histories": [
+        0.004324555320341767,
+        0.0009142135623748178
+      ],
+      "flow_spread_across_histories": 1.2815678670357675
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 160,
+      "retained_spread_across_histories": [
+        0.004324555320342081,
+        0.0009142135623749185
+      ],
+      "flow_spread_across_histories": 1.2815678670358421
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 80,
+      "retained_spread_across_histories": [
+        1.870031907102998e-15,
+        8.500838921676745e-14
+      ],
+      "flow_spread_across_histories": 1.13455911332494e-11
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 160,
+      "retained_spread_across_histories": [
+        3.7365943672540425e-15,
+        8.657831396252647e-14
+      ],
+      "flow_spread_across_histories": 1.1318057602238696e-11
+    }
+  ],
+  "runs": [
+    {
+      "relative_halfwidth": 0.0,
+      "n": 80,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955843,
+        0.0004999999999989113
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999903576,
+          0.0019999999999989197
+        ],
+        [
+          0.0004999999999976195,
+          0.0004999999999997345
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.642460441217082e-15,
+        2.3804742899091735e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.093854141939417e-15,
+        2.2455995396519768e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.486062992776652e-16,
+        1.3487475025719675e-16
+      ],
+      "final_flow": 8.028195801188227,
+      "final_occupancy_range": [
+        0.004714285714263029,
+        0.004714285714283175
+      ],
+      "maximum_species_balance_error": [
+        5.162537064506978e-14,
+        1.1796119636642288e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.990593653061227,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.0062280493946846255,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 23363,
+      "wall_seconds": 4.429060429996753,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 80,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203370355,
+        0.0004999999999983718
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337035,
+          0.006324555320337039
+        ],
+        [
+          0.0004999999999960226,
+          0.0004999999999997367
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.8015784137025435e-16,
+        3.977395669763073e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.603156827405087e-16,
+        3.741039596161233e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.3010426069826053e-18,
+        2.3635607360183997e-16
+      ],
+      "final_flow": 6.87448354396385,
+      "final_occupancy_range": [
+        0.01336339635495411,
+        0.013363396354959407
+      ],
+      "maximum_species_balance_error": [
+        1.1435297153639112e-14,
+        1.0103029524088925e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710282622808296,
+      "minimum_derived_z": 0.964954540460964,
+      "minimum_mobile_fraction": 0.9773812333295382,
+      "maximum_source_donor_ratio": 0.008284999742000601,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19874,
+      "wall_seconds": 3.873033875999681,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 80,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.001999999999995272,
+        0.001414213562373183
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999894577,
+          0.0019999999999989197
+        ],
+        [
+          0.0014142135623731828,
+          0.0014142135623731828
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0542348244380051e-14,
+        8.782037597132586e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.938664474740122e-15,
+        1.7564075194265172e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.036837696399289e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.799472506925717,
+      "final_occupancy_range": [
+        0.006020305089083463,
+        0.006020305089102387
+      ],
+      "maximum_species_balance_error": [
+        5.5344617777564054e-14,
+        4.3298697960381105e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450792226025,
+      "minimum_derived_z": 0.9864220084665312,
+      "minimum_mobile_fraction": 0.9925188802313655,
+      "maximum_source_donor_ratio": 0.006615337294913527,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 22792,
+      "wall_seconds": 4.390162719999353,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 80,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337032,
+        0.001414213562373171
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337032,
+          0.006324555320337035
+        ],
+        [
+          0.0014142135623731703,
+          0.0014142135623731718
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.7582103268031233e-16,
+        7.676151381197371e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.499073418846478e-16,
+        1.5352302762394743e-16
+      ],
+      "maximum_final_concentration_error": [
+        4.336808689942018e-19,
+        0.0
+      ],
+      "final_flow": 6.7466279341524595,
+      "final_occupancy_range": [
+        0.014669415729778593,
+        0.0146694157297786
+      ],
+      "maximum_species_balance_error": [
+        8.393286066166183e-14,
+        1.8485213360008856e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672838326614076,
+      "minimum_derived_z": 0.9608097515807026,
+      "minimum_mobile_fraction": 0.9745932791066979,
+      "maximum_source_donor_ratio": 0.008575122029304669,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19436,
+      "wall_seconds": 3.8385665450005035,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 160,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955544,
+        0.0004999999999989039
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999990252,
+          0.001999999999998952
+        ],
+        [
+          0.0004999999999975933,
+          0.000499999999999741
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.747844892382673e-15,
+        2.4067119824833227e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.200973316580985e-15,
+        2.271620391791629e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.468715758016884e-16,
+        1.3509159069169385e-16
+      ],
+      "final_flow": 8.02819580118824,
+      "final_occupancy_range": [
+        0.00471428571426278,
+        0.004714285714283248
+      ],
+      "maximum_species_balance_error": [
+        1.2800871473928055e-13,
+        3.2487901258093643e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.9905936530612269,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.0031140246973423076,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 46694,
+      "wall_seconds": 9.453353362998314,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 160,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.006324555320337315,
+        0.0004999999999983585
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337315,
+          0.006324555320337319
+        ],
+        [
+          0.0004999999999959697,
+          0.0004999999999997344
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.603156827405087e-16,
+        4.030304735780366e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.1180292802670522e-15,
+        3.7921055184853e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.3010426069826053e-18,
+        2.381992172950653e-16
+      ],
+      "final_flow": 6.874483543963795,
+      "final_occupancy_range": [
+        0.013363396354954595,
+        0.013363396354959964
+      ],
+      "maximum_species_balance_error": [
+        3.752553823233029e-14,
+        1.6431300764452317e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710282499061323,
+      "minimum_derived_z": 0.9649545259261187,
+      "minimum_mobile_fraction": 0.9773812243904736,
+      "maximum_source_donor_ratio": 0.0041424984654437206,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 39667,
+      "wall_seconds": 8.076382323000871,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 160,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952374,
+        0.0014142135623732707
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999989338,
+          0.0019999999999989423
+        ],
+        [
+          0.0014142135623732709,
+          0.0014142135623732709
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.066204416422245e-14,
+        1.7585759237714882e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.005402358589258e-14,
+        3.5149834431980054e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.080205783298709e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.799472506925707,
+      "final_occupancy_range": [
+        0.0060203050890833484,
+        0.006020305089102557
+      ],
+      "maximum_species_balance_error": [
+        2.48245868306185e-13,
+        9.686695889854491e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450536018099,
+      "minimum_derived_z": 0.9864219754563833,
+      "minimum_mobile_fraction": 0.9925188620928636,
+      "maximum_source_donor_ratio": 0.003307666606947753,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 45240,
+      "wall_seconds": 9.318060236000747,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "n": 160,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.0,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337308,
+          0.006324555320337308
+        ],
+        [
+          0.0014142135623732477,
+          0.0014142135623732477
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.490399801466594e-16,
+        1.5265566588595902e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0980799602933189e-15,
+        3.0531133177191805e-16
+      ],
+      "maximum_final_concentration_error": [
+        0.0,
+        0.0
+      ],
+      "final_flow": 6.746627934152397,
+      "final_occupancy_range": [
+        0.014669415729779256,
+        0.014669415729779256
+      ],
+      "maximum_species_balance_error": [
+        2.0261570199409107e-14,
+        4.593547764386585e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672838249773524,
+      "minimum_derived_z": 0.9608097425079288,
+      "minimum_mobile_fraction": 0.9745932729584169,
+      "maximum_source_donor_ratio": 0.004287559742407045,
+      "source_diagnostics": {
+        "calls": 0,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38825,
+      "wall_seconds": 7.846667130001151,
+      "sharp_baseline_comparison": {
+        "maximum_final_state_difference": 0.0,
+        "maximum_recorded_flow_difference": 0.0,
+        "maximum_recorded_retained_difference": 0.0
+      }
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 80,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955843,
+        0.0004999999999989113
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999903576,
+          0.0019999999999989197
+        ],
+        [
+          0.0004999999999976195,
+          0.0004999999999997345
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.642460441217082e-15,
+        2.3804742899091735e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.093854141939417e-15,
+        2.2455995396519768e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.486062992776652e-16,
+        1.3487475025719675e-16
+      ],
+      "final_flow": 8.028195801188227,
+      "final_occupancy_range": [
+        0.004714285714263029,
+        0.004714285714283175
+      ],
+      "maximum_species_balance_error": [
+        5.162537064506978e-14,
+        1.1796119636642288e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.990593653061227,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.006290958984529926,
+      "source_diagnostics": {
+        "calls": 23363,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 23363,
+      "wall_seconds": 3.7237456090006162
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 80,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203370355,
+        0.0004999999999983714
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337035,
+          0.006324555320337039
+        ],
+        [
+          0.0004999999999960221,
+          0.0004999999999997367
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.8015784137025435e-16,
+        3.977937770849316e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.594483210025203e-16,
+        3.741473277030227e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.3010426069826053e-18,
+        2.364644938190885e-16
+      ],
+      "final_flow": 6.87448354396385,
+      "final_occupancy_range": [
+        0.013363396354954109,
+        0.013363396354959407
+      ],
+      "maximum_species_balance_error": [
+        1.1435297153639112e-14,
+        9.71445146547012e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710282358793231,
+      "minimum_derived_z": 0.9649545141711604,
+      "minimum_mobile_fraction": 0.9773812068087154,
+      "maximum_source_donor_ratio": 0.008368698221657584,
+      "source_diagnostics": {
+        "calls": 19873,
+        "smooth_values": 1174,
+        "accepted_substeps": 4411,
+        "rejected_substeps": 1181,
+        "maximum_substeps_per_value": 9,
+        "maximum_accepted_estimated_error": 3.9816744891253894e-12,
+        "minimum_internal_deposit": 0.003960010109171194
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19873,
+      "wall_seconds": 4.174438400998042
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 80,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.001999999999995272,
+        0.001414213562373183
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999894577,
+          0.0019999999999989197
+        ],
+        [
+          0.0014142135623731828,
+          0.0014142135623731828
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0542348244380051e-14,
+        8.782037597132586e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.938664474740122e-15,
+        1.7564075194265172e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.036837696399289e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.799472506925717,
+      "final_occupancy_range": [
+        0.006020305089083463,
+        0.006020305089102387
+      ],
+      "maximum_species_balance_error": [
+        5.46229728115577e-14,
+        4.052314039881821e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450757767789,
+      "minimum_derived_z": 0.9864220050264553,
+      "minimum_mobile_fraction": 0.9925188767813682,
+      "maximum_source_donor_ratio": 0.006682160209440832,
+      "source_diagnostics": {
+        "calls": 22791,
+        "smooth_values": 1250,
+        "accepted_substeps": 3968,
+        "rejected_substeps": 1236,
+        "maximum_substeps_per_value": 7,
+        "maximum_accepted_estimated_error": 1.0152059624505113e-12,
+        "minimum_internal_deposit": 0.0009900103518102204
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 22791,
+      "wall_seconds": 4.58110542400027
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 80,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337032,
+        0.001414213562373171
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337032,
+          0.006324555320337035
+        ],
+        [
+          0.0014142135623731703,
+          0.0014142135623731718
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.7582103268031233e-16,
+        7.676151381197371e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.499073418846478e-16,
+        1.5352302762394743e-16
+      ],
+      "maximum_final_concentration_error": [
+        4.336808689942018e-19,
+        0.0
+      ],
+      "final_flow": 6.7466279341524595,
+      "final_occupancy_range": [
+        0.014669415729778593,
+        0.0146694157297786
+      ],
+      "maximum_species_balance_error": [
+        8.248957072964913e-14,
+        1.8957058145474548e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672838028301408,
+      "minimum_derived_z": 0.9608097218896375,
+      "minimum_mobile_fraction": 0.9745932491152053,
+      "maximum_source_donor_ratio": 0.008661752782427498,
+      "source_diagnostics": {
+        "calls": 19435,
+        "smooth_values": 2357,
+        "accepted_substeps": 8558,
+        "rejected_substeps": 2434,
+        "maximum_substeps_per_value": 10,
+        "maximum_accepted_estimated_error": 4.042482494581723e-12,
+        "minimum_internal_deposit": 0.000990010906870605
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19435,
+      "wall_seconds": 3.625145142999827
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 160,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955544,
+        0.0004999999999989039
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999990252,
+          0.001999999999998952
+        ],
+        [
+          0.0004999999999975933,
+          0.000499999999999741
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.747844892382673e-15,
+        2.4067119824833227e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.200973316580985e-15,
+        2.271620391791629e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.468715758016884e-16,
+        1.3509159069169385e-16
+      ],
+      "final_flow": 8.02819580118824,
+      "final_occupancy_range": [
+        0.00471428571426278,
+        0.004714285714283248
+      ],
+      "maximum_species_balance_error": [
+        1.279532035880493e-13,
+        3.2487901258093643e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.9905936530612269,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.003145479492264958,
+      "source_diagnostics": {
+        "calls": 46694,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 46694,
+      "wall_seconds": 7.941152901999885
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 160,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203373165,
+        0.0004999999999983583
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337315,
+          0.006324555320337319
+        ],
+        [
+          0.0004999999999959693,
+          0.0004999999999997344
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.603156827405087e-16,
+        4.03073841664936e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.1180292802670522e-15,
+        3.7925391993542945e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.3010426069826053e-18,
+        2.381992172950653e-16
+      ],
+      "final_flow": 6.874483543963795,
+      "final_occupancy_range": [
+        0.013363396354954595,
+        0.013363396354959964
+      ],
+      "maximum_species_balance_error": [
+        3.774758283725532e-14,
+        1.6736612096224235e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.971028223640261,
+      "minimum_derived_z": 0.9649544997979524,
+      "minimum_mobile_fraction": 0.9773811979793329,
+      "maximum_source_donor_ratio": 0.004184347716775029,
+      "source_diagnostics": {
+        "calls": 39665,
+        "smooth_values": 4508,
+        "accepted_substeps": 9676,
+        "rejected_substeps": 3055,
+        "maximum_substeps_per_value": 6,
+        "maximum_accepted_estimated_error": 4.040238381947908e-12,
+        "minimum_internal_deposit": 0.003960004183106501
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 39665,
+      "wall_seconds": 8.506852419002826
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 160,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952374,
+        0.0014142135623732707
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999989337,
+          0.0019999999999989423
+        ],
+        [
+          0.0014142135623732709,
+          0.0014142135623732709
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0662911525960439e-14,
+        1.7585759237714882e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.005402358589258e-14,
+        3.5149834431980054e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.088879400678593e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.799472506925708,
+      "final_occupancy_range": [
+        0.006020305089083347,
+        0.006020305089102557
+      ],
+      "maximum_species_balance_error": [
+        2.4896751327219135e-13,
+        9.46465128492946e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450501688621,
+      "minimum_derived_z": 0.9864219720308502,
+      "minimum_mobile_fraction": 0.992518858651809,
+      "maximum_source_donor_ratio": 0.003341078046028091,
+      "source_diagnostics": {
+        "calls": 45239,
+        "smooth_values": 4834,
+        "accepted_substeps": 8920,
+        "rejected_substeps": 3086,
+        "maximum_substeps_per_value": 5,
+        "maximum_accepted_estimated_error": 1.0192330300683768e-12,
+        "minimum_internal_deposit": 0.000990002648529533
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 45239,
+      "wall_seconds": 9.620549551000295
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "n": 160,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.01,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337308,
+          0.006324555320337308
+        ],
+        [
+          0.0014142135623732477,
+          0.0014142135623732477
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.490399801466594e-16,
+        1.5265566588595902e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0980799602933189e-15,
+        3.0531133177191805e-16
+      ],
+      "maximum_final_concentration_error": [
+        0.0,
+        0.0
+      ],
+      "final_flow": 6.746627934152397,
+      "final_occupancy_range": [
+        0.014669415729779256,
+        0.014669415729779256
+      ],
+      "maximum_species_balance_error": [
+        2.6478819137309983e-14,
+        4.98212582300539e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672837953035646,
+      "minimum_derived_z": 0.9608097130031676,
+      "minimum_mobile_fraction": 0.9745932430928314,
+      "maximum_source_donor_ratio": 0.004330875136138143,
+      "source_diagnostics": {
+        "calls": 38821,
+        "smooth_values": 9030,
+        "accepted_substeps": 18643,
+        "rejected_substeps": 6120,
+        "maximum_substeps_per_value": 6,
+        "maximum_accepted_estimated_error": 4.015596882789296e-12,
+        "minimum_internal_deposit": 0.0009900003213957258
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38821,
+      "wall_seconds": 7.675941088997206
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 80,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955843,
+        0.0004999999999989113
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999903576,
+          0.0019999999999989197
+        ],
+        [
+          0.0004999999999976195,
+          0.0004999999999997345
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.642460441217082e-15,
+        2.3804742899091735e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.093854141939417e-15,
+        2.2455995396519768e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.486062992776652e-16,
+        1.3487475025719675e-16
+      ],
+      "final_flow": 8.028195801188227,
+      "final_occupancy_range": [
+        0.004714285714263029,
+        0.004714285714283175
+      ],
+      "maximum_species_balance_error": [
+        5.162537064506978e-14,
+        1.1796119636642288e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.990593653061227,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.00655584146808908,
+      "source_diagnostics": {
+        "calls": 23363,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 23363,
+      "wall_seconds": 3.7516186280008696
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 80,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203370355,
+        0.0004999999999983706
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337035,
+          0.006324555320337039
+        ],
+        [
+          0.000499999999996019,
+          0.0004999999999997367
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.8015784137025435e-16,
+        3.980973536932275e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.603156827405087e-16,
+        3.7442922026786896e-15
+      ],
+      "maximum_final_concentration_error": [
+        8.673617379884035e-19,
+        2.366813342535856e-16
+      ],
+      "final_flow": 6.87448354396385,
+      "final_occupancy_range": [
+        0.013363396354954106,
+        0.013363396354959407
+      ],
+      "maximum_species_balance_error": [
+        1.0658141036401503e-14,
+        9.728329253277934e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710281396684939,
+      "minimum_derived_z": 0.9649544183673765,
+      "minimum_mobile_fraction": 0.9773811101630889,
+      "maximum_source_donor_ratio": 0.008721106543034799,
+      "source_diagnostics": {
+        "calls": 19865,
+        "smooth_values": 4690,
+        "accepted_substeps": 7422,
+        "rejected_substeps": 2242,
+        "maximum_substeps_per_value": 5,
+        "maximum_accepted_estimated_error": 4.133706398012915e-12,
+        "minimum_internal_deposit": 0.0038000327271232952
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19865,
+      "wall_seconds": 4.0080585869982315
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 80,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952716,
+        0.001414213562373183
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999894573,
+          0.0019999999999989197
+        ],
+        [
+          0.0014142135623731828,
+          0.0014142135623731828
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0542781925249045e-14,
+        8.782037597132586e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.939098155609116e-15,
+        1.7564075194265172e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.036837696399289e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.799472506925717,
+      "final_occupancy_range": [
+        0.006020305089083461,
+        0.006020305089102387
+      ],
+      "maximum_species_balance_error": [
+        5.595524044110789e-14,
+        3.6637359812630166e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450631448041,
+      "minimum_derived_z": 0.9864219924155508,
+      "minimum_mobile_fraction": 0.9925188641340948,
+      "maximum_source_donor_ratio": 0.006963519161864785,
+      "source_diagnostics": {
+        "calls": 22790,
+        "smooth_values": 5252,
+        "accepted_substeps": 7059,
+        "rejected_substeps": 1831,
+        "maximum_substeps_per_value": 4,
+        "maximum_accepted_estimated_error": 1.0575552400570494e-12,
+        "minimum_internal_deposit": 0.0009500002992741103
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 22790,
+      "wall_seconds": 4.440057056999649
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 80,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337032,
+        0.001414213562373171
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337032,
+          0.006324555320337035
+        ],
+        [
+          0.0014142135623731703,
+          0.0014142135623731718
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.7582103268031233e-16,
+        7.676151381197371e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.499073418846478e-16,
+        1.5352302762394743e-16
+      ],
+      "maximum_final_concentration_error": [
+        4.336808689942018e-19,
+        0.0
+      ],
+      "final_flow": 6.7466279341524595,
+      "final_occupancy_range": [
+        0.014669415729778593,
+        0.0146694157297786
+      ],
+      "maximum_species_balance_error": [
+        8.104628079763643e-14,
+        1.8013368574543165e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672836940612548,
+      "minimum_derived_z": 0.9608096136319978,
+      "minimum_mobile_fraction": 0.974593139762169,
+      "maximum_source_donor_ratio": 0.009026506573350686,
+      "source_diagnostics": {
+        "calls": 19426,
+        "smooth_values": 9455,
+        "accepted_substeps": 14236,
+        "rejected_substeps": 4253,
+        "maximum_substeps_per_value": 4,
+        "maximum_accepted_estimated_error": 4.203720704865077e-12,
+        "minimum_internal_deposit": 0.0009500084326733866
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19426,
+      "wall_seconds": 3.5160630120008136
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 160,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955544,
+        0.0004999999999989039
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999990252,
+          0.001999999999998952
+        ],
+        [
+          0.0004999999999975933,
+          0.000499999999999741
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.747844892382673e-15,
+        2.4067119824833227e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.200973316580985e-15,
+        2.271620391791629e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.468715758016884e-16,
+        1.3509159069169385e-16
+      ],
+      "final_flow": 8.02819580118824,
+      "final_occupancy_range": [
+        0.00471428571426278,
+        0.004714285714283248
+      ],
+      "maximum_species_balance_error": [
+        1.279532035880493e-13,
+        3.2487901258093643e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.9905936530612269,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.0032779207340445345,
+      "source_diagnostics": {
+        "calls": 46694,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 46694,
+      "wall_seconds": 7.79909663899889
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 160,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203373165,
+        0.0004999999999983574
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337315,
+          0.006324555320337319
+        ],
+        [
+          0.0004999999999959666,
+          0.0004999999999997344
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.603156827405087e-16,
+        4.0334489220805736e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.1188966420050406e-15,
+        3.795032864351011e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.3010426069826053e-18,
+        2.3841605772956243e-16
+      ],
+      "final_flow": 6.874483543963795,
+      "final_occupancy_range": [
+        0.01336339635495459,
+        0.013363396354959964
+      ],
+      "maximum_species_balance_error": [
+        3.774758283725532e-14,
+        1.6833756610878936e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710281278818448,
+      "minimum_derived_z": 0.9649544045415742,
+      "minimum_mobile_fraction": 0.9773811016913033,
+      "maximum_source_donor_ratio": 0.004360551913617718,
+      "source_diagnostics": {
+        "calls": 39650,
+        "smooth_values": 18569,
+        "accepted_substeps": 19577,
+        "rejected_substeps": 1040,
+        "maximum_substeps_per_value": 3,
+        "maximum_accepted_estimated_error": 4.1839348206245444e-12,
+        "minimum_internal_deposit": 0.0038000014393852915
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 39650,
+      "wall_seconds": 8.412100944002304
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 160,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.001999999999995237,
+        0.0014142135623732707
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999893363,
+          0.0019999999999989423
+        ],
+        [
+          0.0014142135623732709,
+          0.0014142135623732709
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0663778887698427e-14,
+        1.7585759237714882e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.005402358589258e-14,
+        3.5149834431980054e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.097553018058477e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.79947250692571,
+      "final_occupancy_range": [
+        0.006020305089083345,
+        0.006020305089102557
+      ],
+      "maximum_species_balance_error": [
+        2.479683125500287e-13,
+        9.96425164601078e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450375815211,
+      "minimum_derived_z": 0.9864219594706961,
+      "minimum_mobile_fraction": 0.9925188460347423,
+      "maximum_source_donor_ratio": 0.003481757444457445,
+      "source_diagnostics": {
+        "calls": 45237,
+        "smooth_values": 20740,
+        "accepted_substeps": 20835,
+        "rejected_substeps": 135,
+        "maximum_substeps_per_value": 2,
+        "maximum_accepted_estimated_error": 1.0600384657357053e-12,
+        "minimum_internal_deposit": 0.0009500026295619454
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 45237,
+      "wall_seconds": 9.75265380899873
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "n": 160,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.05,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337308,
+          0.006324555320337308
+        ],
+        [
+          0.0014142135623732477,
+          0.0014142135623732477
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.490399801466594e-16,
+        1.5265566588595902e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0980799602933189e-15,
+        3.0531133177191805e-16
+      ],
+      "maximum_final_concentration_error": [
+        0.0,
+        0.0
+      ],
+      "final_flow": 6.746627934152397,
+      "final_occupancy_range": [
+        0.014669415729779256,
+        0.014669415729779256
+      ],
+      "maximum_species_balance_error": [
+        2.5479618415147343e-14,
+        5.329070518200751e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.967283687071563,
+      "minimum_derived_z": 0.9608096053876988,
+      "minimum_mobile_fraction": 0.9745931341612953,
+      "maximum_source_donor_ratio": 0.004513252089274355,
+      "source_diagnostics": {
+        "calls": 38806,
+        "smooth_values": 37364,
+        "accepted_substeps": 38612,
+        "rejected_substeps": 1342,
+        "maximum_substeps_per_value": 3,
+        "maximum_accepted_estimated_error": 4.18952075412601e-12,
+        "minimum_internal_deposit": 0.0009500010582648853
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38806,
+      "wall_seconds": 7.294603427999391
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 80,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955843,
+        0.0004999999999989113
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999903576,
+          0.0019999999999989197
+        ],
+        [
+          0.0004999999999976195,
+          0.0004999999999997345
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.642460441217082e-15,
+        2.3804742899091735e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.093854141939417e-15,
+        2.2455995396519768e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.486062992776652e-16,
+        1.3487475025719675e-16
+      ],
+      "final_flow": 8.028195801188227,
+      "final_occupancy_range": [
+        0.004714285714263029,
+        0.004714285714283175
+      ],
+      "maximum_species_balance_error": [
+        5.162537064506978e-14,
+        1.1796119636642288e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.990593653061227,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.006920054882982917,
+      "source_diagnostics": {
+        "calls": 23363,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 23363,
+      "wall_seconds": 3.6372445489978418
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 80,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203370355,
+        0.0004999999999983696
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337035,
+          0.006324555320337039
+        ],
+        [
+          0.0004999999999960161,
+          0.0004999999999997367
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.8015784137025435e-16,
+        3.983900882797986e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.594483210025203e-16,
+        3.747002708109903e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.734723475976807e-18,
+        2.368981746880827e-16
+      ],
+      "final_flow": 6.87448354396385,
+      "final_occupancy_range": [
+        0.0133633963549541,
+        0.013363396354959407
+      ],
+      "maximum_species_balance_error": [
+        1.1601830607332886e-14,
+        1.0019762797242038e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710280370096729,
+      "minimum_derived_z": 0.964954316142886,
+      "minimum_mobile_fraction": 0.9773810070403314,
+      "maximum_source_donor_ratio": 0.009205655875984356,
+      "source_diagnostics": {
+        "calls": 19856,
+        "smooth_values": 7806,
+        "accepted_substeps": 9120,
+        "rejected_substeps": 1325,
+        "maximum_substeps_per_value": 3,
+        "maximum_accepted_estimated_error": 4.401123314996219e-12,
+        "minimum_internal_deposit": 0.00360007740496637
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19856,
+      "wall_seconds": 3.88192280200019
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 80,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952708,
+        0.001414213562373183
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999894555,
+          0.0019999999999989197
+        ],
+        [
+          0.0014142135623731828,
+          0.0014142135623731828
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0544516648725022e-14,
+        8.782037597132586e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.940832879085093e-15,
+        1.7564075194265172e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.036837696399289e-16,
+        7.589415207398531e-19
+      ],
+      "final_flow": 7.799472506925717,
+      "final_occupancy_range": [
+        0.006020305089083458,
+        0.006020305089102387
+      ],
+      "maximum_species_balance_error": [
+        5.512257317263902e-14,
+        3.913536161803677e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450495421725,
+      "minimum_derived_z": 0.9864219788356074,
+      "minimum_mobile_fraction": 0.9925188505149938,
+      "maximum_source_donor_ratio": 0.007350386459392009,
+      "source_diagnostics": {
+        "calls": 22788,
+        "smooth_values": 9313,
+        "accepted_substeps": 9370,
+        "rejected_substeps": 76,
+        "maximum_substeps_per_value": 3,
+        "maximum_accepted_estimated_error": 1.098249777330735e-12,
+        "minimum_internal_deposit": 0.0009000077331694924
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 22788,
+      "wall_seconds": 4.359951107002416
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 80,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337032,
+        0.0014142135623731711
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337032,
+          0.006324555320337035
+        ],
+        [
+          0.0014142135623731703,
+          0.0014142135623731718
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.7582103268031233e-16,
+        7.676151381197371e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.499073418846478e-16,
+        1.5352302762394743e-16
+      ],
+      "maximum_final_concentration_error": [
+        4.336808689942018e-19,
+        0.0
+      ],
+      "final_flow": 6.7466279341524595,
+      "final_occupancy_range": [
+        0.014669415729778593,
+        0.0146694157297786
+      ],
+      "maximum_species_balance_error": [
+        8.115730310009894e-14,
+        1.8235413179468196e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672835778780119,
+      "minimum_derived_z": 0.960809497994944,
+      "minimum_mobile_fraction": 0.974593022955056,
+      "maximum_source_donor_ratio": 0.009528029142745944,
+      "source_diagnostics": {
+        "calls": 19416,
+        "smooth_values": 16092,
+        "accepted_substeps": 17713,
+        "rejected_substeps": 1653,
+        "maximum_substeps_per_value": 4,
+        "maximum_accepted_estimated_error": 4.397622766930517e-12,
+        "minimum_internal_deposit": 0.0009000010148440549
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19416,
+      "wall_seconds": 3.3439168219993007
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 160,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955544,
+        0.0004999999999989039
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999990252,
+          0.001999999999998952
+        ],
+        [
+          0.0004999999999975933,
+          0.000499999999999741
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.747844892382673e-15,
+        2.4067119824833227e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.200973316580985e-15,
+        2.271620391791629e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.468715758016884e-16,
+        1.3509159069169385e-16
+      ],
+      "final_flow": 8.02819580118824,
+      "final_occupancy_range": [
+        0.00471428571426278,
+        0.004714285714283248
+      ],
+      "maximum_species_balance_error": [
+        1.279532035880493e-13,
+        3.2487901258093643e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.9905936530612269,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.0034600274414914533,
+      "source_diagnostics": {
+        "calls": 46694,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 46694,
+      "wall_seconds": 8.059257126999
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 160,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203373165,
+        0.0004999999999983565
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337315,
+          0.006324555320337319
+        ],
+        [
+          0.0004999999999959635,
+          0.0004999999999997344
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.603156827405087e-16,
+        4.036484688163533e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.1180292802670522e-15,
+        3.797960210216722e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.3010426069826053e-18,
+        2.38524477946811e-16
+      ],
+      "final_flow": 6.8744835439637955,
+      "final_occupancy_range": [
+        0.013363396354954586,
+        0.013363396354959964
+      ],
+      "maximum_species_balance_error": [
+        3.652633751016765e-14,
+        1.6681100944992977e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710280257314154,
+      "minimum_derived_z": 0.9649543029266919,
+      "minimum_mobile_fraction": 0.9773809989759107,
+      "maximum_source_donor_ratio": 0.004602826602037976,
+      "source_diagnostics": {
+        "calls": 39635,
+        "smooth_values": 31023,
+        "accepted_substeps": 31096,
+        "rejected_substeps": 80,
+        "maximum_substeps_per_value": 2,
+        "maximum_accepted_estimated_error": 4.352143893287292e-12,
+        "minimum_internal_deposit": 0.0036000039119042427
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 39635,
+      "wall_seconds": 8.00649223399887
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 160,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952365,
+        0.0014142135623732707
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999989335,
+          0.0019999999999989423
+        ],
+        [
+          0.0014142135623732709,
+          0.0014142135623732709
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.066507993030541e-14,
+        1.7585759237714882e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0055324628499562e-14,
+        3.5149834431980054e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.097553018058477e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.79947250692571,
+      "final_occupancy_range": [
+        0.006020305089083343,
+        0.006020305089102557
+      ],
+      "maximum_species_balance_error": [
+        2.507438701115916e-13,
+        9.797718192317006e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450240278773,
+      "minimum_derived_z": 0.9864219459463256,
+      "minimum_mobile_fraction": 0.9925188324490938,
+      "maximum_source_donor_ratio": 0.003675190983695654,
+      "source_diagnostics": {
+        "calls": 45233,
+        "smooth_values": 36986,
+        "accepted_substeps": 36989,
+        "rejected_substeps": 3,
+        "maximum_substeps_per_value": 2,
+        "maximum_accepted_estimated_error": 1.1047872066587734e-12,
+        "minimum_internal_deposit": 0.0009000002278589716
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 45233,
+      "wall_seconds": 9.220463810997899
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "n": 160,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.1,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337308,
+          0.006324555320337308
+        ],
+        [
+          0.0014142135623732477,
+          0.0014142135623732477
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.490399801466594e-16,
+        1.5265566588595902e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0980799602933189e-15,
+        3.0531133177191805e-16
+      ],
+      "maximum_final_concentration_error": [
+        0.0,
+        0.0
+      ],
+      "final_flow": 6.746627934152397,
+      "final_occupancy_range": [
+        0.014669415729779256,
+        0.014669415729779256
+      ],
+      "maximum_species_balance_error": [
+        2.4924506902834764e-14,
+        6.231126725708691e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672835714812898,
+      "minimum_derived_z": 0.9608094904559202,
+      "minimum_mobile_fraction": 0.9745930178239789,
+      "maximum_source_donor_ratio": 0.004764013422089976,
+      "source_diagnostics": {
+        "calls": 38789,
+        "smooth_values": 63952,
+        "accepted_substeps": 64046,
+        "rejected_substeps": 106,
+        "maximum_substeps_per_value": 2,
+        "maximum_accepted_estimated_error": 4.385727272420465e-12,
+        "minimum_internal_deposit": 0.0009000010956050557
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38789,
+      "wall_seconds": 6.916515738001181
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 80,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955843,
+        0.0004999999999989113
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999903576,
+          0.0019999999999989197
+        ],
+        [
+          0.0004999999999976195,
+          0.0004999999999997345
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.642460441217082e-15,
+        2.3804742899091735e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.093854141939417e-15,
+        2.2455995396519768e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.486062992776652e-16,
+        1.3487475025719675e-16
+      ],
+      "final_flow": 8.028195801188227,
+      "final_occupancy_range": [
+        0.004714285714263029,
+        0.004714285714283175
+      ],
+      "maximum_species_balance_error": [
+        5.162537064506978e-14,
+        1.1796119636642288e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.990593653061227,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.0077850617433557825,
+      "source_diagnostics": {
+        "calls": 23363,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 23363,
+      "wall_seconds": 4.11716689899913
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 80,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203370355,
+        0.0004999999999983681
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337035,
+          0.006324555320337039
+        ],
+        [
+          0.0004999999999960116,
+          0.0004999999999997367
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.8015784137025435e-16,
+        3.988454531922425e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.594483210025203e-16,
+        3.751339516799845e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.734723475976807e-18,
+        2.371150151225798e-16
+      ],
+      "final_flow": 6.87448354396385,
+      "final_occupancy_range": [
+        0.013363396354954095,
+        0.013363396354959407
+      ],
+      "maximum_species_balance_error": [
+        1.1435297153639112e-14,
+        9.797718192317006e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710278748028204,
+      "minimum_derived_z": 0.9649541546222832,
+      "minimum_mobile_fraction": 0.9773808441004433,
+      "maximum_source_donor_ratio": 0.01035643514579974,
+      "source_diagnostics": {
+        "calls": 19846,
+        "smooth_values": 13645,
+        "accepted_substeps": 13692,
+        "rejected_substeps": 56,
+        "maximum_substeps_per_value": 2,
+        "maximum_accepted_estimated_error": 4.70435929794677e-12,
+        "minimum_internal_deposit": 0.0032000182043592103
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19846,
+      "wall_seconds": 3.856709428000613
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 80,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952703,
+        0.001414213562373183
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999894525,
+          0.0019999999999989197
+        ],
+        [
+          0.0014142135623731828,
+          0.0014142135623731828
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0547552414807981e-14,
+        8.782037597132586e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.943868645168052e-15,
+        1.7564075194265172e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.036837696399289e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.799472506925717,
+      "final_occupancy_range": [
+        0.0060203050890834525,
+        0.006020305089102387
+      ],
+      "maximum_species_balance_error": [
+        5.4289905904170155e-14,
+        3.6914915568786455e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450277446522,
+      "minimum_derived_z": 0.9864219570744431,
+      "minimum_mobile_fraction": 0.9925188286910824,
+      "maximum_source_donor_ratio": 0.008269193499988689,
+      "source_diagnostics": {
+        "calls": 22784,
+        "smooth_values": 16803,
+        "accepted_substeps": 16809,
+        "rejected_substeps": 6,
+        "maximum_substeps_per_value": 2,
+        "maximum_accepted_estimated_error": 1.1666849901844793e-12,
+        "minimum_internal_deposit": 0.0008000033092636661
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 22784,
+      "wall_seconds": 4.602850499999477
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 80,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337032,
+        0.0014142135623731711
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337032,
+          0.006324555320337035
+        ],
+        [
+          0.0014142135623731703,
+          0.0014142135623731718
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.7582103268031233e-16,
+        7.676151381197371e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.499073418846478e-16,
+        1.5352302762394743e-16
+      ],
+      "maximum_final_concentration_error": [
+        4.336808689942018e-19,
+        0.0
+      ],
+      "final_flow": 6.7466279341524595,
+      "final_occupancy_range": [
+        0.014669415729778593,
+        0.0146694157297786
+      ],
+      "maximum_species_balance_error": [
+        8.110179194886769e-14,
+        1.8540724511240114e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672833939741601,
+      "minimum_derived_z": 0.9608093149558617,
+      "minimum_mobile_fraction": 0.9745928380639234,
+      "maximum_source_donor_ratio": 0.010719116329671994,
+      "source_diagnostics": {
+        "calls": 19404,
+        "smooth_values": 28575,
+        "accepted_substeps": 28642,
+        "rejected_substeps": 74,
+        "maximum_substeps_per_value": 2,
+        "maximum_accepted_estimated_error": 4.653938940573405e-12,
+        "minimum_internal_deposit": 0.0008000095289345002
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19404,
+      "wall_seconds": 3.569334637999418
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 160,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955544,
+        0.0004999999999989039
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999990252,
+          0.001999999999998952
+        ],
+        [
+          0.0004999999999975933,
+          0.000499999999999741
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.747844892382673e-15,
+        2.4067119824833227e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.200973316580985e-15,
+        2.271620391791629e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.468715758016884e-16,
+        1.3509159069169385e-16
+      ],
+      "final_flow": 8.02819580118824,
+      "final_occupancy_range": [
+        0.00471428571426278,
+        0.004714285714283248
+      ],
+      "maximum_species_balance_error": [
+        1.279532035880493e-13,
+        3.2487901258093643e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.9905936530612269,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.0038925308716778848,
+      "source_diagnostics": {
+        "calls": 46694,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 46694,
+      "wall_seconds": 7.693849837000016
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 160,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.006324555320337315,
+        0.0004999999999983548
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337315,
+          0.006324555320337319
+        ],
+        [
+          0.0004999999999959588,
+          0.0004999999999997344
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.603156827405087e-16,
+        4.041255177722469e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.1180292802670522e-15,
+        3.802730699775658e-15
+      ],
+      "maximum_final_concentration_error": [
+        8.673617379884035e-19,
+        2.38524477946811e-16
+      ],
+      "final_flow": 6.8744835439637955,
+      "final_occupancy_range": [
+        0.01336339635495458,
+        0.013363396354959964
+      ],
+      "maximum_species_balance_error": [
+        3.6637359812630166e-14,
+        1.749989042565403e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710278643108812,
+      "minimum_derived_z": 0.9649541423524388,
+      "minimum_mobile_fraction": 0.977380836662611,
+      "maximum_source_donor_ratio": 0.005178216225383468,
+      "source_diagnostics": {
+        "calls": 39611,
+        "smooth_values": 54343,
+        "accepted_substeps": 54343,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 2.5548519153436745e-12,
+        "minimum_internal_deposit": 0.0032000114301545222
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 39611,
+      "wall_seconds": 8.03888743999778
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 160,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952356,
+        0.0014142135623732707
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999893315,
+          0.0019999999999989423
+        ],
+        [
+          0.0014142135623732709,
+          0.0014142135623732709
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.0668549377257364e-14,
+        1.7585759237714882e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0058794075451516e-14,
+        3.5149834431980054e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.097553018058477e-16,
+        6.505213034913027e-19
+      ],
+      "final_flow": 7.79947250692571,
+      "final_occupancy_range": [
+        0.006020305089083336,
+        0.006020305089102557
+      ],
+      "maximum_species_balance_error": [
+        2.46525022618016e-13,
+        9.686695889854491e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450023080696,
+      "minimum_derived_z": 0.9864219242734282,
+      "minimum_mobile_fraction": 0.9925188106779975,
+      "maximum_source_donor_ratio": 0.004134594238143296,
+      "source_diagnostics": {
+        "calls": 45225,
+        "smooth_values": 66875,
+        "accepted_substeps": 66875,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 1.969106921168822e-13,
+        "minimum_internal_deposit": 0.0008000029410668566
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 45225,
+      "wall_seconds": 9.234311462001642
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "n": 160,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.2,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337308,
+          0.006324555320337308
+        ],
+        [
+          0.0014142135623732477,
+          0.0014142135623732477
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.490399801466594e-16,
+        1.5265566588595902e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0980799602933189e-15,
+        3.0531133177191805e-16
+      ],
+      "maximum_final_concentration_error": [
+        0.0,
+        0.0
+      ],
+      "final_flow": 6.746627934152397,
+      "final_occupancy_range": [
+        0.014669415729779256,
+        0.014669415729779256
+      ],
+      "maximum_species_balance_error": [
+        2.120525977034049e-14,
+        4.538036613155327e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672833885166857,
+      "minimum_derived_z": 0.9608093085337377,
+      "minimum_mobile_fraction": 0.9745928336770151,
+      "maximum_source_donor_ratio": 0.005359557051988499,
+      "source_diagnostics": {
+        "calls": 38765,
+        "smooth_values": 113826,
+        "accepted_substeps": 113826,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 2.421836912561545e-12,
+        "minimum_internal_deposit": 0.0008000022895542275
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38765,
+      "wall_seconds": 7.134774498001207
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 80,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955843,
+        0.0004999999999989113
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999903576,
+          0.0019999999999989197
+        ],
+        [
+          0.0004999999999976195,
+          0.0004999999999997345
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.642460441217082e-15,
+        2.3804742899091735e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.093854141939417e-15,
+        2.2455995396519768e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.486062992776652e-16,
+        1.3487475025719675e-16
+      ],
+      "final_flow": 8.028195801188227,
+      "final_occupancy_range": [
+        0.004714285714263029,
+        0.004714285714283175
+      ],
+      "maximum_species_balance_error": [
+        5.162537064506978e-14,
+        1.1796119636642288e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.990593653061227,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.010380082324474377,
+      "source_diagnostics": {
+        "calls": 23363,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 23363,
+      "wall_seconds": 3.7195696309972845
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 80,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0063245553203370355,
+        0.0004999999999983653
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337035,
+          0.006324555320337039
+        ],
+        [
+          0.0004999999999960027,
+          0.0004999999999997367
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.8015784137025435e-16,
+        3.997344989736806e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.594483210025203e-16,
+        3.759904713962481e-15
+      ],
+      "maximum_final_concentration_error": [
+        8.673617379884035e-19,
+        2.3744027577432547e-16
+      ],
+      "final_flow": 6.8744835439638505,
+      "final_occupancy_range": [
+        0.013363396354954081,
+        0.013363396354959407
+      ],
+      "maximum_species_balance_error": [
+        1.2823075934420558e-14,
+        9.908740494779522e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710276562323501,
+      "minimum_derived_z": 0.9649539369765062,
+      "minimum_mobile_fraction": 0.9773806245422312,
+      "maximum_source_donor_ratio": 0.013808708376935219,
+      "source_diagnostics": {
+        "calls": 19825,
+        "smooth_values": 24508,
+        "accepted_substeps": 24508,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 2.4728949047211503e-12,
+        "minimum_internal_deposit": 0.002400000889413175
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19825,
+      "wall_seconds": 4.055731413998728
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 80,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0019999999999952686,
+        0.001414213562373183
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999894464,
+          0.0019999999999989197
+        ],
+        [
+          0.0014142135623731828,
+          0.0014142135623731828
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.05536239469739e-14,
+        8.782037597132586e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.949506496464977e-15,
+        1.7564075194265172e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.041174505089231e-16,
+        7.589415207398531e-19
+      ],
+      "final_flow": 7.799472506925718,
+      "final_occupancy_range": [
+        0.00602030508908344,
+        0.006020305089102387
+      ],
+      "maximum_species_balance_error": [
+        5.290212712338871e-14,
+        4.191091917959966e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890449977131244,
+      "minimum_derived_z": 0.9864219270930017,
+      "minimum_mobile_fraction": 0.9925187986232146,
+      "maximum_source_donor_ratio": 0.01102560669367368,
+      "source_diagnostics": {
+        "calls": 22778,
+        "smooth_values": 30777,
+        "accepted_substeps": 30777,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 1.8797389240392855e-13,
+        "minimum_internal_deposit": 0.0006000090992899829
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 22778,
+      "wall_seconds": 4.651240010000038
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 80,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337032,
+        0.0014142135623731711
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337032,
+          0.006324555320337035
+        ],
+        [
+          0.0014142135623731703,
+          0.0014142135623731718
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        2.7582103268031233e-16,
+        7.676151381197371e-17
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        5.499073418846478e-16,
+        1.5352302762394743e-16
+      ],
+      "maximum_final_concentration_error": [
+        4.336808689942018e-19,
+        0.0
+      ],
+      "final_flow": 6.7466279341524595,
+      "final_occupancy_range": [
+        0.014669415729778593,
+        0.0146694157297786
+      ],
+      "maximum_species_balance_error": [
+        8.393286066166183e-14,
+        1.9373391779708982e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.967283145492415,
+      "minimum_derived_z": 0.9608090676430424,
+      "minimum_mobile_fraction": 0.9745925882487205,
+      "maximum_source_donor_ratio": 0.014292304274325703,
+      "source_diagnostics": {
+        "calls": 19381,
+        "smooth_values": 51995,
+        "accepted_substeps": 51995,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 2.5704731002448457e-12,
+        "minimum_internal_deposit": 0.0006000105404856517
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19381,
+      "wall_seconds": 3.4272264600003837
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 160,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.0019999999999955544,
+        0.0004999999999989039
+      ],
+      "final_retained_range": [
+        [
+          0.001999999999990252,
+          0.001999999999998952
+        ],
+        [
+          0.0004999999999975933,
+          0.000499999999999741
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.747844892382673e-15,
+        2.4067119824833227e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        9.200973316580985e-15,
+        2.271620391791629e-15
+      ],
+      "maximum_final_concentration_error": [
+        5.468715758016884e-16,
+        1.3509159069169385e-16
+      ],
+      "final_flow": 8.02819580118824,
+      "final_occupancy_range": [
+        0.00471428571426278,
+        0.004714285714283248
+      ],
+      "maximum_species_balance_error": [
+        1.279532035880493e-13,
+        3.2487901258093643e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "minimum_derived_z": 0.9905936530612269,
+      "minimum_mobile_fraction": 0.9952857142857168,
+      "maximum_source_donor_ratio": 0.00519004116223718,
+      "source_diagnostics": {
+        "calls": 46694,
+        "smooth_values": 0,
+        "accepted_substeps": 0,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 0,
+        "maximum_accepted_estimated_error": 0.0,
+        "minimum_internal_deposit": null
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 46694,
+      "wall_seconds": 7.920290050999029
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 160,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.006324555320337315,
+        0.0004999999999983521
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337315,
+          0.006324555320337319
+        ],
+        [
+          0.0004999999999959502,
+          0.0004999999999997344
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.603156827405087e-16,
+        4.049820374885105e-15
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.1180292802670522e-15,
+        3.810970636286548e-15
+      ],
+      "maximum_final_concentration_error": [
+        1.3010426069826053e-18,
+        2.3884973859855663e-16
+      ],
+      "final_flow": 6.8744835439637955,
+      "final_occupancy_range": [
+        0.013363396354954567,
+        0.013363396354959964
+      ],
+      "maximum_species_balance_error": [
+        3.4861002973229915e-14,
+        1.7680301667155618e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710276468146641,
+      "minimum_derived_z": 0.964953925996486,
+      "minimum_mobile_fraction": 0.9773806179634955,
+      "maximum_source_donor_ratio": 0.006904352664793809,
+      "source_diagnostics": {
+        "calls": 39566,
+        "smooth_values": 97259,
+        "accepted_substeps": 97259,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 3.1460176725633154e-13,
+        "minimum_internal_deposit": 0.0024000107340751108
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 39566,
+      "wall_seconds": 8.253637336998509
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 160,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.001999999999995234,
+        0.0014142135623732707
+      ],
+      "final_retained_range": [
+        [
+          0.0019999999999893267,
+          0.0019999999999989423
+        ],
+        [
+          0.0014142135623732709,
+          0.0014142135623732709
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.06733198668163e-14,
+        1.7585759237714882e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.006443192674844e-14,
+        3.5149834431980054e-16
+      ],
+      "maximum_final_concentration_error": [
+        6.088879400678593e-16,
+        7.589415207398531e-19
+      ],
+      "final_flow": 7.79947250692571,
+      "final_occupancy_range": [
+        0.006020305089083326,
+        0.006020305089102557
+      ],
+      "maximum_species_balance_error": [
+        2.4857893521357255e-13,
+        9.381384558082573e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890449723783884,
+      "minimum_derived_z": 0.9864218944083882,
+      "minimum_mobile_fraction": 0.9925187806776469,
+      "maximum_source_donor_ratio": 0.00551280002365485,
+      "source_diagnostics": {
+        "calls": 45212,
+        "smooth_values": 122334,
+        "accepted_substeps": 122334,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 2.2846834791098327e-14,
+        "minimum_internal_deposit": 0.0006000029077671555
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 45212,
+      "wall_seconds": 9.325588259001961
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 160,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337308,
+          0.006324555320337308
+        ],
+        [
+          0.0014142135623732477,
+          0.0014142135623732477
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        5.490399801466594e-16,
+        1.5265566588595902e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.0980799602933189e-15,
+        3.0531133177191805e-16
+      ],
+      "maximum_final_concentration_error": [
+        0.0,
+        0.0
+      ],
+      "final_flow": 6.746627934152397,
+      "final_occupancy_range": [
+        0.014669415729779256,
+        0.014669415729779256
+      ],
+      "maximum_species_balance_error": [
+        2.3370194668359545e-14,
+        4.440892098500626e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672831413191866,
+      "minimum_derived_z": 0.960809062744865,
+      "minimum_mobile_fraction": 0.9745925848823214,
+      "maximum_source_donor_ratio": 0.007146150973634802,
+      "source_diagnostics": {
+        "calls": 38717,
+        "smooth_values": 206054,
+        "accepted_substeps": 206054,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 3.580507666150241e-13,
+        "minimum_internal_deposit": 0.0006000055598609806
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38717,
+      "wall_seconds": 7.362527779001539
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 80,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.006322899160642906,
+        0.0013680170617864653
+      ],
+      "final_retained_range": [
+        [
+          0.006322899160641146,
+          0.006322899160642999
+        ],
+        [
+          0.0013680170616228394,
+          0.0013680170618462814
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.80118763926896e-16,
+        2.2498214229116353e-13
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.7806936480901925e-15,
+        2.445578461962583e-13
+      ],
+      "maximum_final_concentration_error": [
+        3.382710778154774e-17,
+        1.046016571970565e-14
+      ],
+      "final_flow": 6.753226890500571,
+      "final_occupancy_range": [
+        0.014600108409318625,
+        0.014600108409636612
+      ],
+      "maximum_species_balance_error": [
+        1.9595436384634013e-14,
+        9.173217740965356e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9829363918613875,
+      "minimum_derived_z": 0.9807544349585803,
+      "minimum_mobile_fraction": 0.9853998915903633,
+      "maximum_source_donor_ratio": 0.018509669825521605,
+      "source_diagnostics": {
+        "calls": 20517,
+        "smooth_values": 2994234,
+        "accepted_substeps": 2994234,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 5.489160713269468e-17,
+        "minimum_internal_deposit": 0.0004000017178328898
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 20517,
+      "wall_seconds": 6.537376483000116
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 80,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.006322899160642955,
+        0.0013680170617792514
+      ],
+      "final_retained_range": [
+        [
+          0.006322899160642943,
+          0.006322899160643001
+        ],
+        [
+          0.0013680170615897106,
+          0.0013680170618462788
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.827208491408612e-16,
+        2.581110238736306e-13
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.781561009828181e-15,
+        2.8138559191037693e-13
+      ],
+      "maximum_final_concentration_error": [
+        3.9898639947466563e-17,
+        1.1702227728505044e-14
+      ],
+      "final_flow": 6.753226890501548,
+      "final_occupancy_range": [
+        0.014600108409271303,
+        0.014600108409637713
+      ],
+      "maximum_species_balance_error": [
+        2.09277040141842e-14,
+        8.756884106730922e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9705905765670302,
+      "minimum_derived_z": 0.9645197798348605,
+      "minimum_mobile_fraction": 0.9769402432606371,
+      "maximum_source_donor_ratio": 0.020786099766304855,
+      "source_diagnostics": {
+        "calls": 19507,
+        "smooth_values": 2579463,
+        "accepted_substeps": 2579463,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 5.63835684490905e-13,
+        "minimum_internal_deposit": 0.0004000009936399357
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19507,
+      "wall_seconds": 6.453489783998521
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 80,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006322899160641085,
+        0.0013680170618639875
+      ],
+      "final_retained_range": [
+        [
+          0.00632289916064107,
+          0.006322899160641091
+        ],
+        [
+          0.0013680170618483938,
+          0.001368017061902728
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.488937413593135e-16,
+        5.490638325944541e-14
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.7806936480901925e-15,
+        5.915645577558859e-14
+      ],
+      "maximum_final_concentration_error": [
+        1.1275702593849246e-17,
+        2.7460672624712856e-15
+      ],
+      "final_flow": 6.753226890490304,
+      "final_occupancy_range": [
+        0.01460010840963703,
+        0.014600108409714608
+      ],
+      "maximum_species_balance_error": [
+        3.219646771412954e-15,
+        3.6637359812630166e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9829225055448181,
+      "minimum_derived_z": 0.980347792889821,
+      "minimum_mobile_fraction": 0.9853859889329109,
+      "maximum_source_donor_ratio": 0.0185102178064127,
+      "source_diagnostics": {
+        "calls": 20258,
+        "smooth_values": 2715615,
+        "accepted_substeps": 2715615,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 3.926633324047302e-14,
+        "minimum_internal_deposit": 0.00040000964527213244
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 20258,
+      "wall_seconds": 6.8719795899996825
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 80,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006322899160641424,
+        0.0013680170618642598
+      ],
+      "final_retained_range": [
+        [
+          0.00632289916064107,
+          0.006322899160642929
+        ],
+        [
+          0.0013680170618483938,
+          0.0013680170619037792
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        9.488937413593135e-16,
+        5.595762568588736e-14
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        1.7806936480901925e-15,
+        6.030614375929222e-14
+      ],
+      "maximum_final_concentration_error": [
+        9.107298248878237e-18,
+        2.7923626952364167e-15
+      ],
+      "final_flow": 6.753226890490202,
+      "final_occupancy_range": [
+        0.014600108409640707,
+        0.01460010840971611
+      ],
+      "maximum_species_balance_error": [
+        4.9960036108132044e-15,
+        1.5404344466674047e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672829835896589,
+      "minimum_derived_z": 0.9608089065022756,
+      "minimum_mobile_fraction": 0.9745924254774898,
+      "maximum_source_donor_ratio": 0.021438603649285785,
+      "source_diagnostics": {
+        "calls": 19357,
+        "smooth_values": 2367046,
+        "accepted_substeps": 2367046,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 6.847279439876302e-13,
+        "minimum_internal_deposit": 0.00040001468047025916
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 19357,
+      "wall_seconds": 5.409944917002576
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 160,
+      "case": "LL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.006322899160643769,
+        0.0013680170617853434
+      ],
+      "final_retained_range": [
+        [
+          0.006322899160640202,
+          0.0063228991606439355
+        ],
+        [
+          0.0013680170616165773,
+          0.0013680170618462883
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.916869440954372e-15,
+        2.312442771990053e-13
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        3.565724104870327e-15,
+        2.5166609247950777e-13
+      ],
+      "maximum_final_concentration_error": [
+        3.642919299551295e-17,
+        1.064111906229348e-14
+      ],
+      "final_flow": 6.753226890500559,
+      "final_occupancy_range": [
+        0.014600108409311554,
+        0.014600108409638107
+      ],
+      "maximum_species_balance_error": [
+        2.969846590872294e-14,
+        1.3100631690576847e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.982936391861386,
+      "minimum_derived_z": 0.9807544349585788,
+      "minimum_mobile_fraction": 0.9853998915903619,
+      "maximum_source_donor_ratio": 0.009254834912760837,
+      "source_diagnostics": {
+        "calls": 40949,
+        "smooth_values": 11955569,
+        "accepted_substeps": 11955569,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 3.717264591378872e-18,
+        "minimum_internal_deposit": 0.0004000003809531366
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 40949,
+      "wall_seconds": 13.17939968599967
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 160,
+      "case": "HL",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0005
+      ],
+      "final_mean_retained": [
+        0.006322899160643889,
+        0.0013680170617779638
+      ],
+      "final_retained_range": [
+        [
+          0.006322899160643873,
+          0.0063228991606439425
+        ],
+        [
+          0.001368017061582309,
+          0.0013680170618462883
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.923808334858279e-15,
+        2.6551265526475465e-13
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        3.5648567431323386e-15,
+        2.8979704920495397e-13
+      ],
+      "maximum_final_concentration_error": [
+        4.163336342344337e-17,
+        1.1912562949967231e-14
+      ],
+      "final_flow": 6.753226890501545,
+      "final_occupancy_range": [
+        0.014600108409262612,
+        0.014600108409639587
+      ],
+      "maximum_species_balance_error": [
+        4.057865155004947e-14,
+        1.2864709297844001e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9705898970166245,
+      "minimum_derived_z": 0.9645190087272921,
+      "minimum_mobile_fraction": 0.9769397828872506,
+      "maximum_source_donor_ratio": 0.010393003007627574,
+      "source_diagnostics": {
+        "calls": 38930,
+        "smooth_values": 10303450,
+        "accepted_substeps": 10303450,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 7.670340057552849e-14,
+        "minimum_internal_deposit": 0.00040000082460440724
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38930,
+      "wall_seconds": 13.87875692200032
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 160,
+      "case": "LH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.002,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006322899160640152,
+        0.0013680170618642635
+      ],
+      "final_retained_range": [
+        [
+          0.00632289916064014,
+          0.006322899160640154
+        ],
+        [
+          0.0013680170618485532,
+          0.0013680170619040947
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.878705524482882e-15,
+        5.627312851808064e-14
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        3.56398938139435e-15,
+        6.069602286051801e-14
+      ],
+      "maximum_final_concentration_error": [
+        9.974659986866641e-18,
+        2.7898690302397e-15
+      ],
+      "final_flow": 6.753226890490445,
+      "final_occupancy_range": [
+        0.014600108409635383,
+        0.0146001084097147
+      ],
+      "maximum_species_balance_error": [
+        2.220446049250313e-15,
+        2.842170943040401e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9829224280072114,
+      "minimum_derived_z": 0.9803396034287658,
+      "minimum_mobile_fraction": 0.9853859020390343,
+      "maximum_source_donor_ratio": 0.009255107200385384,
+      "source_diagnostics": {
+        "calls": 40443,
+        "smooth_values": 10849007,
+        "accepted_substeps": 10849007,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 4.5882816395487986e-15,
+        "minimum_internal_deposit": 0.0004000043845609326
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 40443,
+      "wall_seconds": 13.936374847002298
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 160,
+      "case": "HH",
+      "suffix": "",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-09,
+        "source_atol": 1e-14
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.006322899160641092,
+        0.0013680170618645422
+      ],
+      "final_retained_range": [
+        [
+          0.00632289916064014,
+          0.006322899160643866
+        ],
+        [
+          0.0013680170618485532,
+          0.0013680170619051913
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.878705524482882e-15,
+        5.736969059533248e-14
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        3.5648567431323386e-15,
+        6.189970411241141e-14
+      ],
+      "maximum_final_concentration_error": [
+        1.0408340855860843e-17,
+        2.8365981438738253e-15
+      ],
+      "final_flow": 6.753226890490227,
+      "final_occupancy_range": [
+        0.01460010840964243,
+        0.014600108409716268
+      ],
+      "maximum_species_balance_error": [
+        2.531308496145357e-14,
+        3.530509218307998e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672829802595571,
+      "minimum_derived_z": 0.9608089026031915,
+      "minimum_mobile_fraction": 0.9745924227822335,
+      "maximum_source_donor_ratio": 0.01071930040087323,
+      "source_diagnostics": {
+        "calls": 38672,
+        "smooth_values": 9463889,
+        "accepted_substeps": 9463889,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 8.229515779152002e-14,
+        "minimum_internal_deposit": 0.0004000034981150001
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 38672,
+      "wall_seconds": 11.857881248997728
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "n": 160,
+      "case": "HH",
+      "suffix": "_refined",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.4,
+        "source_rtol": 1e-11,
+        "source_atol": 1e-16
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.00632455532033787,
+        0.001414213562373402
+      ],
+      "final_retained_range": [
+        [
+          0.006324555320337859,
+          0.0063245553203378725
+        ],
+        [
+          0.001414213562373402,
+          0.001414213562373402
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        1.1136924715771102e-15,
+        3.0704605524789486e-16
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        2.2013640910145682e-15,
+        6.140921104957897e-16
+      ],
+      "maximum_final_concentration_error": [
+        8.673617379884035e-18,
+        1.0842021724855044e-19
+      ],
+      "final_flow": 6.746627934152268,
+      "final_occupancy_range": [
+        0.014669415729780578,
+        0.014669415729780606
+      ],
+      "maximum_species_balance_error": [
+        1.156852391659413e-13,
+        2.881028748902281e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672831478514782,
+      "minimum_derived_z": 0.9608090692397633,
+      "minimum_mobile_fraction": 0.9745925914569921,
+      "maximum_source_donor_ratio": 0.0035730745345553994,
+      "source_diagnostics": {
+        "calls": 77367,
+        "smooth_values": 410021,
+        "accepted_substeps": 410021,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 4.043330650452656e-14,
+        "minimum_internal_deposit": 0.0006000031295563434
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 77367,
+      "wall_seconds": 14.251881388001493
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "n": 160,
+      "case": "HH",
+      "suffix": "_refined",
+      "parameters": {
+        "m0": 0.35,
+        "eps": [
+          0.5,
+          0.3
+        ],
+        "alpha_s": [
+          1.0,
+          1.0
+        ],
+        "alpha_d": [
+          0.0,
+          0.0
+        ],
+        "beta_s": [
+          1.0,
+          1.0
+        ],
+        "beta_d": [
+          0.0,
+          0.0
+        ],
+        "charging": [
+          0.5,
+          0.5
+        ],
+        "B1": [
+          0.001,
+          0.0002
+        ],
+        "B2": [
+          0.004,
+          0.001
+        ],
+        "cap": [
+          0.02,
+          0.004
+        ],
+        "mode": "pressure",
+        "forcing": 10.0,
+        "kinetics": "multistage",
+        "smoothing_fraction": 0.6,
+        "source_rtol": 1e-11,
+        "source_atol": 1e-16
+      },
+      "preconditioning_feed": [
+        0.006,
+        0.0015
+      ],
+      "final_mean_retained": [
+        0.0063228991606408685,
+        0.001368017061865004
+      ],
+      "final_retained_range": [
+        [
+          0.006322899160638211,
+          0.006322899160645698
+        ],
+        [
+          0.0013680170618492887,
+          0.001368017061906538
+        ]
+      ],
+      "maximum_distance_to_any_stable_local_root": [
+        3.8077180297690916e-15,
+        5.871648653399397e-14
+      ],
+      "selected_stable_root_indices_by_species": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "maximum_absolute_final_net_source": [
+        7.132315571478642e-15,
+        6.338094112046111e-14
+      ],
+      "maximum_final_concentration_error": [
+        4.8138576458356397e-17,
+        2.8929766568430715e-15
+      ],
+      "final_flow": 6.753226890490207,
+      "final_occupancy_range": [
+        0.014600108409645521,
+        0.014600108409714334
+      ],
+      "maximum_species_balance_error": [
+        3.0142555118573e-14,
+        2.528532938583794e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672829854851048,
+      "minimum_derived_z": 0.9608089077988229,
+      "minimum_mobile_fraction": 0.9745924280416745,
+      "maximum_source_donor_ratio": 0.005359649032430968,
+      "source_diagnostics": {
+        "calls": 77277,
+        "smooth_values": 18922043,
+        "accepted_substeps": 18922043,
+        "rejected_substeps": 0,
+        "maximum_substeps_per_value": 1,
+        "maximum_accepted_estimated_error": 1.0487766409296638e-14,
+        "minimum_internal_deposit": 0.00040000126964933854
+      },
+      "holding_events": 0,
+      "capacity_events": 0,
+      "steps": 77277,
+      "wall_seconds": 23.456552877996728
+    }
+  ],
+  "refinement": [
+    {
+      "relative_halfwidth": 0.0,
+      "case": "LL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 5.767955557622884e-17,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.7665561409709154e-07
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "case": "HL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.8015784137025435e-16,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 5.9801623787571895e-06
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "case": "LH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 8.803721640582296e-17,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 1.2273649049570744e-06
+    },
+    {
+      "relative_halfwidth": 0.0,
+      "case": "HH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.7582103268031233e-16,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 6.053787090527958e-06
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "LL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 5.767955557622884e-17,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.766556140973084e-07
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "HL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.8015784137025435e-16,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 5.894745138683606e-06
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "LH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 8.803721640582296e-17,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 1.2460644841635546e-06
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "HH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.7582103268031233e-16,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 5.8835140822541265e-06
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "LL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 5.767955557622884e-17,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.766556140973084e-07
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "HL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.8015784137025435e-16,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 6.1958887900169166e-06
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "LH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 8.803721640582296e-17,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 1.2417498954327751e-06
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "HH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.7582103268031233e-16,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 6.203663325463765e-06
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "LL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 5.767955557622884e-17,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.766556140973084e-07
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "HL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.8015784137025435e-16,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 6.20078335195496e-06
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "LH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 8.803721640582296e-17,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 1.212738834180686e-06
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "HH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.7582103268031233e-16,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 6.211390395439824e-06
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "LL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 5.767955557622884e-17,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.766556140973084e-07
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "HL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.8015784137025435e-16,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 5.998294458699725e-06
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "LH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 8.803721640582296e-17,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 1.194705758766467e-06
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "HH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.7582103268031233e-16,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 6.008033537327484e-06
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "LL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 5.767955557622884e-17,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.766556140973084e-07
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "HL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.8015784137025435e-16,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 5.744391976768987e-06
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "LH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 8.803721640582296e-17,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 1.1138728866284982e-06
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "HH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 2.7582103268031233e-16,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 5.775135807628562e-06
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "LL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 3.966228387386472e-15,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.8675330446380903e-06
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "HL",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 4.668357714288085e-15,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 5.416476245570165e-06
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "LH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 9.367506770274758e-16,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 2.9538351736116755e-06
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "HH",
+      "type": "grid80_vs160",
+      "maximum_final_state_difference": 9.367506770274758e-16,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 5.441839698378664e-06
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "LL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 4.336808689942018e-19
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "HL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.02846626496750737,
+      "maximum_recorded_retained_difference": 0.00013718857856894352
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "LH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.007360104750524954,
+      "maximum_recorded_retained_difference": 2.682826012174555e-05
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "HH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.029606245724492553,
+      "maximum_recorded_retained_difference": 0.00014069191964772004
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "LL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 4.336808689942018e-19
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "HL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.13871053276665535,
+      "maximum_recorded_retained_difference": 0.0006740555435647373
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "LH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.03460248115709508,
+      "maximum_recorded_retained_difference": 0.0001267190531378309
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "HH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.1435091213901618,
+      "maximum_recorded_retained_difference": 0.0006739945523492148
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "LL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 4.336808689942018e-19
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "HL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.2585650063726499,
+      "maximum_recorded_retained_difference": 0.0012219670399474959
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "LH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.06456993517598342,
+      "maximum_recorded_retained_difference": 0.0002318335574038122
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "HH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.26977144341156833,
+      "maximum_recorded_retained_difference": 0.001217608871851017
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "LL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 4.336808689942018e-19
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "HL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.4392748099938286,
+      "maximum_recorded_retained_difference": 0.002049342111250841
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "LH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.1111670011565824,
+      "maximum_recorded_retained_difference": 0.0003944784500837723
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "HH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.45986112581902283,
+      "maximum_recorded_retained_difference": 0.002039926287117763
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "LL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 4.336808689942018e-19
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "HL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.6988410427450189,
+      "maximum_recorded_retained_difference": 0.003237646376474357
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "LH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.17967919187779202,
+      "maximum_recorded_retained_difference": 0.000633988751645152
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "HH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.734102951083675,
+      "maximum_recorded_retained_difference": 0.0032248706956924797
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "LL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.2749689106876563,
+      "maximum_recorded_retained_difference": 0.004322900138672805
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "HL",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.8650052734636695,
+      "maximum_recorded_retained_difference": 0.004051796629194305
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "LH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.0464265842136706,
+      "maximum_recorded_retained_difference": 0.004322900050669533
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "HH",
+      "n": 80,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.9091946660065187,
+      "maximum_recorded_retained_difference": 0.00403695965172879
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "LL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 8.673617379884035e-19
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "HL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.02847030132716455,
+      "maximum_recorded_retained_difference": 0.00013741471275589313
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "LH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.007356513727206249,
+      "maximum_recorded_retained_difference": 2.680956054253907e-05
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "case": "HH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.029617728297982815,
+      "maximum_recorded_retained_difference": 0.00014086777423888246
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "LL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 8.673617379884035e-19
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "HL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.138773352095785,
+      "maximum_recorded_retained_difference": 0.0006740536340535805
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "LH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.0346289317660089,
+      "maximum_recorded_retained_difference": 0.00012679296690608745
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "case": "HH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.14357557779452446,
+      "maximum_recorded_retained_difference": 0.0006738509566496537
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "LL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 8.673617379884035e-19
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "HL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.25863900873410817,
+      "maximum_recorded_retained_difference": 0.0012217494249964055
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "LH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.0645587812736288,
+      "maximum_recorded_retained_difference": 0.00023174295022569506
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "case": "HH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.2698793719988153,
+      "maximum_recorded_retained_difference": 0.0012173903080339096
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "LL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 8.673617379884035e-19
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "HL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.43941816862735905,
+      "maximum_recorded_retained_difference": 0.0020490859436888553
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "LH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.11113585658494962,
+      "maximum_recorded_retained_difference": 0.00039427029726266495
+    },
+    {
+      "relative_halfwidth": 0.2,
+      "case": "HH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.4600162022386902,
+      "maximum_recorded_retained_difference": 0.0020395669504118677
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "LL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.7763568394002505e-15,
+      "maximum_recorded_retained_difference": 8.673617379884035e-19
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "HL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.6985228064161086,
+      "maximum_recorded_retained_difference": 0.0032371490957896617
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "LH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.17962455934610944,
+      "maximum_recorded_retained_difference": 0.0006336684419453061
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "HH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.7337881751190043,
+      "maximum_recorded_retained_difference": 0.003224346630372188
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "LL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.2749689106876803,
+      "maximum_recorded_retained_difference": 0.0043229001290368664
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "HL",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.8649164942848584,
+      "maximum_recorded_retained_difference": 0.004050120623423666
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "LH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 1.0464256096319628,
+      "maximum_recorded_retained_difference": 0.004322900040746111
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "HH",
+      "n": 160,
+      "type": "sharp_vs_smoothed",
+      "maximum_recorded_flow_difference": 0.9091224195573817,
+      "maximum_recorded_retained_difference": 0.00403524047529347
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "case": "HH",
+      "type": "cfl.8_vs.4_and_tighter_source_tolerance",
+      "maximum_final_state_difference": 5.646524914304507e-16,
+      "maximum_recorded_flow_difference": 0.0028471241861787178,
+      "maximum_recorded_retained_difference": 6.558431143723412e-06
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "case": "HH",
+      "type": "cfl.8_vs.4_and_tighter_source_tolerance",
+      "maximum_final_state_difference": 1.9290125052862095e-15,
+      "maximum_recorded_flow_difference": 0.0028471241861787178,
+      "maximum_recorded_retained_difference": 6.34850658415894e-06
+    }
+  ],
+  "reference_sha256": "77219a80e201b3cf60fc50c90ee49789f5f2db8dbc1420e2c39738dcde64466a",
+  "wall_seconds_this_invocation": 0.05735083699983079
+}

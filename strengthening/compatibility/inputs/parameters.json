@@ -1,0 +1,16 @@
+{
+  "particle_material_density_kg_m3": 2600,
+  "nominal_hydraulic_ratio": 0.94,
+  "nominal_hydraulic_ratio_role": "Rounded level of the low-concentration constant-flow published series; not a newly measured or independently matched 83-PV endpoint. Used only as a deterministic nominal mapped comparison.",
+  "deposit_porosity_values": [
+    0.0,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "reported_initial_conductivity_m_s": 0.0007,
+  "reported_initial_conductivity_plusminus_m_s": 5e-05,
+  "original_model_doi": "10.1134/S0015462817020132",
+  "experimental_source_doi": "10.1007/s11242-014-0402-8",
+  "input_source_locator": "Alem et al. 2015, methods, Table 1 and Figure 6; existing verified extraction records."
+}

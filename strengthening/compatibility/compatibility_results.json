@@ -1,0 +1,96 @@
+{
+  "original_model_doi": "10.1134/S0015462817020132",
+  "experimental_source_doi": "10.1007/s11242-014-0402-8",
+  "input_sha256": {
+    "parameters.json": "d57d026497abba7d817a0c8245552bf7a5859d80c5e25cef3846b632089284cc",
+    "data_retention_table1.csv": "7aa9fd7bead5c165aabb474cb55d45359335da0e806188020bd35aeb5cd8e77b",
+    "data_retention_profile_table1_flow.csv": "7491ee21ede8b8a9cb7f743b46cd4f03bd75051f8438ae6c1477d9c1cdfecf0f"
+  },
+  "feed_volume_fraction": 9.615384615384615e-05,
+  "pore_volumes": 83.0,
+  "retained_fraction_of_injected": 0.6795,
+  "nominal_mean_retained_saturation": 0.005422932692307692,
+  "nominal_hydraulic_ratio": 0.94,
+  "nominal_hydraulic_ratio_role": "Rounded level of the low-concentration constant-flow published series; not a newly measured or independently matched 83-PV endpoint. Used only as a deterministic nominal mapped comparison.",
+  "support_constant_A": 21.269750043077014,
+  "support_root_s": 0.3085860202182632,
+  "support_contact_D_star": 0.09522533187414635,
+  "decimal_80_digit_root_s": "0.30858602021826320807113439424677478161423235307531029028752346339957781174013789",
+  "decimal_80_digit_A": "21.269750043077013889246055359483703896955516210271197536150413922828017438701041",
+  "reported_initial_conductivity_fractional_variability": 0.07142857142857144,
+  "inversion": [
+    {
+      "deposit_porosity_assumed": 0.0,
+      "nominal_mean_retained_saturation": 0.005422932692307692,
+      "nominal_mapped_hydraulic_ratio": 0.94,
+      "original_law_upper_bound_at_nominal_loading": 0.8965840322494784,
+      "piecewise_constant_section_profile_ratio": 0.8009776420106769,
+      "maximum_loading_not_excluded_by_bound_at_nominal_ratio": 0.003000965554591375,
+      "maximum_fraction_of_nominal_loading_not_excluded": 0.5533842525554811,
+      "maximum_percent_of_nominal_loading_not_excluded": 55.33842525554811,
+      "maximum_ratio_multiplier_not_excluded_at_nominal_loading": 0.9538128002654026,
+      "nominal_point_satisfies_necessary_bound": false
+    },
+    {
+      "deposit_porosity_assumed": 0.3,
+      "nominal_mean_retained_saturation": 0.005422932692307692,
+      "nominal_mapped_hydraulic_ratio": 0.94,
+      "original_law_upper_bound_at_nominal_loading": 0.8585328854517743,
+      "piecewise_constant_section_profile_ratio": 0.7647547849984435,
+      "maximum_loading_not_excluded_by_bound_at_nominal_ratio": 0.002100675888213962,
+      "maximum_fraction_of_nominal_loading_not_excluded": 0.3873689767888367,
+      "maximum_percent_of_nominal_loading_not_excluded": 38.73689767888367,
+      "maximum_ratio_multiplier_not_excluded_at_nominal_loading": 0.9133328568635898,
+      "nominal_point_satisfies_necessary_bound": false
+    },
+    {
+      "deposit_porosity_assumed": 0.5,
+      "nominal_mean_retained_saturation": 0.005422932692307692,
+      "nominal_mapped_hydraulic_ratio": 0.94,
+      "original_law_upper_bound_at_nominal_loading": 0.8125530701511408,
+      "piecewise_constant_section_profile_ratio": 0.7251155871451301,
+      "maximum_loading_not_excluded_by_bound_at_nominal_ratio": 0.0015004827772956875,
+      "maximum_fraction_of_nominal_loading_not_excluded": 0.27669212627774054,
+      "maximum_percent_of_nominal_loading_not_excluded": 27.669212627774055,
+      "maximum_ratio_multiplier_not_excluded_at_nominal_loading": 0.8644181597352562,
+      "nominal_point_satisfies_necessary_bound": false
+    },
+    {
+      "deposit_porosity_assumed": 0.7,
+      "nominal_mean_retained_saturation": 0.005422932692307692,
+      "nominal_mapped_hydraulic_ratio": 0.94,
+      "original_law_upper_bound_at_nominal_loading": 0.7222921110389402,
+      "piecewise_constant_section_profile_ratio": 0.6534054934141257,
+      "maximum_loading_not_excluded_by_bound_at_nominal_ratio": 0.0009002896663774126,
+      "maximum_fraction_of_nominal_loading_not_excluded": 0.16601527576664435,
+      "maximum_percent_of_nominal_loading_not_excluded": 16.601527576664434,
+      "maximum_ratio_multiplier_not_excluded_at_nominal_loading": 0.7683958628073833,
+      "nominal_point_satisfies_necessary_bound": false
+    }
+  ],
+  "numerical_precision_checks": {
+    "polynomial_residual_at_brent_root": 0.0,
+    "double_root_absolute_error_against_80_digit_decimal": 0.0,
+    "double_A_absolute_error_against_80_digit_decimal": 0.0,
+    "independent_minimizer_A_absolute_difference": 0.0,
+    "sampled_pointwise_support_minimum_slack": 0.0,
+    "sampled_pointwise_support_count": 60000,
+    "D_zero_slack_exactly": 0.0,
+    "D_star_slack_floating_point": 0.0,
+    "section_profile_vs_aggregate_mean_absolute_error": 8.673617379884035e-19,
+    "maximum_inverse_forward_ratio_error": 1.1102230246251565e-16,
+    "any_stronger_support_A_plus_1e_minus8_fails_at_D_star": true,
+    "input_hashes_unchanged": true
+  },
+  "limitations": [
+    "These are necessary deterministic model implications, not statistical rejection or experimental confidence bounds.",
+    "The comparison requires the same homogeneous-reference bed interval, loading endpoint, head normalization and relevant fluid properties.",
+    "The nominal 0.94 ratio is rounded from the published low-concentration flow series; its exact match to the 83-PV recovered-mass endpoint is not independently verified.",
+    "Reported initial conductivity variability is about 7%; it does not supply an uncertainty interval for the normalized ratio or justify choosing a correction multiplier.",
+    "Hydraulic conductivity and intrinsic permeability ratios require density/viscosity mapping; the original dilute viscosity correction at the stated feed is below 0.03%.",
+    "Deposit porosity is an assumed fixed constitutive input; it is not measured by these comparisons.",
+    "A smaller loading or altered ratio multiplier that passes the bound is not a fitted or validated correction and does not establish full model compatibility.",
+    "The affine support constant is optimal for the permeability function alone; capacity, profile and kinetic reachability restrictions can give stricter conditions."
+  ],
+  "deterministic_multiplier_definition": "lambda_B multiplies nominal retained loading; lambda_K multiplies nominal mapped hydraulic ratio. Neither multiplier is estimated or assigned a probability."
+}

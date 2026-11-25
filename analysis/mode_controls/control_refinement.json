@@ -1,0 +1,2005 @@
+{
+  "scope": "Fixed-parameter spatial/time-step-CFL refinement of matched-capacity controls; all runs use original t* equations and the same PV14 endpoint.",
+  "quality_note": "Quality thresholds are illustrative, not water standards. Effluent PV excludes the first initial PV, but small residual windows near the advective front can still be dominated by numerical spreading.",
+  "cases": {
+    "control_pressure_capped_linear": [
+      {
+        "n": 80,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "capped_linear"
+          },
+          "n": 80,
+          "steps": 2100,
+          "final_time_star": 1.079487824055253,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.1094237467877974e-15,
+            1.1102230246251565e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0023665387823028124,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 48.99999999999887,
+          "energy_per_injected_PV": 9.99999999999977,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5024347745167733,
+            0.502434774516774
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.05973002405068906,
+              "energy_star_per_good_effluent_PV": 820.3579485991115
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 2.9790857142857146,
+              "energy_star_per_good_effluent_PV": 16.447999386196727
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.0190857142857137,
+              "energy_star_per_good_effluent_PV": 16.230079115720567
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 3.769230769230682
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 160,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "capped_linear"
+          },
+          "n": 160,
+          "steps": 3500,
+          "final_time_star": 1.0795358278639027,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            1.5543122344752192e-15,
+            1.1518563880486e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0011832693911514062,
+          "energy_star": 48.99999999999787,
+          "energy_per_injected_PV": 9.999999999999565,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.4869158520972872,
+            0.486915852097287
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.004935778815725156,
+              "energy_star_per_good_effluent_PV": 9927.51130660195
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.04493280139879241,
+              "energy_star_per_good_effluent_PV": 1090.5173609165345
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 2.9847714285714284,
+              "energy_star_per_good_effluent_PV": 16.416667464366025
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.0190857142857155,
+              "energy_star_per_good_effluent_PV": 16.230079115720226
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 3.7692307692306053
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 320,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "capped_linear"
+          },
+          "n": 320,
+          "steps": 6300,
+          "final_time_star": 1.0795555168360458,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.864375403532904e-14,
+            6.800116025829084e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0005916346955757031,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 49.00000000000608,
+          "energy_per_injected_PV": 10.000000000001242,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.47590327419318607,
+            0.47590327419318645
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.002467874006712778,
+              "energy_star_per_good_effluent_PV": 19855.14652154968
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.032334734888640915,
+              "energy_star_per_good_effluent_PV": 1515.3982294507575
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 2.991928571428572,
+              "energy_star_per_good_effluent_PV": 16.37739632821842
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.016700000000001,
+              "energy_star_per_good_effluent_PV": 16.242914442936343
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 3.7692307692312372
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      }
+    ],
+    "control_pressure_charging_linear": [
+      {
+        "n": 80,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "charging_linear"
+          },
+          "n": 80,
+          "steps": 2100,
+          "final_time_star": 1.073576076761608,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.3314683517128287e-15,
+            1.0824674490095276e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0023665387823028124,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 48.99999999999887,
+          "energy_per_injected_PV": 9.99999999999977,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5303842149922121,
+            0.5303842149922121
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.04988915028873486,
+              "energy_star_per_good_effluent_PV": 982.1774818053623
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 2.839745377436262,
+              "energy_star_per_good_effluent_PV": 17.255068144256068
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.169542857142857,
+              "energy_star_per_good_effluent_PV": 15.459642670416288
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 3.769230769230682
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 160,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "charging_linear"
+          },
+          "n": 160,
+          "steps": 3500,
+          "final_time_star": 1.0736349264060865,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            1.887379141862766e-15,
+            1.2628786905111156e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0011832693911514062,
+          "energy_star": 48.99999999999787,
+          "energy_per_injected_PV": 9.999999999999565,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5141378183350933,
+            0.5141378183350932
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.03483678522614264,
+              "energy_star_per_good_effluent_PV": 1406.5591782340093
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 2.829020941031362,
+              "energy_star_per_good_effluent_PV": 17.320479777761626
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.169542857142858,
+              "energy_star_per_good_effluent_PV": 15.459642670415969
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 3.7692307692306053
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 320,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "charging_linear"
+          },
+          "n": 320,
+          "steps": 6300,
+          "final_time_star": 1.0736611902841022,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.864375403532904e-14,
+            7.022160630754115e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0005916346955757031,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 49.00000000000606,
+          "energy_per_injected_PV": 10.000000000001238,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5025966593204789,
+            0.5025966593204796
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.024945828992041674,
+              "energy_star_per_good_effluent_PV": 1964.2562295940636
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 2.819937605089363,
+              "energy_star_per_good_effluent_PV": 17.37627098967435
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.1671571428571434,
+              "energy_star_per_good_effluent_PV": 15.471287905784925
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 3.7692307692312355
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      }
+    ],
+    "control_pressure_multistage": [
+      {
+        "n": 80,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "multistage"
+          },
+          "n": 80,
+          "steps": 2100,
+          "final_time_star": 1.0910911580351887,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.7200464103316335e-15,
+            1.0547118733938987e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.011832693911514066,
+          "minimum_derived_z": 0.8452244897959182,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 48.99999999999889,
+          "energy_per_injected_PV": 9.999999999999774,
+          "max_normalized_outlet": [
+            1.000000238394,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5303244280126939,
+            0.530324428012694
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.5097678331516133,
+              "energy_star_per_good_effluent_PV": 96.12218899152369
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 1.8696356655258823,
+              "energy_star_per_good_effluent_PV": 26.208314755386528
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 2.1895428571428575,
+              "energy_star_per_good_effluent_PV": 22.379100660280827
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 12.709542857142857,
+              "energy_star_per_good_effluent_PV": 3.8553707675221793
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959182,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 160,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "multistage"
+          },
+          "n": 160,
+          "steps": 3500,
+          "final_time_star": 1.0911481214865009,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            1.942890293094024e-15,
+            1.1796119636642288e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.005916346955757033,
+          "energy_star": 48.99999999999793,
+          "energy_per_injected_PV": 9.999999999999577,
+          "max_normalized_outlet": [
+            1.0000299980833505,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5140922809286652,
+            0.5140922809286655
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.4851181943610712,
+              "energy_star_per_good_effluent_PV": 101.00631262559381
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 1.849124963821069,
+              "energy_star_per_good_effluent_PV": 26.499020325129
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 2.1847714285714286,
+              "energy_star_per_good_effluent_PV": 22.427975466540175
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 12.729542857142857,
+              "energy_star_per_good_effluent_PV": 3.8493134081796847
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959182,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 320,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "pressure",
+            "forcing": 10.0,
+            "kinetics": "multistage"
+          },
+          "n": 320,
+          "steps": 6300,
+          "final_time_star": 1.0911734759700698,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 4.225580444648062,
+          "final_pressure_drop_star": 10.0,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.886579864025407e-14,
+            6.716849298982197e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0029581734778785164,
+          "minimum_derived_z": 0.8452244897959182,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 49.00000000000594,
+          "energy_per_injected_PV": 10.000000000001211,
+          "max_normalized_outlet": [
+            1.0001769660738224,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5025644399142876,
+            0.5025644399142882
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.4776757241028431,
+              "energy_star_per_good_effluent_PV": 102.58005070706983
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 1.8367271877582525,
+              "energy_star_per_good_effluent_PV": 26.677886801365982
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 2.18,
+              "energy_star_per_good_effluent_PV": 22.47706422018621
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 12.78,
+              "energy_star_per_good_effluent_PV": 3.8341158059472566
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959182,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      }
+    ],
+    "control_rate_capped_linear": [
+      {
+        "n": 80,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "capped_linear"
+          },
+          "n": 80,
+          "steps": 2100,
+          "final_time_star": 0.48999999999998817,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.886579864025407e-15,
+            1.1657341758564144e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0010000000000000002,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 104.8010795533077,
+          "energy_per_injected_PV": 21.38797541904239,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5114447691453113,
+            0.5114447691453117
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.05977377458564215,
+              "energy_star_per_good_effluent_PV": 1753.2953252458856
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.11976145812477168,
+              "energy_star_per_good_effluent_PV": 875.0818601767713
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 5.069542857142857,
+              "energy_star_per_good_effluent_PV": 20.67268834815069
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 8.061621504100593
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 160,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "capped_linear"
+          },
+          "n": 160,
+          "steps": 3500,
+          "final_time_star": 0.48999999999994115,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            1.6653345369377348e-15,
+            1.096345236817342e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0005000000000000001,
+          "energy_star": 104.80265141361645,
+          "energy_per_injected_PV": 21.3882962068605,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.4956190226214197,
+            0.49561902262141994
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.004945691844887579,
+              "energy_star_per_good_effluent_PV": 21190.695801630303
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.039777105006367997,
+              "energy_star_per_good_effluent_PV": 2634.748089305101
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.07976887179356384,
+              "energy_star_per_good_effluent_PV": 1313.8289292198872
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 5.079085714285716,
+              "energy_star_per_good_effluent_PV": 20.634156875683892
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 8.061742416432034
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 320,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "capped_linear"
+          },
+          "n": 320,
+          "steps": 6300,
+          "final_time_star": 0.49000000000008453,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.864375403532904e-14,
+            6.9111383282915995e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.00025000000000000006,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 104.80316291151568,
+          "energy_per_injected_PV": 21.388400594186873,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.48438014232549514,
+            0.48438014232549537
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0024728283076440594,
+              "energy_star_per_good_effluent_PV": 42381.90034768929
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.029888864461283582,
+              "energy_star_per_good_effluent_PV": 3506.4283906560595
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.05730123800353626,
+              "energy_star_per_good_effluent_PV": 1828.9860143169667
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 5.084771428571429,
+              "energy_star_per_good_effluent_PV": 20.61118466852309
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 8.061781762424284
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      }
+    ],
+    "control_rate_charging_linear": [
+      {
+        "n": 80,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "charging_linear"
+          },
+          "n": 80,
+          "steps": 2100,
+          "final_time_star": 0.48999999999998783,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.6645352591003757e-15,
+            1.2212453270876722e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0010000000000000002,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 104.03910179640836,
+          "energy_per_injected_PV": 21.232469754369053,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5345063757284559,
+            0.5345063757284557
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.0499079907050648,
+              "energy_star_per_good_effluent_PV": 2084.618120798243
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.07981074504836627,
+              "energy_star_per_good_effluent_PV": 1303.5726171126382
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 5.0295922620570845,
+              "energy_star_per_good_effluent_PV": 20.685394834343242
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 8.003007830492951
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 160,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "charging_linear"
+          },
+          "n": 160,
+          "steps": 3500,
+          "final_time_star": 0.4899999999999415,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.1094237467877974e-15,
+            1.096345236817342e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0005000000000000001,
+          "energy_star": 104.04112119790094,
+          "energy_per_injected_PV": 21.232881877122644,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5180942584641194,
+            0.5180942584641194
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.03486414731659049,
+              "energy_star_per_good_effluent_PV": 2984.1865987180427
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.0598141388969371,
+              "energy_star_per_good_effluent_PV": 1739.4068211392168
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 4.9890040558879996,
+              "energy_star_per_good_effluent_PV": 20.854086313101327
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 8.003163169069303
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 320,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "charging_linear"
+          },
+          "n": 320,
+          "steps": 6300,
+          "final_time_star": 0.4900000000000868,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.8199664825478976e-14,
+            7.049916206369744e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.00025000000000000006,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 104.04193433980062,
+          "energy_per_injected_PV": 21.233047824449105,
+          "max_normalized_outlet": [
+            1.0,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.506429238689986,
+            0.5064292386899863
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.024954875970990775,
+              "energy_star_per_good_effluent_PV": 4169.202622395156
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.039817940285709286,
+              "energy_star_per_good_effluent_PV": 2612.941141436726
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 4.957466205354002,
+              "energy_star_per_good_effluent_PV": 20.98691751593518
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 13.0,
+              "energy_star_per_good_effluent_PV": 8.0032257184462
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      }
+    ],
+    "control_rate_multistage": [
+      {
+        "n": 80,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "multistage"
+          },
+          "n": 80,
+          "steps": 2100,
+          "final_time_star": 0.48999999999998906,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            1.8318679906315083e-15,
+            1.1657341758564144e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.005000000000000002,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 107.0669074930998,
+          "energy_per_injected_PV": 21.850389284306086,
+          "max_normalized_outlet": [
+            1.0002744954483902,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5345063757284559,
+            0.5345063757284557
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.04990582692579526,
+              "energy_star_per_good_effluent_PV": 2145.3788883670254
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.9396204023986792,
+              "energy_star_per_good_effluent_PV": 113.94698031223838
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.259222700360265,
+              "energy_star_per_good_effluent_PV": 32.850442371202476
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 12.669542857142858,
+              "energy_star_per_good_effluent_PV": 8.450731703609765
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 160,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "multistage"
+          },
+          "n": 160,
+          "steps": 3500,
+          "final_time_star": 0.4899999999999394,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            1.9984014443252818e-15,
+            1.061650767297806e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.002500000000000001,
+          "energy_star": 107.06885066258128,
+          "energy_per_injected_PV": 21.850785849506387,
+          "max_normalized_outlet": [
+            1.0002911073427887,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.5180942584641194,
+            0.5180942584641194
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.03486414731659049,
+              "energy_star_per_good_effluent_PV": 3071.0302388962023
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.9092968327272435,
+              "energy_star_per_good_effluent_PV": 117.74906368193422
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.214700465940705,
+              "energy_star_per_good_effluent_PV": 33.30601149219361
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 12.749542857142858,
+              "energy_star_per_good_effluent_PV": 8.397858014383361
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      },
+      {
+        "n": 320,
+        "summary": {
+          "parameters": {
+            "m0": 0.35,
+            "eps": [
+              0.5,
+              0.3
+            ],
+            "alpha_s": [
+              1.0,
+              1.0
+            ],
+            "alpha_d": [
+              0.0,
+              0.0
+            ],
+            "beta_s": [
+              1.0,
+              1.0
+            ],
+            "beta_d": [
+              0.0,
+              0.0
+            ],
+            "charging": [
+              0.5,
+              0.5
+            ],
+            "B1": [
+              0.001,
+              0.0002
+            ],
+            "B2": [
+              0.004,
+              0.001
+            ],
+            "cap": [
+              0.02,
+              0.004
+            ],
+            "mode": "rate",
+            "forcing": 10.0,
+            "kinetics": "multistage"
+          },
+          "n": 320,
+          "steps": 6300,
+          "final_time_star": 0.49000000000007454,
+          "final_PV": 14.0,
+          "final_retained": [
+            0.019999999999999997,
+            0.004000000000000001
+          ],
+          "final_flow_star": 10.0,
+          "final_pressure_drop_star": 23.66538782302812,
+          "final_resistance": 2.366538782302812,
+          "final_fraction_of_cells_at_capacity": [
+            1.0,
+            1.0
+          ],
+          "max_species_balance_error": [
+            2.7533531010703882e-14,
+            6.855627177060342e-15
+          ],
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.8970285714285714,
+          "maximum_occupancy": 0.045714285714285714,
+          "maximum_source_donor_ratio": 0.0012500000000000005,
+          "minimum_derived_z": 0.8452244897959184,
+          "minimum_mobile_fraction": 0.9542857142857143,
+          "energy_star": 107.06961073934882,
+          "energy_per_injected_PV": 21.850940967214047,
+          "max_normalized_outlet": [
+            1.000308947220667,
+            1.0
+          ],
+          "min_normalized_outlet_after_first_PV": [
+            0.506429238689986,
+            0.5064292386899863
+          ],
+          "quality": [
+            {
+              "illustrative_threshold": 0.5,
+              "good_effluent_PV_after_first_initial_PV": 0.0,
+              "energy_star_per_good_effluent_PV": null
+            },
+            {
+              "illustrative_threshold": 0.8,
+              "good_effluent_PV_after_first_initial_PV": 0.024954875970990775,
+              "energy_star_per_good_effluent_PV": 4290.528667175655
+            },
+            {
+              "illustrative_threshold": 0.9,
+              "good_effluent_PV_after_first_initial_PV": 0.8845025966718305,
+              "energy_star_per_good_effluent_PV": 121.05064602662094
+            },
+            {
+              "illustrative_threshold": 0.95,
+              "good_effluent_PV_after_first_initial_PV": 3.1775354652889494,
+              "energy_star_per_good_effluent_PV": 33.695803527282564
+            },
+            {
+              "illustrative_threshold": 1.0,
+              "good_effluent_PV_after_first_initial_PV": 12.787157142857144,
+              "energy_star_per_good_effluent_PV": 8.373214588917246
+            }
+          ],
+          "minimum_sampled_derived_z": 0.8452244897959184,
+          "minimum_sampled_mobile_fraction": 0.9542857142857143
+        }
+      }
+    ]
+  },
+  "elapsed_seconds": 11.72132065400001
+}

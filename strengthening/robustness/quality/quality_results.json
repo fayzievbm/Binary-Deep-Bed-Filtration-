@@ -1,0 +1,872 @@
+{
+  "scope": "Postprocessing of existing capmatched PDE simulations; no new physical equations or simulations.",
+  "definition": "X_theta = integral_1^14 max(max_i(c_i,out/c_i,in)-theta,0) dPV",
+  "feed": [
+    0.05,
+    0.01
+  ],
+  "domain_PV": [
+    1,
+    14
+  ],
+  "illustrative_thresholds": [
+    0.8,
+    0.9,
+    0.95
+  ],
+  "lower_is_better": "Lower X_theta means less integrated normalized exceedance above this illustrative threshold over the declared fixed horizon.",
+  "interpolation": "Each component outlet ratio is piecewise linear between PV=.02 saved samples. Crossings are inserted analytically, so integration is exact for that interpolant.",
+  "accuracy_limits": [
+    "The saved sampling does not determine an error bound relative to the unsaved continuous solver trajectory or the continuum PDE solution.",
+    "Nodal trapezoid differences and decimation to .04/.08 PV quantify sampling sensitivity only; decimation is not an independent PDE convergence study.",
+    "The L1 bounds apply between saved piecewise-linear interpolants; they demonstrate continuity of this metric, not a certified PDE error.",
+    "The sampled_interpolant_good_PV field integrates the saved interpolant and need not equal the good-PV counter accumulated at internal solver steps.",
+    "All cases use PV14 and omit the first injected pore volume. This is neither an optimized stopping policy nor a water-quality standard."
+  ],
+  "cases": {
+    "pressure_capped_linear_n80": {
+      "mode": "pressure",
+      "kinetics": "capped_linear",
+      "n": 80,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_capped_linear_n80.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.237275836565506,
+          "sampled_interpolant_good_PV": 0.058984124143890385,
+          "nodal_trapezoid_exceedance_PV": 2.237310195127955,
+          "trapezoid_minus_exact_interpolant": 3.435856244893287e-05,
+          "decimated_004_difference_PV": -0.00031286741162128706,
+          "decimated_008_difference_PV": -0.0009140526399771254
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9975626511413074,
+          "sampled_interpolant_good_PV": 2.9713502371774174,
+          "nodal_trapezoid_exceedance_PV": 0.9975913925880948,
+          "trapezoid_minus_exact_interpolant": 2.8741446787439173e-05,
+          "decimated_004_difference_PV": -7.685361328169105e-05,
+          "decimated_008_difference_PV": -5.5907321154902156e-05
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.497418904710362,
+          "sampled_interpolant_good_PV": 3.0165099332732237,
+          "nodal_trapezoid_exceedance_PV": 0.49745989480626557,
+          "trapezoid_minus_exact_interpolant": 4.099009590358138e-05,
+          "decimated_004_difference_PV": -0.00012473349443337112,
+          "decimated_008_difference_PV": -0.00034278975840351666
+        }
+      ]
+    },
+    "pressure_capped_linear_n160": {
+      "mode": "pressure",
+      "kinetics": "capped_linear",
+      "n": 160,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_capped_linear.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.239609135899147,
+          "sampled_interpolant_good_PV": 0.043171167561200936,
+          "nodal_trapezoid_exceedance_PV": 2.2396973875146524,
+          "trapezoid_minus_exact_interpolant": 8.82516155056301e-05,
+          "decimated_004_difference_PV": -0.0004990753865223851,
+          "decimated_008_difference_PV": -0.00117831937271351
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.997720972940678,
+          "sampled_interpolant_good_PV": 2.9829185371643856,
+          "nodal_trapezoid_exceedance_PV": 0.9977495670229382,
+          "trapezoid_minus_exact_interpolant": 2.8594082260191556e-05,
+          "decimated_004_difference_PV": -0.00013230378015960387,
+          "decimated_008_difference_PV": 0.0001361777770285677
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.49780583231607456,
+          "sampled_interpolant_good_PV": 3.0165901471801426,
+          "nodal_trapezoid_exceedance_PV": 0.497857670937246,
+          "trapezoid_minus_exact_interpolant": 5.183862117141835e-05,
+          "decimated_004_difference_PV": -0.00015340368050176245,
+          "decimated_008_difference_PV": -0.00033697584407682557
+        }
+      ]
+    },
+    "pressure_capped_linear_n320": {
+      "mode": "pressure",
+      "kinetics": "capped_linear",
+      "n": 320,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_capped_linear_n320.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.241286403378411,
+          "sampled_interpolant_good_PV": 0.032609493745248824,
+          "nodal_trapezoid_exceedance_PV": 2.241585393480098,
+          "trapezoid_minus_exact_interpolant": 0.0002989901016872132,
+          "decimated_004_difference_PV": -0.0004888095959367789,
+          "decimated_008_difference_PV": -0.002009671528037771
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9978211838690602,
+          "sampled_interpolant_good_PV": 2.988324164622549,
+          "nodal_trapezoid_exceedance_PV": 0.9978747151978995,
+          "trapezoid_minus_exact_interpolant": 5.35313288393402e-05,
+          "decimated_004_difference_PV": -0.00023298225441370501,
+          "decimated_008_difference_PV": 0.00030543957601725236
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.498050236462261,
+          "sampled_interpolant_good_PV": 3.016378655842064,
+          "nodal_trapezoid_exceedance_PV": 0.49811748179960286,
+          "trapezoid_minus_exact_interpolant": 6.724533734187021e-05,
+          "decimated_004_difference_PV": -0.00019399812578130282,
+          "decimated_008_difference_PV": -0.00033826593651664627
+        }
+      ]
+    },
+    "pressure_charging_linear_n80": {
+      "mode": "pressure",
+      "kinetics": "charging_linear",
+      "n": 80,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_charging_linear_n80.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.234312886987592,
+          "sampled_interpolant_good_PV": 0.04682083124345388,
+          "nodal_trapezoid_exceedance_PV": 2.23448244209377,
+          "trapezoid_minus_exact_interpolant": 0.00016955510617799874,
+          "decimated_004_difference_PV": -0.0003927691873202299,
+          "decimated_008_difference_PV": -0.0018853287571101163
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9918064934674633,
+          "sampled_interpolant_good_PV": 2.833958279482067,
+          "nodal_trapezoid_exceedance_PV": 0.9918707460648547,
+          "trapezoid_minus_exact_interpolant": 6.425259739140099e-05,
+          "decimated_004_difference_PV": -0.00020959046786495072,
+          "decimated_008_difference_PV": -0.0014442749050281867
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.4897785913720586,
+          "sampled_interpolant_good_PV": 3.1671818295918577,
+          "nodal_trapezoid_exceedance_PV": 0.48983015714826417,
+          "trapezoid_minus_exact_interpolant": 5.156577620557545e-05,
+          "decimated_004_difference_PV": -0.00013260965368294686,
+          "decimated_008_difference_PV": -0.00039147698940233955
+        }
+      ]
+    },
+    "pressure_charging_linear_n160": {
+      "mode": "pressure",
+      "kinetics": "charging_linear",
+      "n": 160,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_charging_linear.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.237494607144215,
+          "sampled_interpolant_good_PV": 0.03467430806995453,
+          "nodal_trapezoid_exceedance_PV": 2.237750235912705,
+          "trapezoid_minus_exact_interpolant": 0.00025562876848983507,
+          "decimated_004_difference_PV": -0.00041949287992659734,
+          "decimated_008_difference_PV": -0.0028652445836998552
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9936372797236073,
+          "sampled_interpolant_good_PV": 2.8240389566573554,
+          "nodal_trapezoid_exceedance_PV": 0.9937274315063058,
+          "trapezoid_minus_exact_interpolant": 9.01517826985554e-05,
+          "decimated_004_difference_PV": -0.00023910733084109292,
+          "decimated_008_difference_PV": -0.0012143149020518162
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.4901553394871193,
+          "sampled_interpolant_good_PV": 3.16777862707936,
+          "nodal_trapezoid_exceedance_PV": 0.490222433056602,
+          "trapezoid_minus_exact_interpolant": 6.709356948270129e-05,
+          "decimated_004_difference_PV": -0.00017477067200244445,
+          "decimated_008_difference_PV": -0.00042395743304235456
+        }
+      ]
+    },
+    "pressure_charging_linear_n320": {
+      "mode": "pressure",
+      "kinetics": "charging_linear",
+      "n": 320,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_charging_linear_n320.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.239694895995197,
+          "sampled_interpolant_good_PV": 0.02584332283511106,
+          "nodal_trapezoid_exceedance_PV": 2.2399751210996177,
+          "trapezoid_minus_exact_interpolant": 0.0002802251044204951,
+          "decimated_004_difference_PV": -0.0004344056417875386,
+          "decimated_008_difference_PV": -0.004278149193780667
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9948659777165203,
+          "sampled_interpolant_good_PV": 2.8183787504531503,
+          "nodal_trapezoid_exceedance_PV": 0.9949385518801697,
+          "trapezoid_minus_exact_interpolant": 7.257416364936375e-05,
+          "decimated_004_difference_PV": -0.0003539138675365816,
+          "decimated_008_difference_PV": -0.001575200833248025
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.4903819112154863,
+          "sampled_interpolant_good_PV": 3.168088119595549,
+          "nodal_trapezoid_exceedance_PV": 0.4904603826962047,
+          "trapezoid_minus_exact_interpolant": 7.84714807183784e-05,
+          "decimated_004_difference_PV": -0.00020789811274146697,
+          "decimated_008_difference_PV": -0.000441818021207685
+        }
+      ]
+    },
+    "pressure_multistage_n80": {
+      "mode": "pressure",
+      "kinetics": "multistage",
+      "n": 80,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_multistage_n80.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.288430396180474,
+          "sampled_interpolant_good_PV": 0.5028667392569515,
+          "nodal_trapezoid_exceedance_PV": 2.288668285726429,
+          "trapezoid_minus_exact_interpolant": 0.00023788954595493905,
+          "decimated_004_difference_PV": -0.0007973015506834713,
+          "decimated_008_difference_PV": -0.0023127547710672935
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 1.0901314294409592,
+          "sampled_interpolant_good_PV": 1.8557980161087735,
+          "nodal_trapezoid_exceedance_PV": 1.0901824738256134,
+          "trapezoid_minus_exact_interpolant": 5.104438465419747e-05,
+          "decimated_004_difference_PV": -0.00030386811535798586,
+          "decimated_008_difference_PV": -0.0016103673863832046
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.5390214367321217,
+          "sampled_interpolant_good_PV": 2.180633525768418,
+          "nodal_trapezoid_exceedance_PV": 0.5390272880562246,
+          "trapezoid_minus_exact_interpolant": 5.851324102912336e-06,
+          "decimated_004_difference_PV": -0.00010992547979171707,
+          "decimated_008_difference_PV": -0.0006317486106007797
+        }
+      ]
+    },
+    "pressure_multistage_n160": {
+      "mode": "pressure",
+      "kinetics": "multistage",
+      "n": 160,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_multistage.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.2919746601230355,
+          "sampled_interpolant_good_PV": 0.4874364951498225,
+          "nodal_trapezoid_exceedance_PV": 2.292304681888408,
+          "trapezoid_minus_exact_interpolant": 0.0003300217653725568,
+          "decimated_004_difference_PV": -0.0009085514515607684,
+          "decimated_008_difference_PV": -0.0037377121045722994
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 1.0920145042320384,
+          "sampled_interpolant_good_PV": 1.842710239883036,
+          "nodal_trapezoid_exceedance_PV": 1.0921160078991987,
+          "trapezoid_minus_exact_interpolant": 0.00010150366716032977,
+          "decimated_004_difference_PV": -0.00041984680963280674,
+          "decimated_008_difference_PV": -0.0017935771368791098
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.5393990183849736,
+          "sampled_interpolant_good_PV": 2.1803246354275863,
+          "nodal_trapezoid_exceedance_PV": 0.5394025022773605,
+          "trapezoid_minus_exact_interpolant": 3.4838923869129346e-06,
+          "decimated_004_difference_PV": -0.00013248125446307935,
+          "decimated_008_difference_PV": -0.0007610120744961923
+        }
+      ]
+    },
+    "pressure_multistage_n320": {
+      "mode": "pressure",
+      "kinetics": "multistage",
+      "n": 320,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_pressure_multistage_n320.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.2943452627577328,
+          "sampled_interpolant_good_PV": 0.4770315392205894,
+          "nodal_trapezoid_exceedance_PV": 2.294700076478321,
+          "trapezoid_minus_exact_interpolant": 0.00035481372058843164,
+          "decimated_004_difference_PV": -0.0010030586295197708,
+          "decimated_008_difference_PV": -0.005642946829573781
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 1.0932679267734344,
+          "sampled_interpolant_good_PV": 1.8337723121123422,
+          "nodal_trapezoid_exceedance_PV": 1.0933537052590985,
+          "trapezoid_minus_exact_interpolant": 8.577848566404533e-05,
+          "decimated_004_difference_PV": -0.0006245395765256401,
+          "decimated_008_difference_PV": -0.0025478594493748563
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.539623611598123,
+          "sampled_interpolant_good_PV": 2.179673135735639,
+          "nodal_trapezoid_exceedance_PV": 0.5396307321756613,
+          "trapezoid_minus_exact_interpolant": 7.120577538266559e-06,
+          "decimated_004_difference_PV": -0.00015991537994708427,
+          "decimated_008_difference_PV": -0.000850417855926322
+        }
+      ]
+    },
+    "rate_capped_linear_n80": {
+      "mode": "rate",
+      "kinetics": "capped_linear",
+      "n": 80,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_capped_linear_n80.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.2362578674709948,
+          "sampled_interpolant_good_PV": 0.05458285973225398,
+          "nodal_trapezoid_exceedance_PV": 2.2364023770558115,
+          "trapezoid_minus_exact_interpolant": 0.00014450958481670995,
+          "decimated_004_difference_PV": -0.00035048123576419954,
+          "decimated_008_difference_PV": -0.00124726501168837
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.943825510105996,
+          "sampled_interpolant_good_PV": 0.11234712316935816,
+          "nodal_trapezoid_exceedance_PV": 0.9438572093894092,
+          "trapezoid_minus_exact_interpolant": 3.169928341317796e-05,
+          "decimated_004_difference_PV": -4.7425160117131604e-05,
+          "decimated_008_difference_PV": -0.00033688189853209316
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.38397215062948076,
+          "sampled_interpolant_good_PV": 5.066257015840578,
+          "nodal_trapezoid_exceedance_PV": 0.3839748004607024,
+          "trapezoid_minus_exact_interpolant": 2.6498312216682862e-06,
+          "decimated_004_difference_PV": -3.282563704576358e-06,
+          "decimated_008_difference_PV": -4.797548278645536e-05
+        }
+      ]
+    },
+    "rate_capped_linear_n160": {
+      "mode": "rate",
+      "kinetics": "capped_linear",
+      "n": 160,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_capped_linear.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.238885874029762,
+          "sampled_interpolant_good_PV": 0.03923330942058055,
+          "nodal_trapezoid_exceedance_PV": 2.2389324897792964,
+          "trapezoid_minus_exact_interpolant": 4.661574953424008e-05,
+          "decimated_004_difference_PV": -0.00046241030147964324,
+          "decimated_008_difference_PV": -0.001851017010501721
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9443625973595577,
+          "sampled_interpolant_good_PV": 0.07874149071073629,
+          "nodal_trapezoid_exceedance_PV": 0.944379718649226,
+          "trapezoid_minus_exact_interpolant": 1.7121289668242667e-05,
+          "decimated_004_difference_PV": -7.345486934895451e-05,
+          "decimated_008_difference_PV": -0.0003484408721460275
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.38391644987213747,
+          "sampled_interpolant_good_PV": 5.076513712114785,
+          "nodal_trapezoid_exceedance_PV": 0.38391825457080114,
+          "trapezoid_minus_exact_interpolant": 1.8046986636766071e-06,
+          "decimated_004_difference_PV": -2.595252140802362e-06,
+          "decimated_008_difference_PV": -5.360474204973986e-05
+        }
+      ]
+    },
+    "rate_capped_linear_n320": {
+      "mode": "rate",
+      "kinetics": "capped_linear",
+      "n": 320,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_capped_linear_n320.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.2407375230089848,
+          "sampled_interpolant_good_PV": 0.0302819978171861,
+          "nodal_trapezoid_exceedance_PV": 2.2410652399165167,
+          "trapezoid_minus_exact_interpolant": 0.0003277169075319719,
+          "decimated_004_difference_PV": -0.00043478313808398283,
+          "decimated_008_difference_PV": -0.003053478305792723
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9447411946503144,
+          "sampled_interpolant_good_PV": 0.05728969766476213,
+          "nodal_trapezoid_exceedance_PV": 0.9447903246193954,
+          "trapezoid_minus_exact_interpolant": 4.912996908101874e-05,
+          "decimated_004_difference_PV": -0.00013202046053428784,
+          "decimated_008_difference_PV": -0.0002526106898588232
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.3838926134949123,
+          "sampled_interpolant_good_PV": 5.082163324974003,
+          "nodal_trapezoid_exceedance_PV": 0.3838943264281468,
+          "trapezoid_minus_exact_interpolant": 1.7129332344767434e-06,
+          "decimated_004_difference_PV": -2.5190277230247027e-06,
+          "decimated_008_difference_PV": -5.554056237694338e-05
+        }
+      ]
+    },
+    "rate_charging_linear_n80": {
+      "mode": "rate",
+      "kinetics": "charging_linear",
+      "n": 80,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_charging_linear_n80.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.2339458080766788,
+          "sampled_interpolant_good_PV": 0.04499371843539364,
+          "nodal_trapezoid_exceedance_PV": 2.234088782744895,
+          "trapezoid_minus_exact_interpolant": 0.0001429746682162225,
+          "decimated_004_difference_PV": -0.00043626058321155625,
+          "decimated_008_difference_PV": -0.0015812191503492556
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9398991908714092,
+          "sampled_interpolant_good_PV": 0.0779243038345314,
+          "nodal_trapezoid_exceedance_PV": 0.9399435466240631,
+          "trapezoid_minus_exact_interpolant": 4.43557526539351e-05,
+          "decimated_004_difference_PV": -0.00016213430159284226,
+          "decimated_008_difference_PV": -0.0007212730769182718
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.37535232455099554,
+          "sampled_interpolant_good_PV": 5.028241074432767,
+          "nodal_trapezoid_exceedance_PV": 0.37538017746554253,
+          "trapezoid_minus_exact_interpolant": 2.7852914546988572e-05,
+          "decimated_004_difference_PV": -5.728356005246793e-05,
+          "decimated_008_difference_PV": -0.00021510198579288708
+        }
+      ]
+    },
+    "rate_charging_linear_n160": {
+      "mode": "rate",
+      "kinetics": "charging_linear",
+      "n": 160,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_charging_linear.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.237220363732488,
+          "sampled_interpolant_good_PV": 0.03364802113290721,
+          "nodal_trapezoid_exceedance_PV": 2.2375067530688684,
+          "trapezoid_minus_exact_interpolant": 0.00028638933638047703,
+          "decimated_004_difference_PV": -0.0004853949563572435,
+          "decimated_008_difference_PV": -0.0024348043789341745
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9415639832841887,
+          "sampled_interpolant_good_PV": 0.05643604364052163,
+          "nodal_trapezoid_exceedance_PV": 0.9416673952349011,
+          "trapezoid_minus_exact_interpolant": 0.0001034119507123954,
+          "decimated_004_difference_PV": -0.0002679690706988147,
+          "decimated_008_difference_PV": -0.000522414036617902
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.37570248570029824,
+          "sampled_interpolant_good_PV": 4.987476407715417,
+          "nodal_trapezoid_exceedance_PV": 0.3757309656629116,
+          "trapezoid_minus_exact_interpolant": 2.8479962613348064e-05,
+          "decimated_004_difference_PV": -8.414181319288394e-05,
+          "decimated_008_difference_PV": -0.00040353918183466675
+        }
+      ]
+    },
+    "rate_charging_linear_n320": {
+      "mode": "rate",
+      "kinetics": "charging_linear",
+      "n": 320,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_charging_linear_n320.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.2394919783293035,
+          "sampled_interpolant_good_PV": 0.024874527314594178,
+          "nodal_trapezoid_exceedance_PV": 2.2397440405236693,
+          "trapezoid_minus_exact_interpolant": 0.0002520621943657986,
+          "decimated_004_difference_PV": -0.0005549597685239327,
+          "decimated_008_difference_PV": -0.003853112673968706
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 0.9427106943302249,
+          "sampled_interpolant_good_PV": 0.0394997927041229,
+          "nodal_trapezoid_exceedance_PV": 0.9427440405236696,
+          "trapezoid_minus_exact_interpolant": 3.334619344463885e-05,
+          "decimated_004_difference_PV": -0.00031192645541522346,
+          "decimated_008_difference_PV": -0.0009489478940450935
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.3759485759244124,
+          "sampled_interpolant_good_PV": 4.961197780145466,
+          "nodal_trapezoid_exceedance_PV": 0.3759896676174541,
+          "trapezoid_minus_exact_interpolant": 4.109169304172822e-05,
+          "decimated_004_difference_PV": -8.390261747548422e-05,
+          "decimated_008_difference_PV": -0.00029796300823387023
+        }
+      ]
+    },
+    "rate_multistage_n80": {
+      "mode": "rate",
+      "kinetics": "multistage",
+      "n": 80,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_multistage_n80.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.276097584758048,
+          "sampled_interpolant_good_PV": 0.04499408509055615,
+          "nodal_trapezoid_exceedance_PV": 2.276245234749324,
+          "trapezoid_minus_exact_interpolant": 0.00014764999127603318,
+          "decimated_004_difference_PV": -0.0005862610683737834,
+          "decimated_008_difference_PV": -0.00224884195878694
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 1.013613111266518,
+          "sampled_interpolant_good_PV": 0.9348469967187092,
+          "nodal_trapezoid_exceedance_PV": 1.0136710512467455,
+          "trapezoid_minus_exact_interpolant": 5.7939980227406096e-05,
+          "decimated_004_difference_PV": -0.0002567194770224379,
+          "decimated_008_difference_PV": -0.0010989310911939665
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.46601885368914325,
+          "sampled_interpolant_good_PV": 3.259002688918887,
+          "nodal_trapezoid_exceedance_PV": 0.4660482821482612,
+          "trapezoid_minus_exact_interpolant": 2.942845911796388e-05,
+          "decimated_004_difference_PV": -5.76526399707622e-05,
+          "decimated_008_difference_PV": -0.0002195572609615115
+        }
+      ]
+    },
+    "rate_multistage_n160": {
+      "mode": "rate",
+      "kinetics": "multistage",
+      "n": 160,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_multistage.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.2798283069733247,
+          "sampled_interpolant_good_PV": 0.0336480479999349,
+          "nodal_trapezoid_exceedance_PV": 2.2801700496180235,
+          "trapezoid_minus_exact_interpolant": 0.0003417426446987726,
+          "decimated_004_difference_PV": -0.0006401314743316178,
+          "decimated_008_difference_PV": -0.003174951634214551
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 1.0157646936424778,
+          "sampled_interpolant_good_PV": 0.9073811847320383,
+          "nodal_trapezoid_exceedance_PV": 1.0159182349941673,
+          "trapezoid_minus_exact_interpolant": 0.00015354135168954564,
+          "decimated_004_difference_PV": -0.00037431241066587795,
+          "decimated_008_difference_PV": -0.000965294932188332
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.4663956167528671,
+          "sampled_interpolant_good_PV": 3.213542782781741,
+          "nodal_trapezoid_exceedance_PV": 0.4664209953366595,
+          "trapezoid_minus_exact_interpolant": 2.5378583792368126e-05,
+          "decimated_004_difference_PV": -8.219511318002803e-05,
+          "decimated_008_difference_PV": -0.00040251813604108566
+        }
+      ]
+    },
+    "rate_multistage_n320": {
+      "mode": "rate",
+      "kinetics": "multistage",
+      "n": 320,
+      "stored_PV_spacing_max": 0.02000000000000135,
+      "source_file": "control_rate_multistage_n320.csv",
+      "metrics": [
+        {
+          "theta": 0.8,
+          "exceedance_PV": 2.282323618092294,
+          "sampled_interpolant_good_PV": 0.025554114157409522,
+          "nodal_trapezoid_exceedance_PV": 2.282652686545068,
+          "trapezoid_minus_exact_interpolant": 0.0003290684527739174,
+          "decimated_004_difference_PV": -0.0007068318137770646,
+          "decimated_008_difference_PV": -0.004725022476818275
+        },
+        {
+          "theta": 0.9,
+          "exceedance_PV": 1.0172309589605153,
+          "sampled_interpolant_good_PV": 0.8870785044010145,
+          "nodal_trapezoid_exceedance_PV": 1.0173370266115545,
+          "trapezoid_minus_exact_interpolant": 0.0001060676510391545,
+          "decimated_004_difference_PV": -0.00043247972893789566,
+          "decimated_008_difference_PV": -0.001489318208894863
+        },
+        {
+          "theta": 0.95,
+          "exceedance_PV": 0.4666558771764487,
+          "sampled_interpolant_good_PV": 3.1832983783921684,
+          "nodal_trapezoid_exceedance_PV": 0.46669902200206803,
+          "trapezoid_minus_exact_interpolant": 4.314482561934563e-05,
+          "decimated_004_difference_PV": -8.142365991165024e-05,
+          "decimated_008_difference_PV": -0.0002929260721899474
+        }
+      ]
+    }
+  },
+  "grid_comparisons": [
+    {
+      "mode": "pressure",
+      "kinetics": "capped_linear",
+      "grids": [
+        80,
+        160
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.004128148106422813,
+      "saved_interpolant_L1_difference_bound": 0.010239893592958491
+    },
+    {
+      "mode": "pressure",
+      "kinetics": "capped_linear",
+      "grids": [
+        160,
+        320
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.003070552085828737,
+      "saved_interpolant_L1_difference_bound": 0.007327557697926357
+    },
+    {
+      "mode": "pressure",
+      "kinetics": "charging_linear",
+      "grids": [
+        80,
+        160
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.004420829483843924,
+      "saved_interpolant_L1_difference_bound": 0.0113102610376753
+    },
+    {
+      "mode": "pressure",
+      "kinetics": "charging_linear",
+      "grids": [
+        160,
+        320
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.003257233720090902,
+      "saved_interpolant_L1_difference_bound": 0.00796402892243218
+    },
+    {
+      "mode": "pressure",
+      "kinetics": "multistage",
+      "grids": [
+        80,
+        160
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.0050610513574991245,
+      "saved_interpolant_L1_difference_bound": 0.013978150287572877
+    },
+    {
+      "mode": "pressure",
+      "kinetics": "multistage",
+      "grids": [
+        160,
+        320
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.003598132955857203,
+      "saved_interpolant_L1_difference_bound": 0.009450008676232559
+    },
+    {
+      "mode": "rate",
+      "kinetics": "capped_linear",
+      "grids": [
+        80,
+        160
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.004206011158387035,
+      "saved_interpolant_L1_difference_bound": 0.0088955777246843
+    },
+    {
+      "mode": "rate",
+      "kinetics": "capped_linear",
+      "grids": [
+        160,
+        320
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.003122760557374704,
+      "saved_interpolant_L1_difference_bound": 0.0064760915619208066
+    },
+    {
+      "mode": "rate",
+      "kinetics": "charging_linear",
+      "grids": [
+        80,
+        160
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.004442497912353183,
+      "saved_interpolant_L1_difference_bound": 0.009915276042953176
+    },
+    {
+      "mode": "rate",
+      "kinetics": "charging_linear",
+      "grids": [
+        160,
+        320
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.0032773671707735375,
+      "saved_interpolant_L1_difference_bound": 0.007170102547268408
+    },
+    {
+      "mode": "rate",
+      "kinetics": "multistage",
+      "grids": [
+        80,
+        160
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.004898666753842207,
+      "saved_interpolant_L1_difference_bound": 0.013134543999078369
+    },
+    {
+      "mode": "rate",
+      "kinetics": "multistage",
+      "grids": [
+        160,
+        320
+      ],
+      "maximum_exceedance_difference_over_threshold_curve": 0.0035010026008066575,
+      "saved_interpolant_L1_difference_bound": 0.009130578328753226
+    }
+  ],
+  "source_provenance": [
+    {
+      "file": "inputs/control_pressure_capped_linear_n80.csv",
+      "sha256": "641ad26a1312650b8f249ba4585bcdabf2a23e58112732fef46ac929649b8cb4"
+    },
+    {
+      "file": "inputs/control_pressure_capped_linear.csv",
+      "sha256": "30e65c893e9800de80550b98b0b54a93a385a72cbf81631c85cbeca477216b57"
+    },
+    {
+      "file": "inputs/control_pressure_capped_linear_n320.csv",
+      "sha256": "e88769d3a7d06dbaeed49e21f8f15098d91abdc289972667aa03056cba35d4e9"
+    },
+    {
+      "file": "inputs/control_pressure_charging_linear_n80.csv",
+      "sha256": "fdd2d04d4fc99697a1dcede459b937ad1a48654ba2f9931aa56d6881dbb8df76"
+    },
+    {
+      "file": "inputs/control_pressure_charging_linear.csv",
+      "sha256": "e787e66424603af44942f17bc987a6cea82c84fcdf1222cc4c894da360036657"
+    },
+    {
+      "file": "inputs/control_pressure_charging_linear_n320.csv",
+      "sha256": "f50566cf72ad6b2891eafc782f057025a1cc6b459f29d6bef7a715b7248bde70"
+    },
+    {
+      "file": "inputs/control_pressure_multistage_n80.csv",
+      "sha256": "16fe43e3e4a03d9f1b134349535e702bce13715bd3f31a91480147d8a4171d4c"
+    },
+    {
+      "file": "inputs/control_pressure_multistage.csv",
+      "sha256": "12f3fae56d6ac36b04b40180e961ba2b92c7e8391b13b9d71c67c55db5be80d0"
+    },
+    {
+      "file": "inputs/control_pressure_multistage_n320.csv",
+      "sha256": "4037258b41e9e0eddabb20453b74437ef135daae10cda7f2059c3257542c5e01"
+    },
+    {
+      "file": "inputs/control_rate_capped_linear_n80.csv",
+      "sha256": "835e896af3e8134fd8df630c76e808457bb552a7ee3704d4272abfabc04b310f"
+    },
+    {
+      "file": "inputs/control_rate_capped_linear.csv",
+      "sha256": "9c71ba940b5de245fd8218b641194dd4646d76f803ee12e3fc99bdca412bb9f3"
+    },
+    {
+      "file": "inputs/control_rate_capped_linear_n320.csv",
+      "sha256": "23a922d8dbba57b295434f488030b08c9f43d2e7f8c1174e6b7ea36848e29ec1"
+    },
+    {
+      "file": "inputs/control_rate_charging_linear_n80.csv",
+      "sha256": "6604f28da2e8e49fda46512ed65dfbd9b38626be707749849a7b41138911c82d"
+    },
+    {
+      "file": "inputs/control_rate_charging_linear.csv",
+      "sha256": "8cfeabec4e66739eb764e5222d330cce0977fd040b7f28c6bf07b131cc1f9a9c"
+    },
+    {
+      "file": "inputs/control_rate_charging_linear_n320.csv",
+      "sha256": "cc240be5753e25a069b525b0b6f764add5bee0d21d659ccdcc3e4210a0619f6e"
+    },
+    {
+      "file": "inputs/control_rate_multistage_n80.csv",
+      "sha256": "82e1ed2871fc86f732aa0761da77d0df26779168b58f9fc06ae8b1ce93777997"
+    },
+    {
+      "file": "inputs/control_rate_multistage.csv",
+      "sha256": "388daf3355939a6511f0d26f42b57fe9e22d39aab00ae65d0c504f8cb6b7649c"
+    },
+    {
+      "file": "inputs/control_rate_multistage_n320.csv",
+      "sha256": "09bd83eb0cc30812fc93ef84a95dd99f285b6015adac630b8da0b4590b7283f7"
+    }
+  ]
+}

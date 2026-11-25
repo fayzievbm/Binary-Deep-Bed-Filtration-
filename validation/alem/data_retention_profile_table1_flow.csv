@@ -1,0 +1,10 @@
+study,source,mode,x_left_m,x_right_m,fraction_of_injected_mass_in_bin,B_mean_in_bin_per_original_pore_volume,method
+Alem2015,Table1,constant_flow,0.0,0.02,0.0986,0.01573807692307692,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.02,0.07,0.16940000000000002,0.010815538461538463,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.07,0.12,0.1131,0.007221000000000002,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.12,0.17,0.0834,0.00532476923076923,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.17,0.22,0.0608,0.0038818461538461546,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.22,0.27,0.058499999999999996,0.0037349999999999987,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.27,0.32,0.0373,0.002381461538461539,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.32,0.37,0.0369,0.0023559230769230775,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth
+Alem2015,Table1,constant_flow,0.37,0.4,0.0215,0.0022878205128205108,transcribed printed Table1; converted with reported density/feed/PV/sectionwidth

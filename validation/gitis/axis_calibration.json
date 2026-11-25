@@ -1,0 +1,146 @@
+{
+  "6": {
+    "source_image": "figure_006.jpg",
+    "width_px": 1004,
+    "height_px": 695,
+    "source_sha256": "23401206ab63b25f0b6d088b5cba129197311b3fed41c40ddcd1b0a511d7faea",
+    "x_ticks_pixel_value": [
+      [
+        303.5,
+        0
+      ],
+      [
+        470.5,
+        2
+      ],
+      [
+        638.5,
+        4
+      ],
+      [
+        806.5,
+        6
+      ],
+      [
+        974.5,
+        8
+      ]
+    ],
+    "y_ticks_pixel_value": [
+      [
+        507.5,
+        0
+      ],
+      [
+        410.0,
+        0.05
+      ],
+      [
+        312.5,
+        0.1
+      ],
+      [
+        215.0,
+        0.15
+      ],
+      [
+        117.5,
+        0.2
+      ],
+      [
+        20.0,
+        0.25
+      ]
+    ],
+    "time_h_from_pixel": {
+      "slope": 0.01191893420009604,
+      "intercept": -3.612623273601345
+    },
+    "concentration_ratio_from_pixel": {
+      "slope": -0.0005128205128205129,
+      "intercept": 0.2602564102564103
+    },
+    "tick_fit_max_abs_residual_h": 0.004773256127803105,
+    "tick_fit_max_abs_residual_ratio": 5.551115123125783e-17,
+    "positional_uncertainty_envelope_px": 3.0,
+    "time_uncertainty_envelope_h": 0.035756802600288115,
+    "ratio_uncertainty_envelope": 0.001538461538461539,
+    "uncertainty_type": "conservative digitization envelope; not experimental uncertainty, SD or confidence interval"
+  },
+  "7": {
+    "source_image": "figure_008.jpg",
+    "width_px": 980,
+    "height_px": 692,
+    "source_sha256": "acdd33fea68964a3509882b023d3db8882937c7552cc9c6d2bcee18a5f64eab6",
+    "x_ticks_pixel_value": [
+      [
+        264,
+        0
+      ],
+      [
+        404.5,
+        2
+      ],
+      [
+        544.5,
+        4
+      ],
+      [
+        685,
+        6
+      ],
+      [
+        825.5,
+        8
+      ],
+      [
+        965.5,
+        10
+      ]
+    ],
+    "y_ticks_pixel_value": [
+      [
+        590.5,
+        0
+      ],
+      [
+        493.5,
+        0.1
+      ],
+      [
+        397,
+        0.2
+      ],
+      [
+        300.5,
+        0.3
+      ],
+      [
+        204,
+        0.4
+      ],
+      [
+        108,
+        0.5
+      ],
+      [
+        11.5,
+        0.6
+      ]
+    ],
+    "time_h_from_pixel": {
+      "slope": 0.014253711813417915,
+      "intercept": -3.7636571466164437
+    },
+    "concentration_ratio_from_pixel": {
+      "slope": -0.0010366515283852364,
+      "intercept": 0.611735923892989
+    },
+    "tick_fit_max_abs_residual_h": 0.0027819553600458846,
+    "tick_fit_max_abs_residual_ratio": 0.0004068036184929902,
+    "positional_uncertainty_envelope_px": 3.0,
+    "time_uncertainty_envelope_h": 0.04276113544025374,
+    "ratio_uncertainty_envelope": 0.0031099545851557093,
+    "uncertainty_type": "conservative digitization envelope; not experimental uncertainty, SD or confidence interval"
+  }
+}

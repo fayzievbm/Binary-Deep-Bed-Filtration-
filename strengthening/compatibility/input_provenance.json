@@ -1,0 +1,31 @@
+{
+  "original_inputs": [
+    {
+      "project_path": "work_validation/alem/data_retention_table1.csv",
+      "sha256": "7aa9fd7bead5c165aabb474cb55d45359335da0e806188020bd35aeb5cd8e77b"
+    },
+    {
+      "project_path": "work_validation/alem/data_retention_profile_table1_flow.csv",
+      "sha256": "7491ee21ede8b8a9cb7f743b46cd4f03bd75051f8438ae6c1477d9c1cdfecf0f"
+    },
+    {
+      "project_path": "work_validation/alem/metadata.json",
+      "sha256": "62e7fe3b73df55264b89aa62e2b6691f5acd6506b730d3421fb51d6eed3a3da6"
+    },
+    {
+      "project_path": "work_validation/hydraulic_consistency.py",
+      "sha256": "166a51c0bd3dd0b19012ca9208c6c0d0bce495c8d92adff8d94862c6e407f484"
+    }
+  ],
+  "primary_sources": [
+    "https://doi.org/10.1134/S0015462817020132",
+    "https://link.springer.com/article/10.1007/s11242-014-0402-8",
+    "https://www.academia.edu/52371161/Alem_et_al_2014_Transp_Porous_Med"
+  ],
+  "existing_extraction_note": "work_validation/alem/extraction_notes.md",
+  "existing_domain_check": "work_validation/alem/taps_and_profile_check.md",
+  "no_new_experimental_measurement": true,
+  "no_original_files_modified": true,
+  "nominal_ratio_is_not_a_verified_matched_endpoint": true,
+  "no_statistical_error_bars_or_confidence_intervals_invented": true
+}

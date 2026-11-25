@@ -1,0 +1,96 @@
+{
+  "sharp_limit": [
+    {
+      "dt": 0.0001,
+      "maximum_difference": 0.0,
+      "identical_event_counts": true
+    },
+    {
+      "dt": 0.01,
+      "maximum_difference": 0.0,
+      "identical_event_counts": true
+    },
+    {
+      "dt": 0.2,
+      "maximum_difference": 0.0,
+      "identical_event_counts": true
+    }
+  ],
+  "narrow_width_crossing_limit": [
+    {
+      "relative_halfwidth": 0.1,
+      "dt": 0.1,
+      "maximum_difference_from_sharp": 0.0011563583792537835
+    },
+    {
+      "relative_halfwidth": 0.05,
+      "dt": 0.1,
+      "maximum_difference_from_sharp": 0.0006545863410060068
+    },
+    {
+      "relative_halfwidth": 0.02,
+      "dt": 0.1,
+      "maximum_difference_from_sharp": 0.0002849308729560348
+    },
+    {
+      "relative_halfwidth": 0.01,
+      "dt": 0.1,
+      "maximum_difference_from_sharp": 0.00014684735876064389
+    }
+  ],
+  "smooth_map_independent_reference": [
+    {
+      "relative_halfwidth": 0.01,
+      "dt": 0.01,
+      "SSP_vs_independent_RK4_error": 2.2529979618046703e-10,
+      "tight_source_vs_independent_RK4_error": 7.205347429817266e-12,
+      "RK4_4096_vs8192_error": 2.1337098754514727e-16
+    },
+    {
+      "relative_halfwidth": 0.1,
+      "dt": 0.01,
+      "SSP_vs_independent_RK4_error": 2.739070342067107e-11,
+      "tight_source_vs_independent_RK4_error": 8.663217712645555e-13,
+      "RK4_4096_vs8192_error": 5.117434254131581e-17
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "dt": 0.01,
+      "SSP_vs_independent_RK4_error": 5.700179044054732e-12,
+      "tight_source_vs_independent_RK4_error": 2.072647609097089e-13,
+      "RK4_4096_vs8192_error": 5.204170427930421e-17
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "dt": 0.01,
+      "SSP_vs_independent_RK4_error": 2.610886333520579e-12,
+      "tight_source_vs_independent_RK4_error": 1.3782291280461934e-13,
+      "RK4_4096_vs8192_error": 3.0357660829594124e-17
+    }
+  ],
+  "source_donor_admissibility": [
+    {
+      "relative_halfwidth": 0.01,
+      "dt": 0.052993713207776454,
+      "minimum_mobile_after_source": 0.000292426065097277,
+      "minimum_deposit_after_source": 0.00016263679971095264,
+      "paired_exchange_error": 3.469446951953614e-18
+    },
+    {
+      "relative_halfwidth": 0.4,
+      "dt": 0.03222800261088435,
+      "minimum_mobile_after_source": 0.00041195967641148524,
+      "minimum_deposit_after_source": 0.0002773804906150148,
+      "paired_exchange_error": 3.469446951953614e-18
+    },
+    {
+      "relative_halfwidth": 0.6,
+      "dt": 0.021449013745761802,
+      "minimum_mobile_after_source": 0.00036175849724657367,
+      "minimum_deposit_after_source": 0.0002126394443990212,
+      "paired_exchange_error": 3.469446951953614e-18
+    }
+  ],
+  "reference_sha256": "77219a80e201b3cf60fc50c90ee49789f5f2db8dbc1420e2c39738dcde64466a",
+  "interpretation": "Checks isolate the frozen source map; full PDE CFL refinement separately measures transport/source freezing and Lie splitting error."
+}

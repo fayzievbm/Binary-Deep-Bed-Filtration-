@@ -1,0 +1,38 @@
+{
+  "source": "Alem etal2015Table1 andFigure6; original2017permeability relation only",
+  "feed_volume_fraction": 9.615384615384615e-05,
+  "pore_volumes": 83.0,
+  "retained_mass_fraction": 0.6795,
+  "mean_B_original_pore_volume": 0.005422932692307693,
+  "bound_constant_h_min": 21.269750043077014,
+  "bound_minimizer_sqrt_D": 0.30858602021826154,
+  "bound_derivation": "For 0<=D<1, r(D)=(1-sqrt(D))^-3 >=1+h_min*D. Integrate resistance over the same full bed to obtain Keff/K0<=1/(1+h_min*mean(D)). h_min is the minimum of [r(D)-1]/D. Stationarity gives2s^3-8s^2+12s-3=0.",
+  "assumed_porosity_checks": {
+    "0.0": {
+      "eps_assumed": 0.0,
+      "piecewise_constant_profile_keff": 0.8009776420106769,
+      "mean_occupied_fraction": 0.005422932692307693,
+      "kinetics_independent_maximum_keff": 0.8965840322494784
+    },
+    "0.3": {
+      "eps_assumed": 0.3,
+      "piecewise_constant_profile_keff": 0.7647547849984435,
+      "mean_occupied_fraction": 0.007747046703296705,
+      "kinetics_independent_maximum_keff": 0.8585328854517743
+    },
+    "0.5": {
+      "eps_assumed": 0.5,
+      "piecewise_constant_profile_keff": 0.7251155871451301,
+      "mean_occupied_fraction": 0.010845865384615386,
+      "kinetics_independent_maximum_keff": 0.8125530701511408
+    }
+  },
+  "limitations": [
+    "Nominal consistency check; not a statistical rejection test.",
+    "Mass/pressure measurements must cover the same bed and same loading endpoint; published term overall is used but precise external pressure reference requires author clarification.",
+    "Reported initial hydraulicconductivity variability is about7%; individual ratio measurement uncertainties are not supplied.",
+    "Hydraulic conductivity and intrinsicpermeability ratios coincide only at matched fluidviscosity/density; diluteviscosity correction here is small but not silently omitted from simulations.",
+    "Finite-bin resistance estimate assumes B uniform within each measured bin; global bound does not require this assumption.",
+    "Reported drymass and turbidimetric mass balances have experimental errors; observations are not forced to close exactly."
+  ]
+}

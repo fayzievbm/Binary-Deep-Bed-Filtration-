@@ -1,0 +1,3 @@
+calibration_subset,simulated_stages,conditional_information,not_established
+"Gitis: 9 shallow-depth normalized responses","Charging and transition; aging and arrest inactive","Normalized charging/transition shape and threshold location under fixed observation mapping, clock and inputs","Absolute concentration/retained mass; aging threshold; material capacity; detachment imposed zero; binary kinetics"
+"Alem: 26 constant-flow concentrations","Charging and transition crossed; aging active; arrest absent","Attachment-capacity combination; one-sided detachment response under prescribed thresholds","Unique attachment/capacity separation; terminal arrest; physical irreversibility; hydraulic/mode transfer; binary kinetics"

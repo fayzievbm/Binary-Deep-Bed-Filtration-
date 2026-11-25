@@ -1,0 +1,721 @@
+{
+  "scope": "Illustrative finite-inlet-history selection of interior equilibria from the same clean initial state; not experimental validation or a proof of coupled PDE stability.",
+  "parameters": {
+    "m0": 0.35,
+    "eps": [
+      0.5,
+      0.3
+    ],
+    "alpha_s": [
+      1.0,
+      1.0
+    ],
+    "alpha_d": [
+      0.0,
+      0.0
+    ],
+    "beta_s": [
+      1.0,
+      1.0
+    ],
+    "beta_d": [
+      0.0,
+      0.0
+    ],
+    "charging": [
+      0.5,
+      0.5
+    ],
+    "B1": [
+      0.001,
+      0.0002
+    ],
+    "B2": [
+      0.004,
+      0.001
+    ],
+    "cap": [
+      0.02,
+      0.004
+    ],
+    "mode": "pressure",
+    "forcing": 10.0,
+    "kinetics": "multistage"
+  },
+  "time_axis": "Original t*=U0*t/L, not injected pore volumes",
+  "preconditioning_end_t_star": 2.0,
+  "final_t_star": 10.0,
+  "common_final_inlet": [
+    0.002,
+    0.0005
+  ],
+  "high_preconditioning_inlet": [
+    0.006,
+    0.0015
+  ],
+  "initial_condition": "All independent mobile/retained particle saturations zero; clean-water-filled original pores.",
+  "same_final_forcing": "Dimensionless pressure drop 10 for every history.",
+  "interior_local_equilibria": {
+    "low": [
+      0.002,
+      0.0005
+    ],
+    "high": [
+      0.006324555320336759,
+      0.001414213562373095
+    ]
+  },
+  "all_results": [
+    {
+      "case": "LL",
+      "n": 80,
+      "label": "No high preconditioning",
+      "preconditioned_species": [],
+      "preconditioning_inlet": [
+        0.002,
+        0.0005
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.0019999999999955843,
+        0.0004999999999989113
+      ],
+      "final_min_retained": [
+        0.0019999999999903576,
+        0.0004999999999976195
+      ],
+      "final_max_retained": [
+        0.0019999999999989197,
+        0.0004999999999997345
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.002,
+        0.0005
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        9.642460441217082e-15,
+        2.3804742899091735e-15
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        9.093854141939417e-15,
+        2.2455995396519768e-15
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        5.486062992776652e-16,
+        1.3487475025719675e-16
+      ],
+      "final_branch_by_species": [
+        [
+          "transition"
+        ],
+        [
+          "transition"
+        ]
+      ],
+      "final_flow": 8.028195801188227,
+      "exact_uniform_equilibrium_flow": 8.028195801186264,
+      "absolute_final_flow_error": 1.9628743075372768e-12,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        5.162537064506978e-14,
+        1.1796119636642288e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "maximum_occupancy": 0.004714285714283175,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 23363,
+      "total_particle_input": [
+        0.461991618506305,
+        0.11549790462657625
+      ],
+      "total_particle_output": [
+        0.45800104707769346,
+        0.11450026176942447
+      ],
+      "wall_seconds": 4.255126173000463
+    },
+    {
+      "case": "HL",
+      "n": 80,
+      "label": "Type 1 preconditioned",
+      "preconditioned_species": [
+        1
+      ],
+      "preconditioning_inlet": [
+        0.006,
+        0.0005
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.0063245553203370355,
+        0.0004999999999983718
+      ],
+      "final_min_retained": [
+        0.006324555320337035,
+        0.0004999999999960226
+      ],
+      "final_max_retained": [
+        0.006324555320337039,
+        0.0004999999999997367
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.006324555320336759,
+        0.0005
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        2.8015784137025435e-16,
+        3.977395669763073e-15
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        5.603156827405087e-16,
+        3.741039596161233e-15
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        1.3010426069826053e-18,
+        2.3635607360183997e-16
+      ],
+      "final_branch_by_species": [
+        [
+          "aging"
+        ],
+        [
+          "transition"
+        ]
+      ],
+      "final_flow": 6.87448354396385,
+      "exact_uniform_equilibrium_flow": 6.874483543963668,
+      "absolute_final_flow_error": 1.8207657603852567e-13,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        1.1435297153639112e-14,
+        1.0103029524088925e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710282622808296,
+      "maximum_occupancy": 0.022618766670461816,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 19874,
+      "total_particle_input": [
+        0.5410430344551372,
+        0.09724856128401915
+      ],
+      "total_particle_output": [
+        0.5327452059275141,
+        0.09625524298220843
+      ],
+      "wall_seconds": 3.6940810140004032
+    },
+    {
+      "case": "LH",
+      "n": 80,
+      "label": "Type 2 preconditioned",
+      "preconditioned_species": [
+        2
+      ],
+      "preconditioning_inlet": [
+        0.002,
+        0.0015
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.001999999999995272,
+        0.001414213562373183
+      ],
+      "final_min_retained": [
+        0.0019999999999894577,
+        0.0014142135623731828
+      ],
+      "final_max_retained": [
+        0.0019999999999989197,
+        0.0014142135623731828
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.002,
+        0.001414213562373095
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        1.0542348244380051e-14,
+        8.782037597132586e-17
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        9.938664474740122e-15,
+        1.7564075194265172e-16
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        6.036837696399289e-16,
+        6.505213034913027e-19
+      ],
+      "final_branch_by_species": [
+        [
+          "transition"
+        ],
+        [
+          "aging"
+        ]
+      ],
+      "final_flow": 7.799472506925717,
+      "exact_uniform_equilibrium_flow": 7.799472506924189,
+      "absolute_final_flow_error": 1.5285550603039155e-12,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        5.5344617777564054e-14,
+        4.3298697960381105e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450792226025,
+      "maximum_occupancy": 0.007481119768634505,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 22792,
+      "total_particle_input": [
+        0.4466052820270583,
+        0.15684543715848837
+      ],
+      "total_particle_output": [
+        0.44261732263729675,
+        0.1549342337486554
+      ],
+      "wall_seconds": 4.06936643500012
+    },
+    {
+      "case": "HH",
+      "n": 80,
+      "label": "Both types preconditioned",
+      "preconditioned_species": [
+        1,
+        2
+      ],
+      "preconditioning_inlet": [
+        0.006,
+        0.0015
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.006324555320337032,
+        0.001414213562373171
+      ],
+      "final_min_retained": [
+        0.006324555320337032,
+        0.0014142135623731703
+      ],
+      "final_max_retained": [
+        0.006324555320337035,
+        0.0014142135623731718
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.006324555320336759,
+        0.001414213562373095
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        2.7582103268031233e-16,
+        7.676151381197371e-17
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        5.499073418846478e-16,
+        1.5352302762394743e-16
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        4.336808689942018e-19,
+        0.0
+      ],
+      "final_branch_by_species": [
+        [
+          "aging"
+        ],
+        [
+          "aging"
+        ]
+      ],
+      "final_flow": 6.7466279341524595,
+      "exact_uniform_equilibrium_flow": 6.7466279341525235,
+      "absolute_final_flow_error": 6.394884621840902e-14,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        8.393286066166183e-14,
+        1.8485213360008856e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672838326614076,
+      "maximum_occupancy": 0.02540672089330204,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 19436,
+      "total_particle_input": [
+        0.528923684115811,
+        0.13223092102895276
+      ],
+      "total_particle_output": [
+        0.5206284676270174,
+        0.13032404217446295
+      ],
+      "wall_seconds": 3.44914597999923
+    },
+    {
+      "case": "LL",
+      "n": 160,
+      "label": "No high preconditioning",
+      "preconditioned_species": [],
+      "preconditioning_inlet": [
+        0.002,
+        0.0005
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.0019999999999955544,
+        0.0004999999999989039
+      ],
+      "final_min_retained": [
+        0.001999999999990252,
+        0.0004999999999975933
+      ],
+      "final_max_retained": [
+        0.001999999999998952,
+        0.000499999999999741
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.002,
+        0.0005
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        9.747844892382673e-15,
+        2.4067119824833227e-15
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        9.200973316580985e-15,
+        2.271620391791629e-15
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        5.468715758016884e-16,
+        1.3509159069169385e-16
+      ],
+      "final_branch_by_species": [
+        [
+          "transition"
+        ],
+        [
+          "transition"
+        ]
+      ],
+      "final_flow": 8.02819580118824,
+      "exact_uniform_equilibrium_flow": 8.028195801186264,
+      "absolute_final_flow_error": 1.9753088054130785e-12,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        1.2800871473928055e-13,
+        3.2487901258093643e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9927975000000024,
+      "maximum_occupancy": 0.004714285714283248,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 46694,
+      "total_particle_input": [
+        0.4619917825336428,
+        0.1154979456334107
+      ],
+      "total_particle_output": [
+        0.45800121110520403,
+        0.11450030277630147
+      ],
+      "wall_seconds": 8.524063367000053
+    },
+    {
+      "case": "HL",
+      "n": 160,
+      "label": "Type 1 preconditioned",
+      "preconditioned_species": [
+        1
+      ],
+      "preconditioning_inlet": [
+        0.006,
+        0.0005
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.006324555320337315,
+        0.0004999999999983585
+      ],
+      "final_min_retained": [
+        0.006324555320337315,
+        0.0004999999999959697
+      ],
+      "final_max_retained": [
+        0.006324555320337319,
+        0.0004999999999997344
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.006324555320336759,
+        0.0005
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        5.603156827405087e-16,
+        4.030304735780366e-15
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        1.1180292802670522e-15,
+        3.7921055184853e-15
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        1.3010426069826053e-18,
+        2.381992172950653e-16
+      ],
+      "final_branch_by_species": [
+        [
+          "aging"
+        ],
+        [
+          "transition"
+        ]
+      ],
+      "final_flow": 6.874483543963795,
+      "exact_uniform_equilibrium_flow": 6.874483543963668,
+      "absolute_final_flow_error": 1.270095140171179e-13,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        3.752553823233029e-14,
+        1.6431300764452317e-14
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9710282499061323,
+      "maximum_occupancy": 0.022618775609526406,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 39667,
+      "total_particle_input": [
+        0.5410451141827864,
+        0.09724867343119944
+      ],
+      "total_particle_output": [
+        0.5327472856551215,
+        0.09625535512939506
+      ],
+      "wall_seconds": 7.3807740779993765
+    },
+    {
+      "case": "LH",
+      "n": 160,
+      "label": "Type 2 preconditioned",
+      "preconditioned_species": [
+        2
+      ],
+      "preconditioning_inlet": [
+        0.002,
+        0.0015
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.0019999999999952374,
+        0.0014142135623732707
+      ],
+      "final_min_retained": [
+        0.001999999999989338,
+        0.0014142135623732709
+      ],
+      "final_max_retained": [
+        0.0019999999999989423,
+        0.0014142135623732709
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.002,
+        0.001414213562373095
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        1.066204416422245e-14,
+        1.7585759237714882e-16
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        1.005402358589258e-14,
+        3.5171518475429764e-16
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        6.080205783298709e-16,
+        6.505213034913027e-19
+      ],
+      "final_branch_by_species": [
+        [
+          "transition"
+        ],
+        [
+          "aging"
+        ]
+      ],
+      "final_flow": 7.799472506925707,
+      "exact_uniform_equilibrium_flow": 7.799472506924189,
+      "absolute_final_flow_error": 1.5187850976872141e-12,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        2.48245868306185e-13,
+        9.686695889854491e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9890450536018099,
+      "maximum_occupancy": 0.007481137907136496,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 45240,
+      "total_particle_input": [
+        0.44660553460534397,
+        0.15684565438755294
+      ],
+      "total_particle_output": [
+        0.44261757521528144,
+        0.1549344509777308
+      ],
+      "wall_seconds": 8.493612530000973
+    },
+    {
+      "case": "HH",
+      "n": 160,
+      "label": "Both types preconditioned",
+      "preconditioned_species": [
+        1,
+        2
+      ],
+      "preconditioning_inlet": [
+        0.006,
+        0.0015
+      ],
+      "common_final_inlet": [
+        0.002,
+        0.0005
+      ],
+      "preconditioning_end_t_star": 2.0,
+      "final_t_star": 10.0,
+      "final_mean_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_min_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "final_max_retained": [
+        0.006324555320337308,
+        0.0014142135623732477
+      ],
+      "exact_interior_equilibrium_retained": [
+        0.006324555320336759,
+        0.001414213562373095
+      ],
+      "maximum_deposit_error_to_exact_uniform_equilibrium": [
+        5.490399801466594e-16,
+        1.5265566588595902e-16
+      ],
+      "maximum_absolute_net_deposition_profile": [
+        1.0980799602933189e-15,
+        3.0531133177191805e-16
+      ],
+      "maximum_mobile_concentration_error_to_final_inlet": [
+        0.0,
+        0.0
+      ],
+      "final_branch_by_species": [
+        [
+          "aging"
+        ],
+        [
+          "aging"
+        ]
+      ],
+      "final_flow": 6.746627934152397,
+      "exact_uniform_equilibrium_flow": 6.7466279341525235,
+      "absolute_final_flow_error": 1.2612133559741778e-13,
+      "final_pressure": 10.0,
+      "maximum_inventory_balance_error": [
+        2.0261570199409107e-14,
+        4.593547764386585e-15
+      ],
+      "minimum_saturation": 0.0,
+      "minimum_carrier_saturation": 0.9672838249773524,
+      "maximum_occupancy": 0.025406727041583116,
+      "cap_events": 0,
+      "holding_events": 0,
+      "steps": 38825,
+      "total_particle_input": [
+        0.5289257394160358,
+        0.13223143485400896
+      ],
+      "total_particle_output": [
+        0.5206305229271669,
+        0.1303245559995023
+      ],
+      "wall_seconds": 7.351857899000606
+    }
+  ],
+  "grid_check": [
+    {
+      "case": "LL",
+      "maximum_final_state_difference_80_vs_projected_160": 5.767955557622884e-17,
+      "absolute_final_flow_difference": 1.2434497875801753e-14,
+      "maximum_recorded_flow_difference": 0.0022082281782171975,
+      "maximum_recorded_retained_difference": 2.7665561409709154e-07
+    },
+    {
+      "case": "HL",
+      "maximum_final_state_difference_80_vs_projected_160": 2.8015784137025435e-16,
+      "absolute_final_flow_difference": 5.5067062021407764e-14,
+      "maximum_recorded_flow_difference": 0.0034591812492781315,
+      "maximum_recorded_retained_difference": 5.9801623787571895e-06
+    },
+    {
+      "case": "LH",
+      "maximum_final_state_difference_80_vs_projected_160": 8.803721640582296e-17,
+      "absolute_final_flow_difference": 9.769962616701378e-15,
+      "maximum_recorded_flow_difference": 0.0024888447040520845,
+      "maximum_recorded_retained_difference": 1.2273649049570744e-06
+    },
+    {
+      "case": "HH",
+      "maximum_final_state_difference_80_vs_projected_160": 2.7582103268031233e-16,
+      "absolute_final_flow_difference": 6.217248937900877e-14,
+      "maximum_recorded_flow_difference": 0.003623125822224793,
+      "maximum_recorded_retained_difference": 6.053787090527958e-06
+    }
+  ],
+  "wall_seconds": 47.2186918339994,
+  "interpretation_limits": [
+    "The four studied equilibria are interior low/high combinations; absorbing capacity states are additional possible boundary states.",
+    "Preconditioning protocols introduce different particle inputs and select different retained inventories; no matched-inventory hydraulic advantage is claimed.",
+    "Local source phase portraits use prescribed final concentration; observed full-column trajectories do not constitute a general PDE stability theorem.",
+    "The source law, original seven-saturation framework, fixed deposit porosities and hydraulic relations are unchanged."
+  ]
+}

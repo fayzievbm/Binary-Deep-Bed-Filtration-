@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "original_input_hashes_unchanged": true,
+    "script_hash_matches_record": true,
+    "calibration_subsets_only": true,
+    "original_fits_not_replaced": true,
+    "gitis_saved_SSE_reproduced": true,
+    "alem_saved_MSE_reproduced": true,
+    "gitis_inactive_threshold_predictions_unchanged": true,
+    "gitis_threshold_variants_remain_inactive": true,
+    "all_local_profile_optimizers_succeeded": true,
+    "no_profile_cap_event": true,
+    "all_profile_states_admissible": true,
+    "plots_present": true,
+    "portable_archive_directory_discovery": true
+  },
+  "all_passed": true
+}

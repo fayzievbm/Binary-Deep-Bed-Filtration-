@@ -1,0 +1,54 @@
+[
+  {
+    "key": "vangen1989",
+    "scopus_ref": 53,
+    "citation": "van Genuchten, M.Th.; Wagenet, R.J. Two-site/two-region models for pesticide transport and degradation: Theoretical development and analytical solutions. *Soil Science Society of America Journal* **1989**, *53*, 1303–1310. https://doi.org/10.2136/sssaj1989.03615995005300050001x.",
+    "sources": [
+      "https://www.ars.usda.gov/arsuserfiles/20360500/pdf_pubs/P1060.pdf"
+    ],
+    "access": "Primary full article inspected.",
+    "claim": "Two-site and two-region solute transport formulations and analytical solutions; mobile–immobile exchange is distinct from deposit-volume immobilization."
+  },
+  {
+    "key": "griffioen1998",
+    "scopus_ref": 105,
+    "citation": "Griffioen, J.W.; Barry, D.A.; Parlange, J.-Y. Interpretation of two-region model parameters. *Water Resources Research* **1998**, *34*, 373–384. https://doi.org/10.1029/97WR02027.",
+    "sources": [
+      "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/97WR02027"
+    ],
+    "access": "Publisher abstract and complete metadata inspected.",
+    "claim": "Physical interpretation of mobile fraction and exchange parameters, including flow dependence."
+  },
+  {
+    "key": "majdoub2001",
+    "scopus_ref": 12,
+    "citation": "Majdoub, R.; Gallichand, J.; Caron, J. Estimation de la teneur en eau immobile et du coefficient d’échange selon deux méthodes. *Canadian Water Resources Journal* **2001**, *26*, 481–502. https://doi.org/10.4296/cwrj2604481.",
+    "sources": [
+      "https://www.tandfonline.com/doi/pdf/10.4296/cwrj2604481"
+    ],
+    "access": "Primary full article inspected.",
+    "claim": "Tracer-based estimation and numerical optimization of immobile water content and exchange coefficient."
+  },
+  {
+    "key": "liu2012",
+    "scopus_ref": 108,
+    "citation": "Liu, Y.; Kitanidis, P.K. Applicability of the dual-domain model to nonaggregated porous media. *Ground Water* **2012**, *50*, 927–934. https://doi.org/10.1111/j.1745-6584.2011.00909.x.",
+    "sources": [
+      "https://profiles.stanford.edu/peter-kitanidis?tab=bio",
+      "https://pubmed.ncbi.nlm.nih.gov/22276634/"
+    ],
+    "access": "Author institutional publication abstract and NLM-indexed metadata inspected; full paper not inspected.",
+    "claim": "Pore-scale hydrodynamics produce effective mobile–immobile domains and velocity-dependent transport parameters."
+  },
+  {
+    "key": "zhang2021",
+    "scopus_ref": 74,
+    "citation": "Zhang, C.; Kaito, K.; Hu, Y.; Patmonoaji, A.; Matsushita, S.; Suekane, T. Influence of stagnant zones on solute transport in heterogeneous porous media at the pore scale. *Physics of Fluids* **2021**, *33*, 036605. https://doi.org/10.1063/5.0038133.",
+    "sources": [
+      "https://faculty.xjtu.edu.cn/hu.yingxue/zh_CN/zhym/1003980/list/index.htm",
+      "https://t2r2.star.titech.ac.jp/rrws/file/CTT100860758/ATD100000413/"
+    ],
+    "access": "Coauthor institutional publication record and author doctoral-research abstract inspected; journal abstract indexed; full journal paper not inspected.",
+    "claim": "Stagnant-zone pore-scale transport in reconstructed structures; early arrival and late tailing for heterogeneous rocks."
+  }
+]

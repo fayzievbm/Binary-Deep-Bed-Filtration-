@@ -1,0 +1,184 @@
+{
+  "scope": "Sensitivity to exclusion of overlapping constant-flow Alem Figure 6a symbols, using saved N=240 predictions without refitting.",
+  "observation": "K_over_K0",
+  "residual_definition": "prediction minus observation",
+  "digitization_bounds_are_not_experimental_uncertainties": true,
+  "models": {
+    "linear": {
+      "all_seven": {
+        "n": 7,
+        "point_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "PV": [
+          12.4487,
+          27.770178,
+          36.935705,
+          45.964432,
+          55.129959,
+          64.432285,
+          73.73461
+        ],
+        "RMSE": 0.16105904423571893,
+        "MAE": 0.15628941249146602,
+        "bias": -0.15628941249146602,
+        "minimum_absolute_error": 0.0825965602191241,
+        "maximum_absolute_error": 0.2028713502397207,
+        "digitization_value_bounds": [
+          0.007449,
+          0.007449,
+          0.007449,
+          0.014898,
+          0.014898,
+          0.014898,
+          0.014898
+        ]
+      },
+      "unambiguous_three": {
+        "n": 3,
+        "point_ids": [
+          1,
+          2,
+          3
+        ],
+        "PV": [
+          12.4487,
+          27.770178,
+          36.935705
+        ],
+        "RMSE": 0.12115643128286391,
+        "MAE": 0.11822054509084907,
+        "bias": -0.11822054509084907,
+        "minimum_absolute_error": 0.0825965602191241,
+        "maximum_absolute_error": 0.1461505470062041,
+        "digitization_value_bounds": [
+          0.007449,
+          0.007449,
+          0.007449
+        ]
+      },
+      "overlapping_four": {
+        "n": 4,
+        "point_ids": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "PV": [
+          45.964432,
+          55.129959,
+          64.432285,
+          73.73461
+        ],
+        "RMSE": 0.1854342657030146,
+        "MAE": 0.18484106304192874,
+        "bias": -0.18484106304192874,
+        "minimum_absolute_error": 0.16387089639835495,
+        "maximum_absolute_error": 0.2028713502397207,
+        "digitization_value_bounds": [
+          0.014898,
+          0.014898,
+          0.014898,
+          0.014898
+        ]
+      },
+      "source_csv": "work_validation/alem/results/linear_observation_predictions.csv",
+      "source_sha256": "bb15b223771d7db68ab2207fdc0b3692bf2fe037c7f92e83481b3c16998baeb7"
+    },
+    "multistage": {
+      "all_seven": {
+        "n": 7,
+        "point_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "PV": [
+          12.4487,
+          27.770178,
+          36.935705,
+          45.964432,
+          55.129959,
+          64.432285,
+          73.73461
+        ],
+        "RMSE": 0.16979381656323211,
+        "MAE": 0.1646310097018102,
+        "bias": -0.1646310097018102,
+        "minimum_absolute_error": 0.07862165857971493,
+        "maximum_absolute_error": 0.20902090116868888,
+        "digitization_value_bounds": [
+          0.007449,
+          0.007449,
+          0.007449,
+          0.014898,
+          0.014898,
+          0.014898,
+          0.014898
+        ]
+      },
+      "unambiguous_three": {
+        "n": 3,
+        "point_ids": [
+          1,
+          2,
+          3
+        ],
+        "PV": [
+          12.4487,
+          27.770178,
+          36.935705
+        ],
+        "RMSE": 0.13048502789915126,
+        "MAE": 0.12587017386814178,
+        "bias": -0.12587017386814178,
+        "minimum_absolute_error": 0.07862165857971493,
+        "maximum_absolute_error": 0.15950672928302356,
+        "digitization_value_bounds": [
+          0.007449,
+          0.007449,
+          0.007449
+        ]
+      },
+      "overlapping_four": {
+        "n": 4,
+        "point_ids": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "PV": [
+          45.964432,
+          55.129959,
+          64.432285,
+          73.73461
+        ],
+        "RMSE": 0.19412016477187058,
+        "MAE": 0.1937016365770615,
+        "bias": -0.1937016365770615,
+        "minimum_absolute_error": 0.17559459351017692,
+        "maximum_absolute_error": 0.20902090116868888,
+        "digitization_value_bounds": [
+          0.014898,
+          0.014898,
+          0.014898,
+          0.014898
+        ]
+      },
+      "source_csv": "work_validation/alem/results/multistage_observation_predictions.csv",
+      "source_sha256": "7cb19c683c22f25df848ce2b4afe1e23af71907b80a588d705fce499502f5e30"
+    }
+  }
+}

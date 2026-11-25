@@ -1,0 +1,150 @@
+{
+  "citation": {
+    "authors": [
+      "Vitaly Gitis",
+      "Isaak Rubinstein",
+      "Maya Livshits",
+      "Gennady Ziskind"
+    ],
+    "title": "Deep-bed filtration model with multistage deposition kinetics",
+    "journal": "Chemical Engineering Journal",
+    "year": 2010,
+    "volume": "163",
+    "issues": "1–2",
+    "pages": "78–85",
+    "doi": "10.1016/j.cej.2010.07.044"
+  },
+  "accessed_date": "2026-11-25",
+  "sources": {
+    "author_copy": "https://www.academia.edu/108262058/Deep_bed_filtration_model_with_multistage_deposition_kinetics",
+    "accepted_manuscript": "https://www.academia.edu/7237022/Deep_bed_filtration_model_with_multistage_deposition_kinetics",
+    "cached_publisher_version": "https://electronicsandbooks.com/edt/manual/Magazine/C/Chemical%20Engineering%20Journal/2010%20Volume%20163/1-2/78-85.pdf",
+    "figure6_page": "https://www.academia.edu/figures/9480255/figure-6-experimental-data-dots-and-model-prediction-curves",
+    "figure6_image": "https://figures.academia-assets.com/106690788/figure_006.jpg",
+    "figure7_page": "https://www.academia.edu/figures/9480280/figure-7-experimental-data-dots-and-model-prediction-curves",
+    "figure7_image": "https://figures.academia-assets.com/106690788/figure_008.jpg"
+  },
+  "source_access_notes": "Full article text read from cached publisher-version PDF and coauthor-posted copy. Direct mirror PDF download failed with HTTP503. Actual native figure JPGs downloaded successfully from coauthor-copy figure pages. Academia automatic image index8 is original Figure7, identified by its caption and axes.",
+  "dataset_type": "manual digitization of published experimental symbols, not original/raw measurements",
+  "source_data_availability": {
+    "raw_time_series_verified": false,
+    "raw_uncertainties_verified": false,
+    "source_error_bars_present": false,
+    "digitized_data_points": 87,
+    "figure6_points": 27,
+    "figure7_points": 60,
+    "depths_m": [
+      0.82,
+      1.02,
+      1.62
+    ]
+  },
+  "reported_experiment": {
+    "facility": "U.S. EPA Test and Evaluation Facility, Cincinnati, Ohio",
+    "column_material": "acrylic",
+    "column_total_height_m": 2.6,
+    "column_diameter_m": 0.17,
+    "packed_sand_depth_text_m": 1.6,
+    "model_caption_depth_m": 1.62,
+    "sand_geometric_mean_diameter_mm": 1.05,
+    "sand_uniformity_coefficient": 1.55,
+    "measured_initial_porosity": 0.44,
+    "sampling_ports": 9,
+    "pressure_ports": 9,
+    "sampling_probe_penetration_m": 0.05,
+    "particle_material": "Kaolin clay",
+    "carrier": "Cincinnati tap water",
+    "feed_tank_L": 1000,
+    "head_tank_L": 100,
+    "head_tank_elevation_above_column_m": 3.6,
+    "feed_mixing": "high-speed mixer",
+    "flow_direction": "downward",
+    "filtration_mode": "contact (in-line)",
+    "controlled_variable": "approach/superficial filtration velocity",
+    "study_velocities_m_per_h": [
+      5,
+      10
+    ],
+    "figure6_figure7_velocity_m_per_h": 10,
+    "postrun_backwash": {
+      "air_duration_min": 1,
+      "air_pressure_kPa": 200,
+      "water_duration_min": 10,
+      "water_flow_L_per_s": 1.1
+    },
+    "source_section": "Section5, pages83–84; Figure6/7 captions"
+  },
+  "unreported_or_not_verified": {
+    "experimental_C0_mass_concentration": null,
+    "feed_particle_size_distribution": null,
+    "feed_particle_density": null,
+    "coagulant_chemical_and_dose_for_each_run": null,
+    "pH_for_each_run": null,
+    "temperature_for_each_run": null,
+    "exact_cause_of_difference_between_runs": null,
+    "clock_zero_definition_or_injection_start_offset": null,
+    "experimental_replicates_and_standard_deviations": null,
+    "initial_saturation_state_components": null,
+    "deposit_porosity_epsilon_i": null,
+    "hydraulic_permeability_for_these_runs": null,
+    "pressure_history_numeric_data": null,
+    "mass_of_particles_fed_or_retained": null
+  },
+  "reported_source_model_parameters_NOT_experimental_measurements": {
+    "figure6": {
+      "Kr_per_m": 2.5,
+      "Ka_per_m": 9,
+      "Kd_per_h": 0.005,
+      "sigma_r_mg_per_cm3": 0.35,
+      "sigma_u_mg_per_cm3": 20
+    },
+    "figure7": {
+      "Kr_per_m": 1.2,
+      "Ka_per_m": 7.5,
+      "Kd_per_h": 0.005,
+      "sigma_r_mg_per_cm3": 0.2,
+      "sigma_u_mg_per_cm3": 20
+    }
+  },
+  "derived_from_geometry_NOT_reported": {
+    "volumetric_flow_m3_per_h": 0.2269800692218626,
+    "volumetric_flow_L_per_min": 3.7830011536977097,
+    "initial_interstitial_velocity_m_per_h": 22.727272727272727,
+    "travel_times_h_at_depths": {
+      "0.82": 0.036079999999999994,
+      "1.02": 0.04488,
+      "1.62": 0.07128000000000001
+    }
+  },
+  "interpretation_limits": [
+    "Single particulate suspension: no binary species separation.",
+    "Only ripening and operable stages observed; source explicitly states runs did not reach breakthrough.",
+    "Original source model includes dispersion; strict target model does not.",
+    "C0 and particle/deposit density absent: fitting threshold and concentration scale separately is not identified by normalized symbols alone.",
+    "Illustrative Figure1 C0=10mg/L, density1500kg/m3 and porosity0.4 are not run-specific measurements and must not be transferred to Figures6/7.",
+    "Figure7 is a separate run with incomplete between-run metadata; evaluate transfer conditionally, not as a controlled identical replicate.",
+    "Figure6 first symbols are at displayed time0 with nonzero concentrations. Time-origin/initial profile must be treated explicitly in fitting.",
+    "Digitization envelopes do not describe laboratory measurement variability."
+  ],
+  "files": {
+    "figure6": "figure6_experimental_points.csv",
+    "figure7": "figure7_experimental_points.csv",
+    "all": "all_experimental_points.csv",
+    "axis_calibration": "axis_calibration.json",
+    "pixel_centers": "manual_symbol_centers.json",
+    "script": "digitize_gitis.py",
+    "QA_fig6": "sourcefigs/figure6_symbol_selection_QA.png",
+    "QA_fig7": "sourcefigs/figure7_symbol_selection_QA.png"
+  },
+  "fitting_performed": false,
+  "observation_interpretation": {
+    "published_response": "R",
+    "model_comparator": "c/c0",
+    "mapping": "Assumed proportional response, not independently verified for the 2010 runs",
+    "related_primary_sources": [
+      "https://doi.org/10.2166/ws.2008.058",
+      "https://doi.org/10.1002/aheh.200200584"
+    ],
+    "related_values_used_as_run_inputs": false
+  }
+}

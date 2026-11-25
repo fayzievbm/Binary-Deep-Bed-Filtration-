@@ -1,0 +1,108 @@
+{
+  "checked_date": "2026-11-25",
+  "scope": "Closest-model comparison for a kinetics-only extension; bounded search, no global first-ever claim",
+  "recommended_reference_37": {
+    "authors": [
+      "Fayziev, B.",
+      "Makhmudov, J.",
+      "Kuljanov, J.",
+      "Begmatov, T.",
+      "Alwadood, Z."
+    ],
+    "title": "Numerical modeling of two-component suspension filtration in porous media considering the charging phenomenon",
+    "journal": "AIP Conference Proceedings",
+    "year": 2025,
+    "volume": "3356",
+    "article": "020005",
+    "pages": "020005-1–020005-10",
+    "doi": "10.1063/5.0296101",
+    "citation_md": "Fayziev, B.; Makhmudov, J.; Kuljanov, J.; Begmatov, T.; Alwadood, Z. Numerical modeling of two-component suspension filtration in porous media considering the charging phenomenon. *AIP Conference Proceedings* **2025**, *3356*, 020005. https://doi.org/10.1063/5.0296101.",
+    "primary_author_copy": "https://www.researchgate.net/publication/395581652_Numerical_Modeling_of_Two-Component_Suspension_Filtration_in_Porous_Media_Considering_the_Charging_Phenomenon",
+    "access": "Author-uploaded publisher-version ten-page article inspected; direct DOI route unavailable",
+    "existing_content": [
+      "active/passive retained zones for each population",
+      "charging and dynamic factors",
+      "Darcy and Kozeny–Carman hydraulic feedback",
+      "numerical component-dependent saturation and nonmonotonicity"
+    ],
+    "manuscript_reference_number": 34,
+    "proposed_number_status": "Historical proposed number37; final manuscript reference34."
+  },
+  "comparison": [
+    {
+      "aspect": "state variables",
+      "2017": "seven saturations including deposit-associated liquid",
+      "2022": "two mobile concentrations and two deposited inventories",
+      "2025": "two populations with active/passive retained inventories",
+      "completed_contribution": "retain original seven-saturation meaning"
+    },
+    {
+      "aspect": "kinetics",
+      "2017": "linear net deposition",
+      "2022": "ripening/reversible/arrest with shared/partial capacity",
+      "2025": "charging active-zone and aging passive-zone kinetics",
+      "completed_contribution": "analyze four-branch kinetic substitution without claiming its ingredients new"
+    },
+    {
+      "aspect": "hydraulics and operation",
+      "2017": "original saturation-permeability and dilute viscosity coupling",
+      "2022": "Kozeny–Carman; prescribed constant velocity in displayed problem",
+      "2025": "Darcy/Kozeny–Carman feedback, numerical parameter study",
+      "completed_contribution": "homogeneity-based PV equivalence and controlled equivalence breaking"
+    },
+    {
+      "aspect": "qualitative analysis",
+      "2017": "framework and illustrative solutions",
+      "2022": "numerical capacities and nonmonotonic profiles",
+      "2025": "numerical charging/dynamic-factor effects",
+      "completed_contribution": "invariant-region proof and conditional B2-bistability classification"
+    },
+    {
+      "aspect": "capacity control",
+      "2017": "uncapped linear reference",
+      "2022": "no capacity-matched linear/multistage control identified",
+      "2025": "no such control identified",
+      "completed_contribution": "same-cap comparison separating transient history from terminal-capacity effects"
+    }
+  ],
+  "candidate_results_status": "Completed conditional proofs in theory.md and computed mode/control/history studies; no general global PDE stability, uniqueness or first-ever novelty claim.",
+  "bistability_caution": "A property of the specified discontinuous closure; initial loading, strict basin inequalities and threshold convention are essential; not experimental evidence of physical hysteresis",
+  "search_limits": [
+    "No explicit bistability/hysteresis or PV operating-mode theorem identified in closest inspected articles",
+    "Text-term absence does not establish mathematical absence",
+    "Only two targeted broader queries performed; search is not exhaustive",
+    "Generic time reparameterization and deposition-mode/front theory are established"
+  ],
+  "primary_sources": [
+    {
+      "doi": "10.1134/S0015462817020132",
+      "access": "supplied full primary PDF upload/20172.pdf"
+    },
+    {
+      "doi": "10.1063/5.0118455",
+      "url": "https://www.academia.edu/91412355/Model_of_two_component_suspension_filtration_in_a_porous_medium_with_multistage_deposition_kinetics",
+      "access": "full primary author-deposited publisher text inspected"
+    },
+    {
+      "doi": "10.1063/5.0296101",
+      "url": "https://www.researchgate.net/publication/395581652_Numerical_Modeling_of_Two-Component_Suspension_Filtration_in_Porous_Media_Considering_the_Charging_Phenomenon",
+      "access": "author-uploaded primary text inspected"
+    },
+    {
+      "doi": "10.12732/ijam.v33i3.10",
+      "access": "supplied full primary PDF upload/IJAM2020.pdf, Equation8"
+    },
+    {
+      "doi": "10.3390/app10082793",
+      "url": "https://www.mdpi.com/2076-3417/10/8/2793",
+      "access": "primary full article inspected"
+    }
+  ],
+  "manuscript_reference_numbers": {
+    "charging_paper_2025": 34,
+    "Alem_2015": 35,
+    "Filippov": 36,
+    "Gitis_2008": 37,
+    "Gitis_2005": 38
+  }
+}

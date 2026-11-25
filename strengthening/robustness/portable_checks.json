@@ -1,0 +1,12 @@
+{
+  "all_expected_runs_present": 58,
+  "fields_function_AST_identical_to_reference": true,
+  "sharp_reproduction_maximum_error": 0.0,
+  "source_checks_completed": true,
+  "reference_sha256": "77219a80e201b3cf60fc50c90ee49789f5f2db8dbc1420e2c39738dcde64466a",
+  "maximum_mass_residual": 2.507438701115916e-13,
+  "all_final_profiles_finite_and_correct_shape": true,
+  "portable_paths": "Every runner resolves files from its own folder; no external source-tree path is required.",
+  "dependency_note": "Python 3, NumPy and Matplotlib; quality analysis inputs and original sharp baseline comparisons are bundled.",
+  "source_checks_from_unrelated_working_directory_passed": true
+}

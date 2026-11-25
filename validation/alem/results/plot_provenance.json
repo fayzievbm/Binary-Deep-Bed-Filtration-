@@ -1,0 +1,28 @@
+{
+  "script": "work_validation/plot_alem.py",
+  "source_doi": "10.1007/s11242-014-0402-8",
+  "saved_model_grid_cells": 240,
+  "effective_permeability_field": "keff",
+  "hydraulic_conductance_used": false,
+  "data_modified": false,
+  "bounds": "Digitization envelopes only, not experimental uncertainty or confidence intervals.",
+  "overlap_flag": "Open squares mark observations with overlapping source symbols; each CSV-provided bound is preserved.",
+  "profile": "Printed retained-mass fractions converted to B in an existing input table; visual axis shows 1000*B.",
+  "inputs_sha256": {
+    "data_breakthrough.csv": "4f82acb30bd2fcd58e45682e82c3c2cce0eccbc16b20ecac20165c2f884cbf6c",
+    "data_hydraulics.csv": "df7aa1c966354d673142acdd742731f83bfacadc441cb562a2a4e3f3bcbf3e11",
+    "data_retention_profile_table1_flow.csv": "7491ee21ede8b8a9cb7f743b46cd4f03bd75051f8438ae6c1477d9c1cdfecf0f",
+    "results/linear_rate_fields.npz": "21d99bcf8ac127d4d842c50031cd3a3a7300728bf4d48295662f1c16f3fb40ec",
+    "results/linear_pressure_fields.npz": "ae6616b107e3c072be20e857bca024722b4899472f1b4796bef067b5938736c1",
+    "results/multistage_rate_fields.npz": "360471ad48d37b9ba381379b49dc737d7a8b2ef3636e581c508cc48d4d7faf5c",
+    "results/multistage_pressure_fields.npz": "5bf23e726fbca9dde5f66aa8f37b52fa7497a24213027d5de4e1b5843055bd5c"
+  },
+  "outputs": [
+    "alem_comparison.pdf",
+    "alem_comparison.svg",
+    "alem_comparison.png",
+    "alem_retention_profile.pdf",
+    "alem_retention_profile.svg",
+    "alem_retention_profile.png"
+  ]
+}

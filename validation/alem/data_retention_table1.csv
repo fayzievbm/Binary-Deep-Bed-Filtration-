@@ -1,0 +1,3 @@
+study,source,mode,feed_g_L,end_pore_volumes,retained_fraction_of_injected,effluent_fraction_of_injected,reported_total_fraction,method,experimental_uncertainty
+Alem2015,Table1,constant_flow,0.25,83,0.6795,0.3162,0.9958,transcribed printed numerical table,individual errors unavailable; published whole mass closure0.9958
+Alem2015,Table1,constant_head,0.25,83,0.7394,0.1964,0.9358,transcribed printed numerical table,individual errors unavailable; published whole mass closure0.9358

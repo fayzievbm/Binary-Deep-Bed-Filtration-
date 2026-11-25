@@ -1,0 +1,316 @@
+{
+  "scope": "Exploratory aggregate one-component limiting test; not binary or fullfourstage validation.",
+  "source_doi": "10.1007/s11242-014-0402-8",
+  "concentration_volume_fraction": 9.615384615384615e-05,
+  "calibration": "Only0.25g/LconstantflowC/C0 observations; all available unambiguous poststart points.",
+  "held_out": "ConstantheadC/C0; all hydraulic observations; dry/excavated retained mass endpoints.",
+  "fixed_assumptions": {
+    "deposit_porosity": 0.5,
+    "charging": 0.5,
+    "baseline_B1_over_c0": 0.001,
+    "baseline_B2_over_c0": 0.1,
+    "baseline_capacity": 0.02,
+    "dynamic_coefficients": 0.0,
+    "pressure_forcing": "Normalized to initial measured Darcyflux rather than simultaneously imposing inconsistenthead/K0/Q values."
+  },
+  "fits": {
+    "linear": {
+      "parameters": {
+        "m0": 0.37,
+        "eps": 0.5,
+        "alpha_s": 2.0782607270099787,
+        "alpha_d": 0.0,
+        "beta_s": 0.01863963504015178,
+        "beta_d": 0.0,
+        "charging": 0.5,
+        "B1": 9.615384615384616e-08,
+        "B2": 9.615384615384616e-06,
+        "cap": 0.02,
+        "mode": "rate",
+        "forcing": 1.0,
+        "kinetics": "linear"
+      },
+      "fit_mean_squared_error_N120": 0.0002129230515328876,
+      "scores": {
+        "constant_flow_C_over_C0": {
+          "n": 26,
+          "RMSE": 0.014601618657785273,
+          "MAE": 0.0119945863635204,
+          "bias": 0.0006297511194537375,
+          "maximum_absolute_error": 0.03096053856161818
+        },
+        "constant_flow_K_over_K0": {
+          "n": 7,
+          "RMSE": 0.16105904423571893,
+          "MAE": 0.15628941249146602,
+          "bias": -0.15628941249146602,
+          "maximum_absolute_error": 0.2028713502397207
+        },
+        "constant_flow_end": {
+          "time": 30.70999999999974,
+          "pv": 83.0,
+          "flow": 1.0,
+          "pressure": 1.3878412018840882,
+          "Bmean": 0.005411038827816494,
+          "input": 0.007980769230769211,
+          "output": 0.002498952161461229,
+          "inventory": 0.005481817069308001,
+          "keff": 0.7206738087871706,
+          "max_balance_error": 3.599551212651875e-17,
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.9830404545284003,
+          "maximum_concentration": 9.597668239178883e-05,
+          "cap_events": 0.0,
+          "hold_events": 0.0,
+          "retained_fraction_of_input": 0.6780096844492973
+        },
+        "constant_head_C_over_C0": {
+          "n": 29,
+          "RMSE": 0.12919312966333024,
+          "MAE": 0.11656411168826046,
+          "bias": 0.11071090680035987,
+          "maximum_absolute_error": 0.21547293512670404
+        },
+        "constant_head_K_over_K0": {
+          "n": 7,
+          "RMSE": 0.15993498057811315,
+          "MAE": 0.1594645013453344,
+          "bias": -0.1594645013453344,
+          "maximum_absolute_error": 0.1679480006507631
+        },
+        "constant_head_end": {
+          "time": 38.77084218368084,
+          "pv": 83.0,
+          "flow": 0.7126087859558344,
+          "pressure": 1.0,
+          "Bmean": 0.00577156834511306,
+          "input": 0.007980769230769237,
+          "output": 0.0021403640718881877,
+          "inventory": 0.005840405158881008,
+          "keff": 0.7127345608065992,
+          "max_balance_error": 4.8138576458356397e-17,
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.9815181186305101,
+          "maximum_concentration": 9.598813776583322e-05,
+          "cap_events": 0.0,
+          "hold_events": 0.0,
+          "retained_fraction_of_input": 0.7231844673394672
+        }
+      }
+    },
+    "multistage": {
+      "parameters": {
+        "m0": 0.37,
+        "eps": 0.5,
+        "alpha_s": 0.16677910604109233,
+        "alpha_d": 0.0,
+        "beta_s": 1e-07,
+        "beta_d": 0.0,
+        "charging": 0.5,
+        "B1": 9.615384615384616e-08,
+        "B2": 9.615384615384616e-06,
+        "cap": 0.02,
+        "mode": "rate",
+        "forcing": 1.0,
+        "kinetics": "multistage"
+      },
+      "fit_mean_squared_error_N120": 0.0082011594560501,
+      "scores": {
+        "constant_flow_C_over_C0": {
+          "n": 26,
+          "RMSE": 0.0910859831324681,
+          "MAE": 0.07072005026200717,
+          "bias": -0.022396594165047825,
+          "maximum_absolute_error": 0.18293357160851656
+        },
+        "constant_flow_K_over_K0": {
+          "n": 7,
+          "RMSE": 0.16979381656323211,
+          "MAE": 0.1646310097018102,
+          "bias": -0.1646310097018102,
+          "maximum_absolute_error": 0.20902090116868888
+        },
+        "constant_flow_end": {
+          "time": 30.710000000000065,
+          "pv": 83.0,
+          "flow": 1.0,
+          "pressure": 1.3971417558407229,
+          "Bmean": 0.005580898755613552,
+          "input": 0.007980769230769232,
+          "output": 0.0023268036131631514,
+          "inventory": 0.0056539656176061055,
+          "keff": 0.7158799637677253,
+          "max_balance_error": 7.806255641895632e-17,
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.9853780859382062,
+          "maximum_concentration": 9.608706119072908e-05,
+          "cap_events": 0.0,
+          "hold_events": 0.0,
+          "retained_fraction_of_input": 0.6992933380527823
+        },
+        "constant_head_C_over_C0": {
+          "n": 29,
+          "RMSE": 0.1423747692304865,
+          "MAE": 0.13151976039783408,
+          "bias": 0.09770849506905203,
+          "maximum_absolute_error": 0.21270732246651217
+        },
+        "constant_head_K_over_K0": {
+          "n": 7,
+          "RMSE": 0.16975334795848887,
+          "MAE": 0.16908611697671047,
+          "bias": -0.16908611697671047,
+          "maximum_absolute_error": 0.1800289169800119
+        },
+        "constant_head_end": {
+          "time": 39.14714039198868,
+          "pv": 83.0,
+          "flow": 0.7040532470997114,
+          "pressure": 1.0,
+          "Bmean": 0.006118706268384907,
+          "input": 0.007980769230769316,
+          "output": 0.0017939311306453128,
+          "inventory": 0.006186838100123978,
+          "keff": 0.7041757428832643,
+          "max_balance_error": 4.401860820291148e-17,
+          "minimum_saturation": 0.0,
+          "minimum_carrier": 0.9834949098793437,
+          "maximum_concentration": 9.608705178611106e-05,
+          "cap_events": 0.0,
+          "hold_events": 0.0,
+          "retained_fraction_of_input": 0.7666812673638839
+        }
+      }
+    }
+  },
+  "conditional_sensitivity": [
+    {
+      "cap_assumed": 0.01,
+      "B1_over_c0_assumed": 0.001,
+      "B2_over_c0_assumed": 0.1,
+      "parameters": {
+        "m0": 0.37,
+        "eps": 0.5,
+        "alpha_s": 0.3416040566804813,
+        "alpha_d": 0.0,
+        "beta_s": 1e-07,
+        "beta_d": 0.0,
+        "charging": 0.5,
+        "B1": 9.615384615384616e-08,
+        "B2": 9.615384615384616e-06,
+        "cap": 0.01,
+        "mode": "rate",
+        "forcing": 1.0,
+        "kinetics": "multistage"
+      },
+      "fit_RMSE": 0.09036590260001043,
+      "head_concentration_RMSE": 0.1380274779426279,
+      "rate_keff83": 0.7146413904118951,
+      "head_keff83": 0.7029389915100004
+    },
+    {
+      "cap_assumed": 0.04,
+      "B1_over_c0_assumed": 0.001,
+      "B2_over_c0_assumed": 0.1,
+      "parameters": {
+        "m0": 0.37,
+        "eps": 0.5,
+        "alpha_s": 0.08108575730088577,
+        "alpha_d": 0.0,
+        "beta_s": 1e-07,
+        "beta_d": 0.0,
+        "charging": 0.5,
+        "B1": 9.615384615384616e-08,
+        "B2": 9.615384615384616e-06,
+        "cap": 0.04,
+        "mode": "rate",
+        "forcing": 1.0,
+        "kinetics": "multistage"
+      },
+      "fit_RMSE": 0.09188171391497038,
+      "head_concentration_RMSE": 0.14735671217202823,
+      "rate_keff83": 0.7178645234725377,
+      "head_keff83": 0.706244546214657
+    },
+    {
+      "cap_assumed": 0.02,
+      "B1_over_c0_assumed": 0.0005,
+      "B2_over_c0_assumed": 0.05,
+      "parameters": {
+        "m0": 0.37,
+        "eps": 0.5,
+        "alpha_s": 0.16944574089003253,
+        "alpha_d": 0.0,
+        "beta_s": 1e-07,
+        "beta_d": 0.0,
+        "charging": 0.5,
+        "B1": 4.807692307692308e-08,
+        "B2": 4.807692307692308e-06,
+        "cap": 0.02,
+        "mode": "rate",
+        "forcing": 1.0,
+        "kinetics": "multistage"
+      },
+      "fit_RMSE": 0.09068784090968163,
+      "head_concentration_RMSE": 0.1401552049154406,
+      "rate_keff83": 0.7150539717011586,
+      "head_keff83": 0.7033463016118008
+    },
+    {
+      "cap_assumed": 0.02,
+      "B1_over_c0_assumed": 0.002,
+      "B2_over_c0_assumed": 0.2,
+      "parameters": {
+        "m0": 0.37,
+        "eps": 0.5,
+        "alpha_s": 0.16324869994440527,
+        "alpha_d": 0.0,
+        "beta_s": 1e-07,
+        "beta_d": 0.0,
+        "charging": 0.5,
+        "B1": 1.9230769230769231e-07,
+        "B2": 1.923076923076923e-05,
+        "cap": 0.02,
+        "mode": "rate",
+        "forcing": 1.0,
+        "kinetics": "multistage"
+      },
+      "fit_RMSE": 0.0906704869151619,
+      "head_concentration_RMSE": 0.14516553534677126,
+      "rate_keff83": 0.7174387524615192,
+      "head_keff83": 0.7058167948956708
+    }
+  ],
+  "refinement": [
+    {
+      "n": 60,
+      "calibration_RMSE": 0.08967123426704675,
+      "head_concentration_RMSE": 0.14336613041055976,
+      "rate_keff83": 0.716222279315881,
+      "head_keff83": 0.7045813032149545
+    },
+    {
+      "n": 120,
+      "calibration_RMSE": 0.09056025318013472,
+      "head_concentration_RMSE": 0.1426798072598048,
+      "rate_keff83": 0.7159943121592411,
+      "head_keff83": 0.7043112372143611
+    },
+    {
+      "n": 240,
+      "calibration_RMSE": 0.0910859831324681,
+      "head_concentration_RMSE": 0.1423747692304865,
+      "rate_keff83": 0.7158799637677253,
+      "head_keff83": 0.7041757428832643
+    },
+    {
+      "n": 480,
+      "calibration_RMSE": 0.09133201550463331,
+      "head_concentration_RMSE": 0.1421967445486063,
+      "rate_keff83": 0.7158579414827465,
+      "head_keff83": 0.7041182558911905
+    }
+  ],
+  "elapsed_seconds": 121.98985705800078,
+  "uncertainty_note": "Pixel bounds describe digitization only; observational experimental error bars unavailable. No confidence intervals or uniqueness of kineticparameters claimed."
+}

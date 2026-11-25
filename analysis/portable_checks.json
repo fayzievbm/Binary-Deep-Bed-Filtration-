@@ -1,0 +1,12 @@
+{
+  "checked_date": "2026-11-25",
+  "theory_checks": "Passed using staged standard-library script; all assertions completed.",
+  "theory_steady_state_combinations": 4,
+  "maximum_uniform_source_residual": 0.0,
+  "exact_rational_reserve_checks": "All transport, conservative source and carrier identities have zero exact residual.",
+  "portable_reference_check": "Passed from analysis directory; four short pressure/rate \u00d7 linear/multistage final-state differences exactly0.0.",
+  "reference_solver_sha256": "318e27a44c0511822c50f7cd2a7e7fa7a8b7f5447389c453367234fc24dbfd94",
+  "theory_text_source_equal": true,
+  "full_research_runs_repeated_for_staging": false,
+  "runtime_caches_and_logs_excluded": true
+}

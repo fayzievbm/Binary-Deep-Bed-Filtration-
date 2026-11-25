@@ -1,0 +1,11 @@
+# Recorded Python 3.12.14 environment for the supplied research code/results.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+mpmath==1.3.0
+
+# Needed only to recreate digitization overlays from original source images.
+Pillow==13.0.0
+
+# External system dependency for the scalar benchmark, fits and information
+# diagnostics: g++ with C++17 support. It is not installed by this file.

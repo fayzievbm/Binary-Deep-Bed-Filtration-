@@ -1,0 +1,88 @@
+figure,series,point_id,depth_m,time_h,concentration_ratio,pixel_x,pixel_y,marker,time_digitization_envelope_h,ratio_digitization_envelope,data_origin,raw_measurement,curve_sampled,quality_flag
+6,fig6_depth_0.82m,F6_D0.82_01,0.82,0.0,0.160256,303.5,195,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_02,0.82,1.0,0.177692,387,161,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_03,0.82,1.5006,0.182821,429,151,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_04,0.82,2.50179,0.042821,513,424,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_05,0.82,3.00239,0.032564,555,444,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_06,0.82,4.00358,0.024359,639,460,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_07,0.82,5.00477,0.023333,723,462,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_08,0.82,6.00596,0.020769,807,467,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_0.82m,F6_D0.82_09,0.82,6.67342,0.020256,863,468,filled_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_01,1.02,0.0,0.082308,303.5,347,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_02,1.02,1.0,0.107436,387,298,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_03,1.02,1.5006,0.07359,429,364,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_04,1.02,2.50179,0.034615,513,440,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_05,1.02,3.00239,0.018718,555,471,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_06,1.02,4.00358,0.016154,639,476,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_07,1.02,5.00477,0.020256,723,468,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_08,1.02,6.00596,0.015641,807,477,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.02m,F6_D1.02_09,1.02,6.67342,0.016667,863,475,open_circle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_01,1.62,0.0,0.035641,303.5,438,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_02,1.62,1.0,0.034103,387,441,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_03,1.62,1.5006,0.019744,429,469,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_04,1.62,2.50179,0.017179,513,474,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_05,1.62,3.00239,0.00641,555,495,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_06,1.62,4.00358,0.00641,639,495,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_07,1.62,5.00477,0.008462,723,491,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_08,1.62,6.00596,0.008462,807,491,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+6,fig6_depth_1.62m,F6_D1.62_09,1.62,6.67342,0.011538,863,485,filled_down_triangle,0.03576,0.001538,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_01,0.82,0.15611,0.451055,275,155,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_02,0.82,0.32716,0.442762,287,163,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_03,0.82,0.48395,0.468678,298,138,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_04,0.82,0.65499,0.456238,310,150,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_05,0.82,0.99708,0.412699,334,192,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_06,0.82,1.15387,0.446908,345,159,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_07,0.82,1.32492,0.372269,357,231,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_08,0.82,1.49596,0.376416,369,227,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_09,0.82,1.66701,0.406479,381,198,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_10,0.82,1.8238,0.302814,392,298,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_11,0.82,1.99484,0.297631,404,303,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_12,0.82,2.16589,0.281044,416,319,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_13,0.82,2.32268,0.282081,427,318,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_14,0.82,2.49372,0.285191,439,315,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_0.82m,F7_D0.82_15,0.82,2.9926,0.220918,474,377,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_16,0.82,3.66253,0.174269,521,422,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_17,0.82,4.5035,0.158719,580,437,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_18,0.82,6.00014,0.154573,685,441,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_19,0.82,6.82685,0.160793,743,435,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_0.82m,F7_D0.82_20,0.82,7.49678,0.160793,790,435,filled_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_01,1.02,0.15611,0.305924,275,295,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_02,1.02,0.32716,0.305924,287,295,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_03,1.02,0.48395,0.293484,298,307,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_04,1.02,0.65499,0.291411,310,309,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_05,1.02,0.99708,0.271714,334,328,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_06,1.02,1.15387,0.215735,345,382,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_07,1.02,1.32492,0.208478,357,389,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_08,1.02,1.49596,0.212625,369,385,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_09,1.02,1.66701,0.203295,381,394,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_10,1.02,1.8238,0.176342,392,420,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_11,1.02,1.99484,0.158719,404,437,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_12,1.02,2.16589,0.12762,416,467,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_13,1.02,2.32268,0.142133,427,453,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_14,1.02,2.49372,0.154573,439,441,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.02m,F7_D1.02_15,1.02,2.9926,0.129693,474,465,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_16,1.02,3.66253,0.11829,521,476,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_17,1.02,4.5035,0.116216,580,478,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_18,1.02,6.00014,0.092374,685,501,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_19,1.02,6.82685,0.086154,743,507,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.02m,F7_D1.02_20,1.02,7.49678,0.092374,790,501,open_circle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_01,1.62,0.15611,0.240615,275,358,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_02,1.62,0.32716,0.227138,287,371,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_03,1.62,0.48395,0.227138,298,371,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_04,1.62,0.65499,0.217808,310,380,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_05,1.62,0.99708,0.173232,334,423,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_06,1.62,1.15387,0.148353,345,447,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_07,1.62,1.32492,0.134876,357,460,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_08,1.62,1.49596,0.13695,369,458,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_09,1.62,1.66701,0.142133,381,453,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_10,1.62,1.8238,0.09652,392,497,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_11,1.62,1.99484,0.10896,404,485,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_12,1.62,2.16589,0.083044,416,510,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_13,1.62,2.32268,0.086154,427,507,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_14,1.62,2.49372,0.08408,439,509,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,touching_or_near_curve_symbols; manual center envelope covers visual ambiguity
+7,fig7_depth_1.62m,F7_D1.62_15,1.62,2.9926,0.079934,474,513,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_16,1.62,3.66253,0.070604,521,522,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_17,1.62,4.5035,0.073714,580,519,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_18,1.62,6.00014,0.056091,685,536,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_19,1.62,6.82685,0.050907,743,541,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center
+7,fig7_depth_1.62m,F7_D1.62_20,1.62,7.49678,0.058164,790,534,filled_down_triangle,0.04276,0.00311,digitized_experimental_symbol,False,False,manual_symbol_center

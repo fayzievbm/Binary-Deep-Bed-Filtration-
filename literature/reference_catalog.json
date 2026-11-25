@@ -1,0 +1,240 @@
+{
+  "verified_on": "2026-11-25",
+  "reference_count": 39,
+  "reference_order": [
+    {
+      "number": 1,
+      "key": "herzig",
+      "citation": "Herzig, J.P.; Leclerc, D.M.; Le Goff, P. Flow of suspensions through porous media—Application to deep filtration. *Industrial & Engineering Chemistry* **1970**, *62*, 8–35. https://doi.org/10.1021/ie50725a003."
+    },
+    {
+      "number": 2,
+      "key": "sharma",
+      "citation": "Sharma, M.M.; Yortsos, Y.C. Transport of particulate suspensions in porous media: Model formulation. *AIChE Journal* **1987**, *33*, 1636–1643. https://doi.org/10.1002/aic.690331007."
+    },
+    {
+      "number": 3,
+      "key": "bennacer",
+      "citation": "Bennacer, L.; Ahfir, N.-D.; Bouanani, A.; Alem, A.; Wang, H. Suspended Particles Transport and Deposition in Saturated Granular Porous Medium: Particle Size Effects. *Transport in Porous Media* **2013**, *100*(3), 377–392. https://doi.org/10.1007/s11242-013-0220-4."
+    },
+    {
+      "number": 4,
+      "key": "ahfir",
+      "citation": "Ahfir, N.-D.; Hammadi, A.; Alem, A.; Wang, H.Q.; Le Bras, G.; Ouahbi, T. Porous media grain size distribution and hydrodynamic forces effects on transport and deposition of suspended particles. *Journal of Environmental Sciences* **2017**, *53*, 161–172. https://doi.org/10.1016/j.jes.2016.01.032."
+    },
+    {
+      "number": 5,
+      "key": "hammadi",
+      "citation": "Hammadi, A.; Ahfir, N.-D.; Alem, A.; Wang, H.Q. Effects of Particle Size Non-Uniformity on Transport and Retention in Saturated Porous Media. *Transport in Porous Media* **2017**, *118*, 85–98. https://doi.org/10.1007/s11242-017-0848-6."
+    },
+    {
+      "number": 6,
+      "key": "ma2018",
+      "citation": "Ma, E.; Ouahbi, T.; Wang, H.; Ahfir, N.-D.; Alem, A.; Hammadi, A. Modeling of the transport and deposition of polydispersed particles: Effects of hydrodynamics and spatiotemporal evolution of the deposition rate. *Environmental Pollution* **2018**, *237*, 1011–1022. https://doi.org/10.1016/j.envpol.2017.11.017."
+    },
+    {
+      "number": 7,
+      "key": "gitis",
+      "citation": "Gitis, V.; Rubinstein, I.; Livshits, M.; Ziskind, G. Deep-bed filtration model with multistage deposition kinetics. *Chemical Engineering Journal* **2010**, *163*, 78–85. https://doi.org/10.1016/j.cej.2010.07.044."
+    },
+    {
+      "number": 8,
+      "key": "makh2017",
+      "citation": "Makhmudov, Zh.M.; Saidullaev, U.Zh.; Khuzhayorov, B.Kh. Mathematical model of deep-bed filtration of a two-component suspension through a porous medium. *Fluid Dynamics* **2017**, *52*, 299–308. https://doi.org/10.1134/S0015462817020132."
+    },
+    {
+      "number": 9,
+      "key": "faysym",
+      "citation": "Fayziev, B.; Ibragimov, G.; Khuzhayorov, B.; Alias, I.A. Numerical study of suspension filtration model in porous medium with modified deposition kinetics. *Symmetry* **2020**, *12*, 696. https://doi.org/10.3390/sym12050696."
+    },
+    {
+      "number": 10,
+      "key": "fayijam",
+      "citation": "Fayziev, B. A phenomenological model of suspension filtration in porous medium. *International Journal of Applied Mathematics* **2020**, *33*, 511–521. https://doi.org/10.12732/ijam.v33i3.10."
+    },
+    {
+      "number": 11,
+      "key": "jaim2020",
+      "citation": "Khuzhayorov, B.Kh.; Makhmudov, J.M.; Fayziev, B.M.; Begmatov, T.I. Some Model of a Suspension Filtration in a Porous Media That Accounts for the Two-Zone and Multistage Character of Deposition Kinetics. *Journal of Applied and Industrial Mathematics* **2020**, *14*(3), 513–523. https://doi.org/10.1134/S1990478920030102."
+    },
+    {
+      "number": 12,
+      "key": "appl2020",
+      "citation": "Khuzhayorov, B.; Fayziev, B.; Ibragimov, G.; Arifin, N.M. A deep bed filtration model of two-component suspension in dual-zone porous medium. *Applied Sciences* **2020**, *10*, 2793. https://doi.org/10.3390/app10082793."
+    },
+    {
+      "number": 13,
+      "key": "aip2022",
+      "citation": "Khuzhayorov, B.; Makhmudov, J.; Fayziev, B.; Begmatov, T.; Sagdullaev, O. Model of two-component suspension filtration in a porous medium with multistage deposition kinetics. *AIP Conference Proceedings* **2022**, *2637*, 040019. https://doi.org/10.1063/5.0118455."
+    },
+    {
+      "number": 14,
+      "key": "wseas2023",
+      "citation": "Fayziev, B.; Makhmudov, J.; Mustofoqulov, J.; Begmatov, T.; Safarov, R. Numerical investigation of the two-component suspension filtration in a porous medium taking into account changes in the characteristics of the porous medium. *WSEAS Transactions on Fluid Mechanics* **2023**, *18*, 214–220. https://doi.org/10.37394/232013.2023.18.20."
+    },
+    {
+      "number": 15,
+      "key": "kau1995",
+      "citation": "Kau, S.M.; Lawler, D.F. Dynamics of Deep-Bed Filtration: Velocity, Depth, and Media. *Journal of Environmental Engineering* **1995**, *121*(12), 850–859. https://doi.org/10.1061/(ASCE)0733-9372(1995)121:12(850)."
+    },
+    {
+      "number": 16,
+      "key": "pore_network",
+      "citation": "Lin, D.; Hu, L.; Bradford, S.A.; Zhang, X.; Lo, I.M.C. Pore-network modeling of colloid transport and retention considering surface deposition, hydrodynamic bridging, and straining. *Journal of Hydrology* **2021**, *603*, 127020. https://doi.org/10.1016/j.jhydrol.2021.127020."
+    },
+    {
+      "number": 17,
+      "key": "lbm",
+      "citation": "Parvan, A.; Jafari, S.; Rahnama, M.; Norouzi Apourvari, S.; Raoof, A. Insight into particle retention and clogging in porous media; a pore scale study using lattice Boltzmann method. *Advances in Water Resources* **2020**, *138*, 103530. https://doi.org/10.1016/j.advwatres.2020.103530."
+    },
+    {
+      "number": 18,
+      "key": "cfd1",
+      "citation": "Maya Fogouang, L.; André, L.; Soulaine, C. Particulate transport in porous media at pore-scale. Part 1: Unresolved-resolved four-way coupling CFD-DEM. *Journal of Computational Physics* **2025**, *521*, 113540. https://doi.org/10.1016/j.jcp.2024.113540."
+    },
+    {
+      "number": 19,
+      "key": "cfd2",
+      "citation": "Maya Fogouang, L.; André, L.; Leroy, P.; Soulaine, C. Particulate transport in porous media at pore-scale. Part 2: CFD-DEM and colloidal forces. *Journal of Computational Physics* **2024**, *519*, 113439. https://doi.org/10.1016/j.jcp.2024.113439."
+    },
+    {
+      "number": 20,
+      "key": "clog_exp",
+      "citation": "Niu, S.; Zou, Z.; Shu, L.; Yu, L.; Li, Y.; Li, Y. Physical experiment and pore-scale investigation of the clogging of polydisperse particles in saturated porous media during artificial groundwater recharge. *Journal of Hydrology* **2024**, *639*, 131569. https://doi.org/10.1016/j.jhydrol.2024.131569."
+    },
+    {
+      "number": 21,
+      "key": "ma2017",
+      "citation": "Ma, E.; Ouahbi, T.; Wang, H.; Ahfir, N.-D.; Alem, A.; Hammadi, A. Modeling of retention and re-entrainment of mono- and poly-disperse particles: Effects of hydrodynamics, particle size and interplay of different-sized particles retention. *Science of the Total Environment* **2017**, *596–597*, 222–229. https://doi.org/10.1016/j.scitotenv.2017.03.254."
+    },
+    {
+      "number": 22,
+      "key": "kuz2021",
+      "citation": "Kuzmina, L.I.; Osipov, Y.V.; Gorbunova, T.N. Asymptotics for filtration of polydisperse suspension with small impurities. *Applied Mathematics and Mechanics (English Edition)* **2021**, *42*(1), 109–126. https://doi.org/10.1007/s10483-021-2690-6."
+    },
+    {
+      "number": 23,
+      "key": "kuz2024",
+      "citation": "Kuzmina, L.I.; Osipov, Y.V.; Astakhov, M.D. Retention profiles of multiparticle filtration in porous media. *Mathematical Methods in the Applied Sciences* **2024**, *47*(11), 8319–8341. https://doi.org/10.1002/mma.10016."
+    },
+    {
+      "number": 24,
+      "key": "dlvo2004",
+      "citation": "Tufenkji, N.; Elimelech, M. Deviation from the Classical Colloid Filtration Theory in the Presence of Repulsive DLVO Interactions. *Langmuir* **2004**, *20*, 10818–10828. https://doi.org/10.1021/la0486638."
+    },
+    {
+      "number": 25,
+      "key": "crypto2005",
+      "citation": "Tufenkji, N.; Elimelech, M. Spatial Distributions of Cryptosporidium Oocysts in Porous Media: Evidence for Dual Mode Deposition. *Environmental Science & Technology* **2005**, *39*, 3620–3629. https://doi.org/10.1021/es048289y."
+    },
+    {
+      "number": 26,
+      "key": "ecoli2006",
+      "citation": "Tufenkji, N. Application of a dual deposition mode model to evaluate transport of Escherichia coli D21 in porous media. *Water Resources Research* **2006**, *42*, W12S11. https://doi.org/10.1029/2005WR004851."
+    },
+    {
+      "number": 27,
+      "key": "bradford2007",
+      "citation": "Bradford, S.A.; Toride, N. A Stochastic Model for Colloid Transport and Deposition. *Journal of Environmental Quality* **2007**, *36*, 1346–1356. https://doi.org/10.2134/jeq2007.0004."
+    },
+    {
+      "number": 28,
+      "key": "miele2019",
+      "citation": "Miele, F.; de Anna, P.; Dentz, M. Stochastic model for filtration by porous materials. *Physical Review Fluids* **2019**, *4*, 094101. https://doi.org/10.1103/PhysRevFluids.4.094101."
+    },
+    {
+      "number": 29,
+      "key": "vangen1989",
+      "citation": "van Genuchten, M.Th.; Wagenet, R.J. Two-site/two-region models for pesticide transport and degradation: Theoretical development and analytical solutions. *Soil Science Society of America Journal* **1989**, *53*, 1303–1310. https://doi.org/10.2136/sssaj1989.03615995005300050001x."
+    },
+    {
+      "number": 30,
+      "key": "griffioen1998",
+      "citation": "Griffioen, J.W.; Barry, D.A.; Parlange, J.-Y. Interpretation of two-region model parameters. *Water Resources Research* **1998**, *34*, 373–384. https://doi.org/10.1029/97WR02027."
+    },
+    {
+      "number": 31,
+      "key": "majdoub2001",
+      "citation": "Majdoub, R.; Gallichand, J.; Caron, J. Estimation de la teneur en eau immobile et du coefficient d’échange selon deux méthodes. *Canadian Water Resources Journal* **2001**, *26*, 481–502. https://doi.org/10.4296/cwrj2604481."
+    },
+    {
+      "number": 32,
+      "key": "liu2012",
+      "citation": "Liu, Y.; Kitanidis, P.K. Applicability of the dual-domain model to nonaggregated porous media. *Ground Water* **2012**, *50*, 927–934. https://doi.org/10.1111/j.1745-6584.2011.00909.x."
+    },
+    {
+      "number": 33,
+      "key": "zhang2021",
+      "citation": "Zhang, C.; Kaito, K.; Hu, Y.; Patmonoaji, A.; Matsushita, S.; Suekane, T. Influence of stagnant zones on solute transport in heterogeneous porous media at the pore scale. *Physics of Fluids* **2021**, *33*, 036605. https://doi.org/10.1063/5.0038133."
+    },
+    {
+      "number": 34,
+      "key": "fay2025charging",
+      "citation": "Fayziev, B.; Makhmudov, J.; Kuljanov, J.; Begmatov, T.; Alwadood, Z. Numerical modeling of two-component suspension filtration in porous media considering the charging phenomenon. *AIP Conference Proceedings* **2025**, *3356*, 020005. https://doi.org/10.1063/5.0296101.",
+      "primary_sources": [
+        "https://www.researchgate.net/publication/395581652_Numerical_Modeling_of_Two-Component_Suspension_Filtration_in_Porous_Media_Considering_the_Charging_Phenomenon"
+      ],
+      "access": "Author-uploaded publisher-version ten-page article inspected; direct DOI route unavailable"
+    },
+    {
+      "number": 35,
+      "key": "alem2015",
+      "citation": "Alem, A.; Ahfir, N.-D.; Elkawafi, A.; Wang, H.Q. Hydraulic Operating Conditions and Particle Concentration Effects on Physical Clogging of a Porous Medium. *Transport in Porous Media* **2015**, *106*, 303–321. https://doi.org/10.1007/s11242-014-0402-8.",
+      "primary_sources": [
+        "https://link.springer.com/article/10.1007/s11242-014-0402-8",
+        "https://www.academia.edu/52371161/Alem_et_al_2014_Transp_Porous_Med"
+      ],
+      "access": "Publisher record, author full article, original figure symbols and Table 1 inspected."
+    },
+    {
+      "number": 36,
+      "key": "filippov1988",
+      "citation": "Filippov, A.F. *Differential Equations with Discontinuous Righthand Sides*; Kluwer Academic Publishers: Dordrecht, The Netherlands, 1988. https://doi.org/10.1007/978-94-015-7793-9.",
+      "primary_sources": [
+        "https://link.springer.com/book/10.1007/978-94-015-7793-9"
+      ],
+      "access": "Official publisher record checked; cited for general discontinuous-system completion, not an external proof of the present model."
+    },
+    {
+      "number": 37,
+      "key": "gitis2008",
+      "citation": "Gitis, V. Rapid sand filtration of Cryptosporidium parvum: effects of media depth and coagulation. *Water Science & Technology: Water Supply* **2008**, *8*(2), 129–134. https://doi.org/10.2166/ws.2008.058.",
+      "primary_sources": [
+        "https://www.academia.edu/73307567/Rapid_sand_filtration_of_Cryptosporidium_parvum_effects_of_media_depth_and_coagulation"
+      ],
+      "access": "Primary author copy inspected; source context only, no run-input transfer."
+    },
+    {
+      "number": 38,
+      "key": "gitis2005",
+      "citation": "Gitis, V.; Freger, V.; Haught, R.C.; Clark, R.M. Removal of Cryptosporidium parvum Oocysts by Rapid Sand Filtration with Ballasted Flocculation-Filtration and Intermediate Downwashes. *Acta Hydrochimica et Hydrobiologica* **2005**, *33*(4), 355–364. https://doi.org/10.1002/aheh.200200584.",
+      "primary_sources": [
+        "https://www.academia.edu/11506358/Removal_ofCryptosporidium_parvum_Oocysts_by_Rapid_Sand_Filtration_with_Ballasted_Flocculation_Filtration_and_Intermediate_Downwashes"
+      ],
+      "access": "Primary author copy inspected; source context only, no run-input transfer."
+    },
+    {
+      "number": 39,
+      "key": "raue2009",
+      "citation": "Raue, A.; Kreutz, C.; Maiwald, T.; Bachmann, J.; Schilling, M.; Klingmüller, U.; Timmer, J. Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood. Bioinformatics 2009, 25, 1923–1929. https://doi.org/10.1093/bioinformatics/btp358.",
+      "primary_sources": [
+        "https://doi.org/10.1093/bioinformatics/btp358",
+        "https://pubmed.ncbi.nlm.nih.gov/19505944/"
+      ],
+      "access": "Primary publisher abstract and author bibliographic record inspected; cited for the distinction between fit and identifiability. This study uses descriptive residual profiles without a statistical likelihood or confidence intervals."
+    }
+  ],
+  "screening_note": "All 137 supplied report references title-screened; directly relevant primary literature selected. Findings limited to inspected primary manuscripts, abstracts or author records. No claim that all cited full texts were read.",
+  "preservation_checks": {
+    "all_29_display_equations_identical": true,
+    "methods_results_discussion_conclusions_unchanged_except_citation_and_section_numbers": false,
+    "numerical_files_unchanged": true,
+    "experimental_assessment_added_without_modifying_existing_29_display_equations_or_binary_solver": true,
+    "original_29_display_bodies_preserved_in_extended_manuscript": true,
+    "additional_displays": 29,
+    "original_baseline_solver_unchanged": true,
+    "new_study_solver_fork_disclosed": true,
+    "all_58_v7_display_bodies_preserved": true
+  },
+  "new_contribution_scope": "Conditional operating-mode correspondence, a sufficient invariant region, interior branch coexistence and capacity-matched controls; no first-ever binary multistage claim."
+}

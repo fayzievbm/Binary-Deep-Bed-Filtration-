@@ -1,0 +1,273 @@
+{
+  "scope": "Core suspension-filtration references identified in the supplied Scopus AI report; bibliographic metadata and substantive claims checked against publisher/author primary article records or primary manuscripts, with access limitations distinguished.",
+  "records": [
+    {
+      "scopus_report_reference": 8,
+      "key": "KhuzhayorovAIP2022",
+      "authors": [
+        "Bakhtiyor Khuzhayorov",
+        "Jamol Makhmudov",
+        "Bekzodjon Fayziev",
+        "Tulkin Begmatov",
+        "Otabek Sagdullaev"
+      ],
+      "year": 2022,
+      "title": "Model of two-component suspension filtration in a porous medium with multistage deposition kinetics",
+      "journal": "AIP Conference Proceedings",
+      "volume": "2637",
+      "issue": "1",
+      "article": "040019",
+      "pages": "040019-1–040019-8",
+      "doi": "10.1063/5.0118455",
+      "citation": "Khuzhayorov, B.; Makhmudov, J.; Fayziev, B.; Begmatov, T.; Sagdullaev, O. Model of two-component suspension filtration in a porous medium with multistage deposition kinetics. AIP Conference Proceedings 2022, 2637, 040019. https://doi.org/10.1063/5.0118455.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1063/5.0118455",
+          "type": "publisher identifier; direct access unavailable"
+        },
+        {
+          "url": "https://www.academia.edu/119730883/Model_of_two_component_suspension_filtration_in_a_porous_medium_with_multistage_deposition_kinetics",
+          "type": "author-deposited primary publisher manuscript with full model text",
+          "ref": "turn112711512view0"
+        },
+        {
+          "url": "https://www.samdu.uz/en/pages/MAXMUDOV_JAMOL",
+          "type": "author university publication record"
+        }
+      ],
+      "claim": "A binary advection–dispersion model uses species-specific piecewise ripening, reversible operational deposition, and local shared/partial capacity limits, with pressure-gradient-dependent attachment/detachment and porosity-dependent hydraulics. Its displayed equations contain one retained inventory per species, rather than an explicit transfer of solids between weak and mature structural stages.",
+      "model_evidence": "Author copy equations7–12; mobile storage coefficient m0; kinetics8–9; fixed velocity, finite column. Porosity printed with particle-material-density conversion, so do not silently simplify its dimensions in the literature review.",
+      "access": "Official publisher page blocked; primary manuscript transcribed on author deposit inspected, model and title pages.",
+      "novelty_implication": "Binary suspension plus multistage kinetics, shared capacity, porosity variation and hydrodynamic feedback are already combined; none may be claimed novel on their own."
+    },
+    {
+      "scopus_report_reference": 58,
+      "key": "KhuzhayorovJAIM2020",
+      "authors": [
+        "B. Kh. Khuzhayorov",
+        "J. M. Makhmudov",
+        "B. M. Fayziev",
+        "T. I. Begmatov"
+      ],
+      "year": 2020,
+      "title": "Some Model of a Suspension Filtration in a Porous Media That Accounts for the Two-Zone and Multistage Character of Deposition Kinetics",
+      "journal": "Journal of Applied and Industrial Mathematics",
+      "volume": "14",
+      "issue": "3",
+      "pages": "513–523",
+      "doi": "10.1134/S1990478920030102",
+      "citation": "Khuzhayorov, B.Kh.; Makhmudov, J.M.; Fayziev, B.M.; Begmatov, T.I. Some Model of a Suspension Filtration in a Porous Media That Accounts for the Two-Zone and Multistage Character of Deposition Kinetics. Journal of Applied and Industrial Mathematics 2020, 14(3), 513–523. https://doi.org/10.1134/S1990478920030102.",
+      "russian_original": "Sibirskii Zhurnal Industrial'noi Matematiki 2020, 23(3), 139–151; DOI10.33048/SIBJIM.2020.23.311",
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1134/S1990478920030102",
+          "type": "publisher metadata and abstract",
+          "ref": "turn349204296view3"
+        },
+        {
+          "url": "https://www.mathnet.ru/eng/sjim1104",
+          "type": "original journal record and metadata",
+          "ref": "turn423064673view0"
+        },
+        {
+          "url": "https://www.academia.edu/120054771/Some_model_of_a_suspension_filtration_in_a_porous_media_that_accounts_for_the_two_zone_and_multistage_character_of_deposition_kinetics",
+          "type": "author-deposited primary Russian full article",
+          "ref": "turn893583491view0"
+        }
+      ],
+      "claim": "The active/passive-zone model already employs conservative variable storage ∂(mc)/∂t, piecewise active-zone ripening and reversible capture, and passive capture attenuated after an aging threshold until passive capacity is reached. In its displayed model, both deposits receive particles directly from the mobile suspension; there is no explicit active-to-passive solid-transfer term or separate accounting of stage-dependent immobilized-liquid volumes.",
+      "model_evidence": "Russian original equations6–14, printed pp142–143: active dρa/dt=βrvc, then βavc−βdρa, then0 at capacity; passive dρp/dt=βp0vc, then βp0v(ρp1/ρp)c, then0; m=m0−ρa−ρp. Darcy plus Carman–Kozeny determines pressure gradient at specified constant v0.",
+      "access": "Publisher abstract opened; full Russian original in author deposit inspected. Direct MathNet PDF transfer timed out.",
+      "novelty_implication": "Conservative variable mobile storage and two-zone multistage kinetics already existed in 2020. The current manuscript only substitutes kinetic closures within the 2017 fixed-porosity seven-saturation framework and must not claim these earlier features as new."
+    },
+    {
+      "scopus_report_reference": 57,
+      "key": "Kuzmina2024",
+      "authors": [
+        "Liudmila I. Kuzmina",
+        "Yuri V. Osipov",
+        "Maxim D. Astakhov"
+      ],
+      "year": 2024,
+      "title": "Retention profiles of multiparticle filtration in porous media",
+      "journal": "Mathematical Methods in the Applied Sciences",
+      "volume": "47",
+      "issue": "11",
+      "pages": "8319–8341",
+      "doi": "10.1002/mma.10016",
+      "citation": "Kuzmina, L.I.; Osipov, Y.V.; Astakhov, M.D. Retention profiles of multiparticle filtration in porous media. Mathematical Methods in the Applied Sciences 2024, 47(11), 8319–8341. https://doi.org/10.1002/mma.10016.",
+      "sources": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mma.10016",
+          "type": "publisher abstract and complete metadata",
+          "ref": "turn423064673view4"
+        }
+      ],
+      "claim": "A multiparticle filtration system is reduced to a closed three-variable system that admits an exact solution, with existence/uniqueness and traveling-wave results. Retention profiles are size dependent, and small-particle profiles can be nonmonotonic.",
+      "access": "Publisher abstract read; full text not available in opened page.",
+      "novelty_implication": "Do not claim multiparticle coupling or nonmonotonic retention profiles are new; use as analytical benchmark/contrast, not evidence about an uninspected aging law."
+    },
+    {
+      "scopus_report_reference": 62,
+      "key": "Kuzmina2021",
+      "authors": [
+        "L. I. Kuzmina",
+        "Y. V. Osipov",
+        "T. N. Gorbunova"
+      ],
+      "year": 2021,
+      "title": "Asymptotics for filtration of polydisperse suspension with small impurities",
+      "journal": "Applied Mathematics and Mechanics (English Edition)",
+      "volume": "42",
+      "issue": "1",
+      "pages": "109–126",
+      "doi": "10.1007/s10483-021-2690-6",
+      "citation": "Kuzmina, L.I.; Osipov, Y.V.; Gorbunova, T.N. Asymptotics for filtration of polydisperse suspension with small impurities. Applied Mathematics and Mechanics (English Edition) 2021, 42(1), 109–126. https://doi.org/10.1007/s10483-021-2690-6.",
+      "sources": [
+        {
+          "url": "https://www.amm.shu.edu.cn/EN/10.1007/s10483-021-2690-6",
+          "type": "journal primary abstract and complete metadata",
+          "ref": "turn423064673view2"
+        }
+      ],
+      "claim": "The size-exclusion model yields traveling waves, explicit solutions for one dominant and several dilute fractions, and global small-rate asymptotics. Bidisperse solutions show that retained small-particle profiles can change monotonicity over time.",
+      "access": "Journal abstract read; full article not inspected.",
+      "novelty_implication": "Analytical polydispersity and competing retention fronts already studied; does not itself verify a gap in structural aging."
+    },
+    {
+      "scopus_report_reference": 72,
+      "key": "KauLawler1995",
+      "authors": [
+        "Sara M. Kau",
+        "Desmond F. Lawler"
+      ],
+      "year": 1995,
+      "title": "Dynamics of Deep-Bed Filtration: Velocity, Depth, and Media",
+      "journal": "Journal of Environmental Engineering",
+      "volume": "121",
+      "issue": "12",
+      "pages": "850–859",
+      "doi": "10.1061/(ASCE)0733-9372(1995)121:12(850)",
+      "citation": "Kau, S.M.; Lawler, D.F. Dynamics of Deep-Bed Filtration: Velocity, Depth, and Media. Journal of Environmental Engineering 1995, 121(12), 850–859. https://doi.org/10.1061/(ASCE)0733-9372(1995)121:12(850).",
+      "sources": [
+        {
+          "url": "https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9372%281995%29121%3A12%28850%29",
+          "type": "publisher indexed abstract and complete metadata",
+          "ref": "turn498127390search0"
+        }
+      ],
+      "claim": "Laboratory measurements of particle capture and head loss demonstrate size-dependent ripening and breakthrough under different velocities, media sizes and depths. Previously retained particle detachment contributes substantially to breakoff.",
+      "access": "Publisher abstract/search-indexed page read; direct page403.",
+      "novelty_implication": "Empirical motivation for size-specific kinetics and hydraulic response; not validation data for this manuscript unless quantitative measurements are acquired and compared."
+    },
+    {
+      "scopus_report_reference": 59,
+      "key": "Ahfir2017",
+      "authors": [
+        "Nasre-Dine Ahfir",
+        "Ahmed Hammadi",
+        "Abdellah Alem",
+        "HuaQing Wang",
+        "Gilbert Le Bras",
+        "Tariq Ouahbi"
+      ],
+      "year": 2017,
+      "title": "Porous media grain size distribution and hydrodynamic forces effects on transport and deposition of suspended particles",
+      "journal": "Journal of Environmental Sciences",
+      "volume": "53",
+      "pages": "161–172",
+      "doi": "10.1016/j.jes.2016.01.032",
+      "citation": "Ahfir, N.-D.; Hammadi, A.; Alem, A.; Wang, H.Q.; Le Bras, G.; Ouahbi, T. Porous media grain size distribution and hydrodynamic forces effects on transport and deposition of suspended particles. Journal of Environmental Sciences 2017, 53, 161–172. https://doi.org/10.1016/j.jes.2016.01.032.",
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1001074216301656",
+          "type": "publisher indexed abstract and complete metadata",
+          "ref": "turn441511514search4"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28372741/",
+          "type": "NLM complete metadata and abstract",
+          "ref": "turn441511514search3"
+        }
+      ],
+      "claim": "Column experiments with polydisperse kaolinite and a dissolved tracer examine the combined effects of grain-size distribution and flow velocity on transport and deposition. The results support treating deposition and dispersion coefficients as dependent on the porous structure and hydrodynamic conditions.",
+      "access": "Publisher and NLM indexed abstracts read; publisher403 and NLM recaptcha on direct open.",
+      "date_note": "Use issue year2017; earlyonline5June2016 is not issue year."
+    },
+    {
+      "scopus_report_reference": 60,
+      "key": "Ma2018",
+      "authors": [
+        "Enze Ma",
+        "Tariq Ouahbi",
+        "Huaqing Wang",
+        "Nasre-Dine Ahfir",
+        "Abdellah Alem",
+        "Ahmed Hammadi"
+      ],
+      "year": 2018,
+      "title": "Modeling of the transport and deposition of polydispersed particles: Effects of hydrodynamics and spatiotemporal evolution of the deposition rate",
+      "journal": "Environmental Pollution",
+      "volume": "237",
+      "pages": "1011–1022",
+      "doi": "10.1016/j.envpol.2017.11.017",
+      "citation": "Ma, E.; Ouahbi, T.; Wang, H.; Ahfir, N.-D.; Alem, A.; Hammadi, A. Modeling of the transport and deposition of polydispersed particles: Effects of hydrodynamics and spatiotemporal evolution of the deposition rate. Environmental Pollution 2018, 237, 1011–1022. https://doi.org/10.1016/j.envpol.2017.11.017.",
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0269749117317256",
+          "type": "publisher indexed abstract and metadata",
+          "ref": "turn928882059search3"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29137889/",
+          "type": "NLM complete metadata and abstract",
+          "ref": "turn441511514search2"
+        }
+      ],
+      "claim": "A time- and distance-dependent deposition model is tested against sand-column experiments at different velocities and media structures. The model connects evolving mobile particle-size populations and pore geometry with straining, blocking and changing deposition rates.",
+      "access": "Publisher and NLM indexed abstracts read; direct fulltext inaccessible.",
+      "date_note": "Use2018 issue year; earlyonline11November2017 is not issue year."
+    },
+    {
+      "scopus_report_reference": 61,
+      "key": "Bennacer2013",
+      "authors": [
+        "Lyacine Bennacer",
+        "Nasre-Dine Ahfir",
+        "Abderrazak Bouanani",
+        "Abdellah Alem",
+        "Huaqing Wang"
+      ],
+      "year": 2013,
+      "title": "Suspended Particles Transport and Deposition in Saturated Granular Porous Medium: Particle Size Effects",
+      "journal": "Transport in Porous Media",
+      "volume": "100",
+      "issue": "3",
+      "pages": "377–392",
+      "doi": "10.1007/s11242-013-0220-4",
+      "citation": "Bennacer, L.; Ahfir, N.-D.; Bouanani, A.; Alem, A.; Wang, H. Suspended Particles Transport and Deposition in Saturated Granular Porous Medium: Particle Size Effects. Transport in Porous Media 2013, 100(3), 377–392. https://doi.org/10.1007/s11242-013-0220-4.",
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11242-013-0220-4",
+          "type": "publisher abstract and complete metadata",
+          "ref": "turn423064673view3"
+        }
+      ],
+      "claim": "Pulse column experiments compare three particle-size populations and a mixture against a dissolved tracer across flow rates. Breakthrough curves are described using convection–dispersion with first-order deposition, and the deposition kinetics depend on particle size and its distribution.",
+      "access": "Complete publisher abstract read; full article paywalled."
+    }
+  ],
+  "comparison_summary": {
+    "established": [
+      "Single- and two-component multistage deposition",
+      "Active/passive reversible and irreversible capture",
+      "Shared and species-specific capacity",
+      "Hydrodynamic attachment/detachment dependence",
+      "Conservative changing mobile storage",
+      "Nonmonotonic multiparticle retention profiles"
+    ],
+    "candidate_distinction": "The current manuscript makes a controlled substitution of loading-dependent deposition and detachment kinetics within the 2017 seven-saturation model while retaining its fixed deposit porosities, existing liquid-exchange relations and all seven balance equations. The contribution is a documented comparison of the modified closure against the baseline, exact kinetic branch checks and mass-conservative numerical verification; it does not add structural-state conversion, evolving deposit porosity or a new liquid-release mechanism.",
+    "claim_limit": "Broader scientific novelty is not established by the current evidence. Binary multistage kinetics, loading-dependent coefficients, active/passive retention, hydrodynamic feedback and conservative changing storage already occur in the cited antecedents; the manuscript must acknowledge that overlap and describe only the specific kinetic-closure substitution and verification.",
+    "scope_caution": "Scopus AI bibliography contains unrelated epitaxy, gecko adhesion, adsorption, chromatography and other topics. Do not cite those as suspension-filtration evidence merely because they occur in the AI report."
+  }
+}
